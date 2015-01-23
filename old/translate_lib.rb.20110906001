@@ -1,0 +1,74 @@
+#!/usr/bin/ruby1.9.1
+# -*- coding:utf-8 -*-
+    require 'rubygems'
+    require 'net/http'
+    require 'rexml/document'
+    require 'json'
+    require 'httpclient'
+    require 'uri'
+     
+    module TranslateLIB
+	ENGINE_SITE_MICROSOFT="microsoft"
+	ENGINE_SITE_GOOGLE="google"
+
+
+	module_function
+	
+        def translate(sFromTextOriginal, sFromLang="en", sToLang="ja", sEngineSite=ENGINE_SITE_MICROSOFT)
+            sFromText = URI.escape(sFromTextOriginal)
+            case sEngineSite
+              when ENGINE_SITE_MICROSOFT
+                return translate_microsoft(sFromText, sFromLang, sToLang)
+
+              when ENGINE_SITE_GOOGLE
+                return translate_google(sFromText, sFromLang, sToLang)
+
+              else
+                return translate_microsoft(sFromText, sFromLang, sToLang)
+
+            end
+	end
+
+	def translate_microsoft(sFromText, sFromLang="en", sToLang="ja")
+            # 翻訳対象の文
+            h = Net::HTTP.new("api.microsofttranslator.com")
+            response = h.get("/V2/Http.svc/Translate?appid=AD697D10EC7A3751BB125AB58715693EBCB224E2&from=#{sFromLang}&to=#{sToLang}&text=#{sFromText}")
+            sToText = "#{sFromText}" unless response.message == 'OK'
+            doc = REXML::Document.new(response.body)
+            sToText = "#{doc.root.text}"
+            return sToText
+        end
+
+        def translate_google(sFromText, sFromLang="en", sToLang="ja")
+            # 翻訳対象の文
+            h = Net::HTTP.new("ajax.googleapis.com")
+            response = h.get("/ajax/services/language/translate?v=1.0&q=#{sFromText}&langpair=#{sFromLang}|#{sToLang}")
+#STDERR.puts response
+            sToText = "#{sFromText}" unless response.message == 'OK'
+            j = JSON.parse(response.body)
+            sToText = "#{j["responseData"]["translatedText"]}"
+            return sToText
+        end
+     
+     
+     
+    end
+
+    if $0 == __FILE__ then
+      # 引数が無い場合はエラー
+      if !ARGV.length
+        raise "1 argument is needed"
+      end
+      
+      sFromTextOriginal = "Uruguay were forced to play the final nine minutes of the match in Cape Town with 10 men following the dismissal of substitute Nicolas Lodeiro for a second bookable offence. Substitute Thierry Henry had a late penalty shout for handball dismissed as lacklustre France finally took the game to their opponents, but failure to capitalise on their numerical advantage ended in a disappointing stalemate."
+
+      sToTextMicrosoft = TranslateLIB.translate(sFromTextOriginal,"en", "ja", TranslateLIB::ENGINE_SITE_MICROSOFT)
+      sToTextGoogle = TranslateLIB.translate(sFromTextOriginal,"en", "ja", TranslateLIB::ENGINE_SITE_GOOGLE)
+
+      puts "Original Sentense: \n#{sFromTextOriginal}\n"
+      puts
+      puts "Translate Sentense powered by Microsoft: \n#{sToTextMicrosoft}\n"
+      puts
+      puts "Translate Sentense powered by Google: \n#{sToTextGoogle}\n"
+      puts
+    end

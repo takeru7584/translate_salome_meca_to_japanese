@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS>
+  <context>
+    <name>Yacsgui</name>
+    <message>
+      <source>PREF_TAB_GENERAL</source>
+      <translation>Allgemeine</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_COMPONENT</source>
+      <translation>Komponente</translation>
+    </message>
+    <message>
+      <source>PREF_TAB_STATE</source>
+      <translation>Knoten-Staaten</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_EDIT</source>
+      <translation>Bearbeiten von Staaten</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_RUN</source>
+      <translation>Geführte Staaten</translation>
+    </message>
+    <message>
+      <source>PREF_TAB_NODE</source>
+      <translation>Knoten</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_SCENE</source>
+      <translation>Szene</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_BLOC</source>
+      <translation>Block</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_NODE</source>
+      <translation>Knoten</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_HEADER</source>
+      <translation>Header</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_CONTROL</source>
+      <translation>Steueranschluss</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_PORT</source>
+      <translation>DataFlow-Port</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_DRAG</source>
+      <translation>Sie ziehen</translation>
+    </message>
+    <message>
+      <source>PREF_GROUP_GENERAL</source>
+      <translation>Allgemeine</translation>
+    </message>
+    <message>
+      <source>COMPONENT_INSTANCE_NEW</source>
+      <translation>Erstellen Sie eine Instanz der Komponente für jeden neuen Dienstknoten</translation>
+    </message>
+    <message>
+      <source>ERROR</source>
+      <translation>FEHLER</translation>
+    </message>
+    <message>
+      <source>YACS_PLUGINS</source>
+      <translation>Plugins</translation>
+    </message>
+  </context>
+</TS>

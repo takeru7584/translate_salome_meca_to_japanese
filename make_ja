@@ -1,0 +1,13 @@
+#!/bin/sh
+OUTPUT_FILE=$1
+OUTPUT_TAR_FILE=${OUTPUT_FILE%%.tgz}.tar
+#sudo touch ./SALOME_MECA_2012.2_japanese_patch.tar
+#sudo find ./ -name "LightApp.xml" -exec tar -cvf ./SALOME_MECA_2012.2_japanese_patch.tar {} \;
+#sudo find ./ -name "LightApp.xml" -exec echo tar -cvf ./SALOME_MECA_2012.2_japanese_patch.tgz {} \;
+sudo find ./ -name "LightApp.xml" -exec tar -cvf $OUTPUT_TAR_FILE {} \;
+#sudo find ./ -name "*_msg_ja.qm" -exec tar -uvf ./SALOME_MECA_2012.2_japanese_patch.tar {} \;
+#sudo find ./ -name "*_msg_ja.qm" -exec echo tar -uvf ./SALOME_MECA_2012.2_japanese_patch.tgz {} \;
+sudo find ./ -name "*_msg_ja.qm" -exec tar -uvf $OUTPUT_TAR_FILE {} \;
+gzip $OUTPUT_TAR_FILE
+mv ${OUTPUT_TAR_FILE}.gz $OUTPUT_FILE
+

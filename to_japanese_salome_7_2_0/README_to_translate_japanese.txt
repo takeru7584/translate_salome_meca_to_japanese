@@ -1,0 +1,1 @@
+./to_japanese/doc/README_to_translate_japanese_2012.2.txt

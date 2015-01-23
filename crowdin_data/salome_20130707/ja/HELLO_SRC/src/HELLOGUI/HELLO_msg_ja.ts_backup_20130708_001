@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS>
+  <context>
+    <name>HELLOGUI</name>
+    <message>
+      <source>MEN_FILE</source>
+      <translation>&amp; ファイル</translation>
+    </message>
+    <message>
+      <source>MEN_FILE_HELLO</source>
+      <translation>こんにちは</translation>
+    </message>
+    <message>
+      <source>MEN_HELLO</source>
+      <translation>こんにちは</translation>
+    </message>
+    <message>
+      <source>MEN_OP_HELLO</source>
+      <translation>こんにちは</translation>
+    </message>
+    <message>
+      <source>MEN_OP_GOODBYE</source>
+      <translation>さようなら</translation>
+    </message>
+    <message>
+      <source>MEN_OP_TESTME</source>
+      <translation>私をテストします。</translation>
+    </message>
+    <message>
+      <source>STS_OP_HELLO</source>
+      <translation>サロメに挨拶します。</translation>
+    </message>
+    <message>
+      <source>STS_OP_GOODBYE</source>
+      <translation>別れにサロメ</translation>
+    </message>
+    <message>
+      <source>STS_OP_TESTME</source>
+      <translation>テストを実行します。</translation>
+    </message>
+    <message>
+      <source>TLT_OP_HELLO</source>
+      <translation>こんにちは！</translation>
+    </message>
+    <message>
+      <source>TLT_OP_GOODBYE</source>
+      <translation>バイバイ ！</translation>
+    </message>
+    <message>
+      <source>TLT_OP_TESTME</source>
+      <translation>私をテストします。</translation>
+    </message>
+    <message>
+      <source>TOOL_TEST</source>
+      <translation>テスト</translation>
+    </message>
+    <message>
+      <source>TOOL_HELLO</source>
+      <translation>こんにちは</translation>
+    </message>
+    <message>
+      <source>BUT_OK</source>
+      <translation>わかりました</translation>
+    </message>
+    <message>
+      <source>INF_TESTME_TITLE</source>
+      <translation>こんにちは： 私はテストします。</translation>
+    </message>
+    <message>
+      <source>INF_TESTME_MSG</source>
+      <translation>これはカスタム メニュー アクションのテストです。</translation>
+    </message>
+    <message>
+      <source>QUE_ENTER_NAME</source>
+      <translation>あなたの名前を入力してください、</translation>
+    </message>
+    <message>
+      <source>QUE_HELLO_TITLE</source>
+      <translation>サロメに挨拶します。</translation>
+    </message>
+    <message>
+      <source>INF_HELLO_TITLE</source>
+      <translation>こんにちは</translation>
+    </message>
+    <message>
+      <source>INF_HELLO_MSG</source>
+      <translation>こんにちは、%1 ！</translation>
+    </message>
+    <message>
+      <source>ERR_HELLO_ALREADY_MET</source>
+      <translation>%1、我々 はすでに会った ！</translation>
+    </message>
+    <message>
+      <source>ERR_ERROR</source>
+      <translation>不明なエラー</translation>
+    </message>
+    <message>
+      <source>QUE_GOODBYE_TITLE</source>
+      <translation>別れにサロメ</translation>
+    </message>
+    <message>
+      <source>INF_GOODBYE_TITLE</source>
+      <translation>さようなら</translation>
+    </message>
+    <message>
+      <source>INF_GOODBYE_MSG</source>
+      <translation>さようなら、%1 ！</translation>
+    </message>
+    <message>
+      <source>ERR_GOODBYE_DID_NOT_MEET</source>
+      <translation>%1、私達はまだ挨拶でしたいない ！</translation>
+    </message>
+  </context>
+</TS>

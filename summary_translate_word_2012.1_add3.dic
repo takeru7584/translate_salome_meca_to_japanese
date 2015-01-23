@@ -1,0 +1,1516 @@
+#モジュール	ROW_KEYWORD	フランス語メニュー	英語メニュー	日本語メニュー修正（案）
+GEOM_msg_fr	 iErr : 10	le Classificateur est NULL	the Classifier is NULL	拡張子が NULL
+GEOM_msg_fr	 iErr : 11	la Forme est NULL	the Shape is NULL	形状が NULL
+GEOM_msg_fr	 iErr : 12	Type d'objet non autoriqé	Unallowed Type of Subshape	サブシェイプのタイプが未許可
+GEOM_msg_fr	 iErr : 13	Cet état n'est pas autorisé	Unallowed State	この状態は許可されていません
+GEOM_msg_fr	 iErr : 15	Ce type de surface n'est pas autorisé	Unallowed Surface Type	このサーフェスタイプは許可されていません
+GEOM_msg_fr	 iErr : 30	Impossible d'obtenir la ligne à partir du lien	Can not Obtain the Line From the Link	行のリンクを取得できませんでした
+GEOM_msg_fr	 iErr : 41	Les données ne sont pas valides pour le classificateur	Invalid Data for Classifier	拡張子が無効のデータです
+GEOM_msg_fr	BROWSE	Naviguer...	Browse...	移動...
+GEOM_msg_fr	BRep_API: command not done	Erreur: impossible de construire l'objet	Error: can't build object	エラー: オブジェクトをビルドできませんでした
+GEOM_msg_fr	CANCEL_BTN	A&nnuler	&Cancel	キャンセル(&C)
+GEOM_msg_fr	CANNOT_CLOSE	Il est impossible de fermer le contour\nLe nombre de points n'est pas suffisant	It is impossible to close sketch\nNumber of sketch points too small	スケッチを閉じることができません\nスケッチのポイント数が少なすぎます
+GEOM_msg_fr	CHAMFER_OR_FILLET	Chanfrein ou congé	Chamfer or fillet	面取り 又は フィレット
+GEOM_msg_fr	CHANGE_ORIENTATION_NEW_OBJ_NAME	Inverser	Invert	裏返し
+GEOM_msg_fr	CHECK_SHAPE_GEOMETRY	Vérifier la géométrie	Check also geometry	ジオメトリもチェック
+GEOM_msg_fr	CIRCULAR_QUARTER_PIPE	Un quart circulaire du tuyau	Circular quarter of pipe	パイプの１/4形状
+GEOM_msg_fr	CLOSE_CONTOUR_NEW_OBJ_NAME	ContourFerme	CloseContour	コンタークローズ
+GEOM_msg_fr	COORDINATES	Le Point et ses coordonnées	Point and its coordinates	ポイントとその座標系
+GEOM_msg_fr	CREATE_GROUP_TITLE	Créer un Groupe	Create Group	グループを作成
+GEOM_msg_fr	D	D	D	D
+GEOM_msg_fr	DEP_OBJECT	L'objet choisi a été utilisé pour créer un autre objet.\nIl n'est pas possible de le supprimer 	Selected object has been used to create another one.\nIt can't be deleted 	選択したオブジェクトは、別のオブジェクトの作成に使用されました。 削除することはできません。
+GEOM_msg_fr	DEVIDE_EDGE_NEW_OBJECT_NAME	NouvelObjet	NewObject	新しいオブジェクト
+GEOM_msg_fr	DX	Dx	Dx	Dx
+GEOM_msg_fr	DZ	Dz	Dz	Dz
+GEOM_msg_fr	EDGES_FOR_GLUING_ARE_DETECTED	Il y a %1 arête(s) à recoller surlignées en rouge.\nFermez cette boîte d'alerte et choisissez les arêtes à recoller.	There are %1 edge(s) that can be glued. They are coloured on the screen with red colour.\nPlease close this message box and select edges for gluing	%1 のエッジが固着できます。それらはスクリーン上で赤く表示されます。\nこのメッセージボックスを閉じ、固着エッジを選択して下さい。
+GEOM_msg_fr	EDIT_GROUP_TITLE	Editer un Groupe	Edit Group	グループを編集
+GEOM_msg_fr	ERROR_SHAPE_TYPE	Le type de l'objet choisi n'est pas correct!\nChoisissez une face, une coque ou un solide et essayez de nouveau	Object of incorrect type selected!\nPlease, select face, shell or solid and try again	選択したオブジェクトの種類が正しくありません！\nフェース、シェルまたはソリッドを選択し、もう一度やり直してください。
+GEOM_msg_fr	FACES_FOR_GLUING_ARE_DETECTED	Il y a %1 face(s) à recoller surlignées en couleur rouge.\nFermez cette boîte d'alerte et choisissez les faces à recoller	There are %1 face(s) that can be glued. They are coloured on the screen with red colour.\nPlease close this message box and select faces for gluing	固着できる%1 のフェースがあります。それらは赤で強調表示されます。\nこのメッセージボックスを閉じ、固着するフェースを選択してください。
+GEOM_msg_fr	FACE_1	Face 1	Face 1	フェース 1
+GEOM_msg_fr	FACE_1U	Face 1 U	Face 1 U	フェース 1 U
+GEOM_msg_fr	FACE_1V	Face 1 V	Face 1 V	フェース 1 V
+GEOM_msg_fr	FACE_2	Face 2	Face 2	フェース 2
+GEOM_msg_fr	FACE_2U	Face 2 U	Face 2 U	フェース 2 U
+GEOM_msg_fr	FACE_2V	Face 2 V	Face 2 V	フェース 2 V
+GEOM_msg_fr	FACE_3	Face 3	Face 3	フェース 3
+GEOM_msg_fr	FACE_4	Face 4	Face 4	フェース 4
+GEOM_msg_fr	FACE_5	Face 5	Face 5	フェース 5
+GEOM_msg_fr	FACE_6	Face 6	Face 6	フェース 6
+GEOM_msg_fr	FILLET	Congé	Fillet	フィレット
+GEOM_msg_fr	FLANGE	Collerette	Flange	フランジ
+GEOM_msg_fr	FREE_BOUND	Contours Libres	Free boundaries	自由境界
+GEOM_msg_fr	GEOM_2D_CONTINUTY	Continuité 2D 	2D continuity	2Dコネクティビティ
+GEOM_msg_fr	GEOM_2D_CURVE_MODE	Mode courbe 2D	2D curve mode	2D曲線モード
+GEOM_msg_fr	GEOM_2D_TOLERANCE	Tolérance 2D	2D tolerance	2D公差
+GEOM_msg_fr	GEOM_3DSKETCHER	Esquisse 3D	3D Sketcher	3Dスケッチャー
+GEOM_msg_fr	GEOM_3DSKETCHER_TITLE	Construction d'une esquisse 3D 	3D Sketch Construction	3Dスケッチの構築
+GEOM_msg_fr	GEOM_3D_CONTINUTY	Continuité 3D	3D continuity	3Dコネクティビティ
+GEOM_msg_fr	GEOM_3D_CURVE_MODE	Mode courbe 3D	3D curve mode	3D曲線モード
+GEOM_msg_fr	GEOM_3D_TOLERANCE	Tolérance 3D	3D tolerance	3D公差
+GEOM_msg_fr	GEOM_3_POINTS	3 points	3 points	3 ポイント
+GEOM_msg_fr	GEOM_ADD_POINT	Ajouter un point	Add point	ポイントを追加
+GEOM_msg_fr	GEOM_ADVANCED	Objet géométrique avancé : type %1	Advanced shape: type %1	高度な形状: タイプ %1
+GEOM_msg_fr	GEOM_ADVANCED_201	Tuyau en T	Pipe TShape	パイプ Tshape
+GEOM_msg_fr	GEOM_ALL_IMPORT_FILES	Tous les formats supportés ( %1 )	All supported formats ( %1 )	サポートされているすべての形式 (%1)
+GEOM_msg_fr	GEOM_ARC	Arc	Arc	円弧
+GEOM_msg_fr	GEOM_ARCHIMEDE	Archimède	Archimede	らせん
+GEOM_msg_fr	GEOM_ARCHIMEDE_TITLE	Construction Archimède	Archimede Construction	らせんの構築
+GEOM_msg_fr	GEOM_ARC_ELLIPSE	Arc d'ellipse	Arc of ellipse	楕円弧
+GEOM_msg_fr	GEOM_AXE_MIRROR	Axe de symétrie	Axe Mirror	軸対称性
+GEOM_msg_fr	GEOM_BASE_POINT	Point de Base	Base Point	ベース ポイント
+GEOM_msg_fr	GEOM_BINORMAL	BiNormal	BiNormal	BiNormal
+GEOM_msg_fr	GEOM_BLOCK	Solide Hexaédrique	Hexahedral Solid	六面体ソリッド
+GEOM_msg_fr	GEOM_BLOCKS_COMPOUND	AssemblageBloques	BlocksCompound	ブロックアセンブリ
+GEOM_msg_fr	GEOM_BLOCK_EXPLODE	Sous-Bloques	Sub Blocks	サブブロック
+GEOM_msg_fr	GEOM_BLOCK_EXPLODE_TITLE	Sélection des Sous-bloques 	Sub Blocks Selection	サブブロック選択
+GEOM_msg_fr	GEOM_BLOCK_MULTITRSF	Multi-Transformation Bloques 	Block Multi-Transformation	Block Multi-Transformation
+GEOM_msg_fr	GEOM_BLOCK_MULTITRSF_DOUBLE	Multi-Transformation Double	Multi-Transformation Double	Multi-Transformation Double
+GEOM_msg_fr	GEOM_BLOCK_MULTITRSF_SIMPLE	Multi-Transformation Simple	Multi-Transformation Simple	Multi-Transformation Simple
+GEOM_msg_fr	GEOM_BLOCK_MULTITRSF_TITLE	Multi-Transformation Bloques 	Block Multi-Transformation	Block Multi-Transformation
+GEOM_msg_fr	GEOM_BLOCK_TITLE	Construction d'un solide hexaédrique	Hexahedral Solid Construction	六面体ソリッドの構築
+GEOM_msg_fr	GEOM_BOTHWAY	Dans les deux directions	Both Directions	両方の方向
+GEOM_msg_fr	GEOM_BUILD_CLOSED_WIRE	Construite un contour fermé	Build a closed wire	閉じた線を構築
+GEOM_msg_fr	GEOM_BUT_APPLY_AND_CLOSE	A&ppliquer et Fermer	A&pply and Close	適用して閉じる(&p)
+GEOM_msg_fr	GEOM_BUT_CANCEL	A&nnuler	&Cancel	キャンセル(&C)
+GEOM_msg_fr	GEOM_BUT_CLOSE	&Fermer	&Close	閉じる(&C)
+GEOM_msg_fr	GEOM_BUT_CLOSE_SKETCH	Fermer le contour	Sketch Closure	スケッチを終了
+GEOM_msg_fr	GEOM_BUT_END_SKETCH	Valider l'esquisse	Sketch Validation	スケッチを検証
+GEOM_msg_fr	GEOM_BUT_EXPLODE	&Eclater	&Explode	展開(&E)
+GEOM_msg_fr	GEOM_BUT_HELP	&Aide	&Help	ヘルプ(&H)
+GEOM_msg_fr	GEOM_BUT_NO	&Non	&No	いいえ(&N)
+GEOM_msg_fr	GEOM_BY_LENGTH	Par longueur	By length	長さで
+GEOM_msg_fr	GEOM_CENTER_2POINTS	Centre et deux points	Center and two points	センターと2つのポイント
+GEOM_msg_fr	GEOM_DISK_ELLIPSE	Face elliptique 	Elliptical face	楕円形フェース
+GEOM_msg_fr	GEOM_DIVIDE_EDGE_TITLE	Ajouter un point	Addition of point	ポイントを追加
+GEOM_msg_fr	GEOM_DX	Dx :	Dx :	Dx :
+GEOM_msg_fr	GEOM_DY	Dy :	Dy :	Dy :
+GEOM_msg_fr	GEOM_DZ	Dz :	Dz :	Dz :
+GEOM_msg_fr	GEOM_DropSmallEdges	ArêtesMineuresOmises	DropSmallEdges	DropSmallEdges
+GEOM_msg_fr	GEOM_EDGE_TITLE	Créer une Arête	Create An Edge	エッジを作成
+GEOM_msg_fr	GEOM_ELLIPSE_ERROR_1	Impossible de créer un ellipse: le demi petit axe est plus grand que le demi grand axe.	Error creating ellipse.  Reason: minor radius is greater than major radius.	楕円を作成できません。理由：短径が長径より大きくなっています。
+GEOM_msg_fr	GEOM_END_LCS	Fin SCL	End LCS	LCS 終了
+GEOM_msg_fr	GEOM_ERR_GET_ENGINE	Il est impossible d'obtenir le composant GEOM Engine. Rouvrez le module Geometry et essayez de nouveau.	Failed to obtain GEOM Engine component.  Reload Geometry module and try again.	GEOM エンジン コンポーネントを取得することはできません。ジオメトリ モジュールを再開してから、もう一度やり直してください。
+GEOM_msg_fr	GEOM_ERR_LIB_NOT_FOUND	Il est impossible de trouver ou d'ouvrir la librairie IHM correspondante à l'action de l'utilisateur	GUI library corresponding to the user action can not be found or loaded	ユーザーのアクションに対応するGUI ライブラリを開くことはできないか、既に開いています。
+GEOM_msg_fr	GEOM_EXTRUSION	Extrusion	Extrusion	押出し
+GEOM_msg_fr	GEOM_EXTRUSION_BSV	Formes de Base + Vecteur	Base Shapes + Vector	ベース形状＋ベクトル
+GEOM_msg_fr	GEOM_EXTRUSION_BSV_2P	Formes de Base + 2 Points	Base Shapes + 2 Points	ベース形状＋２ポイント
+GEOM_msg_fr	GEOM_EXTRUSION_DXDYDZ	Formes de Base  + Vecteur DX DY DZ	Base Shapes + DX DY DZ Vector	ベース形状＋DX DY DZ ベクトル
+GEOM_msg_fr	GEOM_EXTRUSION_TITLE	Construction par Extrusion	Construction by Extrusion	押出しによる構成
+GEOM_msg_fr	GEOM_FACE	Face	Face	フェース
+GEOM_msg_fr	GEOM_FACES	Faces	Faces	フェース
+GEOM_msg_fr	GEOM_FACE_FFW	Création d'une Face à partir des contours et/ou arêtes	Face creation from wires and/or edges	ワイヤーと（または）エッジからフェースを作成
+GEOM_msg_fr	GEOM_FACE_I	Face %1	Face %1	フェース %1
+GEOM_msg_fr	GEOM_FACE_OPT	Privilégier la création d'une face plane	Try to create a planar face	平らなフェースを作成してください
+GEOM_msg_fr	GEOM_FACE_OR_LCS	Face ou SCL	Face or LCS	フェース または LCS
+GEOM_msg_fr	GEOM_FACE_SELECTION	Sélection d'une Face 	Face Selection	フェース選択
+GEOM_msg_fr	GEOM_FACE_TITLE	Créer une Face	Create A Face	フェース作成
+GEOM_msg_fr	GEOM_FILLET	Congé	Fillet	フィレット作成
+GEOM_msg_fr	GEOM_FILLET_1D	Congé 1D	Fillet 1D	1D フィレット作成
+GEOM_msg_fr	GEOM_FILLET_1D_TITLE	Construction d'un Congé 1D 	1D Fillet Construction	1D フィレットの構築
+GEOM_msg_fr	GEOM_FILLET_2D	Congé 2D	Fillet 2D	2D フィレット作成
+GEOM_msg_fr	GEOM_FILLET_2D_TITLE	Construction d'un Congé 2D 	2D Fillet Construction	2D フィレットの構築
+GEOM_msg_fr	GEOM_FILLET_ABORT	Il n'est pas possible de calculer un congé avec le rayon %1	Fillet can't be computed with radius %1	半径%1 ではフィレットを構築できません。
+GEOM_msg_fr	GEOM_FILLET_ALL	Congé sur l'Objet tout entier	Fillet On Whole Shape	全体形状にフィレット作成
+GEOM_msg_fr	GEOM_FILLET_EDGES	Congé sur les Arêtes de l'Objet	Fillet On Edges From Shape	形状エッジにフィレット作成
+GEOM_msg_fr	GEOM_FILLET_FACES	Congé sur les Faces de l'Objet	Fillet On Faces From Shape	形状フェースにフィレット作成
+GEOM_msg_fr	GEOM_FILLET_TITLE	Construction d'un Congé	Fillet Construction	フィレットの構築
+GEOM_msg_fr	GEOM_FILLET_VERTEXES	Congé sur les Sommets de l'Objet	Fillet On Vertexes From Face	フェース上の点にフィレット作成
+GEOM_msg_fr	GEOM_FILLET_WIRES	Congé sur les Contours de l'Objet	Fillet On Wires From Shape	形状ワイヤーにフィレット作成
+GEOM_msg_fr	GEOM_FILLING	Remplissage	Filling	埋込み
+GEOM_msg_fr	GEOM_FILLING_APPROX	Approximation	Approximation	概算
+GEOM_msg_fr	GEOM_FILLING_ARG	Arguments et Paramètres	Arguments And Parameters	引数とパラメーター
+GEOM_msg_fr	GEOM_FILLING_AUTO	Auto-corriger l'orientation des arêtes	Auto-correct edges orientation	エッジの向きを自動修正
+GEOM_msg_fr	GEOM_FILLING_COMPOUND	Assemblage d'entrée	Input compound	アセンブリ入力
+GEOM_msg_fr	GEOM_FILLING_MAX_DEG	Degré maximal	Max deg	最大角度
+GEOM_msg_fr	GEOM_FILLING_MIN_DEG	Degré minimal	Min deg	最小角度
+GEOM_msg_fr	GEOM_FILLING_NB_ITER	Nb. Itér :	Nb. Iter :	Nb. Iter :
+GEOM_msg_fr	GEOM_FILLING_TITLE	Remplir une Surface avec des Arêtes	Filling Surface With Edges	エッジでサーフェスを埋める
+GEOM_msg_fr	GEOM_FILLING_TOL_2D	Tol. 2D :	Tol. 2D :	Tol. 2D :
+GEOM_msg_fr	GEOM_FILLING_TOL_3D	Tol. 3D :	Tol. 3D :	Tol. 3D :
+GEOM_msg_fr	GEOM_FILLING_USEORI	Utiliser l'orientation des arêtes	Use edges orientation	エッジの向きを使用
+GEOM_msg_fr	GEOM_FREE_BOUNDARIES	Contours Libres	Free boundaries	自由境界
+GEOM_msg_fr	GEOM_FREE_BOUNDS_ERROR	L'objet n'est pas sélectionné	Object is not selected	オブジェクトが選択されていません
+GEOM_msg_fr	GEOM_FREE_BOUNDS_MSG	Contours libres trouvés: %1 (%2 fermés, %3 ouverts)	Number of free boundaries detected: %1 (%2 closed, %3 open)	検出された自由境界: %1 (閉 %2、 開%3 )
+GEOM_msg_fr	GEOM_FREE_BOUNDS_TLT	Trouver des Contours Libres	Free boundary detection	自由境界を検出
+GEOM_msg_fr	GEOM_FREE_FACES	Faces Libres	Free faces	フリーフェース
+GEOM_msg_fr	GEOM_FREE_FACES_TITLE	Faces Libres	Free faces	フリーフェース
+GEOM_msg_fr	GEOM_FUSE	Union	Fuse	結合
+GEOM_msg_fr	GEOM_FUSE_TITLE	Réunir deux Objets	Fuse Two Objects	2つのオブジェクトを結合
+GEOM_msg_fr	GEOM_FixFaceSize	TailleFaceRepare	FixFaceSize	フェースサイズ修正
+GEOM_msg_fr	GEOM_FixShape	ObjetRepare	FixShape	形状修正
+GEOM_msg_fr	GEOM_GLUE	Recoller	Glue	固着
+GEOM_msg_fr	GEOM_GLUE_EDGES_TITLE	Recoller les arêtes	Glue edges	エッジ固着
+GEOM_msg_fr	GEOM_GLUE_FACES_TITLE	Recoller les faces	Glue faces	フェース固着
+GEOM_msg_fr	GEOM_IDENTICAL_NAMES_SELECT_BY_MOUSE	Noms Identiques : sélectionner à la souris !	Identical names : select by mouse !	同じ名前: マウスで選択してください ！
+GEOM_msg_fr	GEOM_IMPORT	Objet_Importé	Imported_Shape	インポートされた形状
+GEOM_msg_fr	GEOM_IMPORT_ERRORS	L'import s'est fini avec des erreurs:	Import operation has finished with errors:	エラーによりインポート操作を終了します
+GEOM_msg_fr	GEOM_INERTIA_IXYZ	IX & IY & IZ :	IX & IY & IZ :	IX & IY & IZ :
+GEOM_msg_fr	GEOM_INF_LOADED	Le fichier %1 est ouvert.	File %1 loaded.	ファイル %1 は開いています
+GEOM_msg_fr	GEOM_INTERNAL_WIRES	Contours internes	Internal wires	内部ワイヤー
+GEOM_msg_fr	GEOM_IS_CLOSED	Construire une arête fermée	Build a closed edge	閉じたエッジを構築
+GEOM_msg_fr	GEOM_IS_REORDER	Réarranger les points en prenant en compte les distances	Reorder vertices taking into account distances	アカウントの距離を考慮して点の順序を変更
+GEOM_msg_fr	GEOM_KEEP_NONLIMIT_SHAPES	Préserver les formes inférieures	Keep shapes of lower type	下側のタイプの形状を保持
+GEOM_msg_fr	GEOM_KEEP_OBJECT	Garder l'Objet	Keep Object	オブジェクトを保持
+GEOM_msg_fr	GEOM_KIND_OF_SHAPE	Type d'objet :	Kind of Shape :	形状の種類:
+GEOM_msg_fr	GEOM_LENGTH_VALUE	Par longueur	By length	長さで
+GEOM_msg_fr	GEOM_LIMIT_TOLERANCE_TITLE	Limiter la tolérance	Limit tolerance	公差の制限
+GEOM_msg_fr	GEOM_LINE	Ligne	Line	線
+GEOM_msg_fr	GEOM_LINE1	Ligne 1	Line 1	線 1
+GEOM_msg_fr	GEOM_LINE2	Ligne 2	Line 2	線 2
+GEOM_msg_fr	GEOM_LINE_INTERSECTION	Point à l'Intersection de deux lignes	Point On Lines Intersection	線の交点
+GEOM_msg_fr	GEOM_LINE_TITLE	Construction d'une Ligne 	Line Construction	線の構築
+GEOM_msg_fr	GEOM_MAIN_OBJECT	Objet Principal	Main Object	メイン オブジェクト
+GEOM_msg_fr	GEOM_MARKER	Repère	Marker	マーカー
+GEOM_msg_fr	GEOM_MARKER_TITLE	Créer une repère	Create marker	座標系を作成
+GEOM_msg_fr	GEOM_MATERIAL_ID	ID Matériel:	Material ID:	材料 ID:
+GEOM_msg_fr	GEOM_MATERIAL_MATERIAL	Matériel	Material	材料
+GEOM_msg_fr	GEOM_MATERIAL_SET	<< Jeu	<< Set	<< セット
+GEOM_msg_fr	GEOM_MATERIAL_SHAPE	Formes	Shapes	形状
+GEOM_msg_fr	GEOM_MATERIAL_TITLE	Définir les matériaux pour la Fusion Dominante	Define materials for Dominant Fuse	支配的な結合で材料を定義
+GEOM_msg_fr	GEOM_MAX_TOLERANCE	Tolérance Maximale	Max tolerance	最長公差
+GEOM_msg_fr	GEOM_MEASURE_ANGLE_IS	Angle en degrés :	Angle in degrees :	角度(degree):
+GEOM_msg_fr	GEOM_MEASURE_ANGLE_TITLE	Angle entre deux arêtes/lignes/vecteurs droits	Angle Between Two Straight Edges/Lines/Vectors	2つのストレートエッジ、ライン、ベクトル間の角度
+GEOM_msg_fr	GEOM_MEN_ALL_FILES	Tous les Fichiers ( * )	All Files ( * )	すべてのファイル ( * )
+GEOM_msg_fr	GEOM_MEN_ENTER_ANGLE	Indiquez l'Angle en Degrés	Enter An Angle In Degrees	角度をDegreeで入力
+GEOM_msg_fr	GEOM_MEN_ISOS	Choisir le nombre d'Isolignes	Select Number Of Isos	Isosの数を選択
+GEOM_msg_fr	GEOM_MEN_ISOU	Isos U :	Isos U :	Isos U :
+GEOM_msg_fr	GEOM_MEN_ISOV	Isos V :	Isos V :	Isos V :
+GEOM_msg_fr	GEOM_MEN_SKETCHER_X	Indiquez la distance selon l'axe X	Enter a Length to Set X	X 軸方向の距離を指定
+GEOM_msg_fr	GEOM_MEN_SKETCHER_Y	Indiquez la distance selon l'axe Y	Enter a Length to Set Y	Y 軸方向の距離を指定
+GEOM_msg_fr	GEOM_MEN_STEP_LABEL	Pas :	Step :	ステップ：
+GEOM_msg_fr	GEOM_MEN_X	X :	X :	X :
+GEOM_msg_fr	GEOM_MEN_Y	Y :	Y :	Y :
+GEOM_msg_fr	GEOM_MESHING_DEFLECTION	Déflection de Maillage. :	Meshing Deflect. :	メッシュのゆがみ:
+GEOM_msg_fr	GEOM_MIRROR_TITLE	Refléter un Objet	Mirror An Object	オブジェクトをミラー
+GEOM_msg_fr	GEOM_MULTITRANSLATION_DOUBLE	Multi Translation Double	Multi Translation Double	Multi Translation Double
+GEOM_msg_fr	GEOM_MULTITRANSLATION_SIMPLE	Multi Translation Simple	Multi Translation Simple	Multi Translation Simple
+GEOM_msg_fr	GEOM_NAME_INCORRECT	Le nom de l'Objet n'a pas été trouvé	Object name not found	オブジェクトの名前が見つかりませんでした
+GEOM_msg_fr	GEOM_NB_BLOCKS_NO_OTHERS	Il y a %1 bloques spécifiés et PAS d'autres solides	There are %1 specified blocks and NO other solids	%1 の指定されたブロックがあり、他にはソリッドがありません
+GEOM_msg_fr	GEOM_NB_BLOCKS_SOME_OTHERS	Il y a %1 bloques spécifiés et d'autres solides	There are %1 specified blocks and some other solids	%1 の指定されたブロックがあり、他にいくつかのソリッドがあります
+GEOM_msg_fr	GEOM_NB_TIMES	Nb. Fois :	Nb. Times :	Nb. Times :
+GEOM_msg_fr	GEOM_NB_TIMES_U	Nb. Fois U :	Nb. Times U :	Nb. Times U :
+GEOM_msg_fr	GEOM_NB_TIMES_V	Nb. Fois V :	Nb. Times V :	Nb. Times V :
+GEOM_msg_fr	GEOM_NODES	Noeuds	Nodes	節点
+GEOM_msg_fr	GEOM_NORMALE	Normale à une face	Normal To A Face	フェースに垂直
+GEOM_msg_fr	GEOM_NORMALE_TITLE	Créer un vecteur normal à une face	Create Normal To A Face	フェースに垂直なベクトルを作成
+GEOM_msg_fr	GEOM_NO_SELF_INTERSECTION	Pas d'intersection des sous-formes (assemblages seuls)	No sub-shapes intersection (Compounds only)	サブ図形 (アセンブリのみ） の交差部はありません
+GEOM_msg_fr	GEOM_NUM_SPLIT_POINTS	Nombre de points de découpe	Number of splitting points	分割点の数
+GEOM_msg_fr	GEOM_OBJECT_RESULT	Objet et Résultat	Object And Result	オブジェクトと結果
+GEOM_msg_fr	GEOM_OFFSET_TITLE	Décaler une surface	Offset Surface	サーフェスをオフセット
+GEOM_msg_fr	GEOM_ORIENTATION	Orientation	Orientation	方向
+GEOM_msg_fr	GEOM_ORIENTATION_OPT	Inverser l'Orientation et simuler les vecteurs normaux	Reverse orientation with normal vectors simulation	法線ベクトルの計算で方向を反転
+GEOM_msg_fr	GEOM_ORIENTATION_TITLE	Changer l'Orientation	Change Orientation	方向の変更
+GEOM_msg_fr	GEOM_PARTITION_HALFSPACE	Partition de demi-espace	Half-space partition	半分でパーティション
+GEOM_msg_fr	GEOM_PARTITION_ORIENTATION	Changer l'Orientation	Change Orientation	方向の変更
+GEOM_msg_fr	GEOM_PARTS_OF_SHAPE2	Parties Géométriques de l'Objet Secondaire 	Geometrical parts of the Second Shape	２つ目の形状の幾何学部品
+GEOM_msg_fr	GEOM_PCURVE_MIN	Min t	Min t	最小 t
+GEOM_msg_fr	GEOM_PCURVE_STEP	Pas	Step	ステップ
+GEOM_msg_fr	GEOM_PCURVE_X	Equation X(t)	X(t) equation	方程式 X(t)
+GEOM_msg_fr	GEOM_PCURVE_Y	Equation Y(t)	Y(t) equation	方程式 Y(t)
+GEOM_msg_fr	GEOM_PCURVE_Z	Equation Z(t)	Z(t) equation	方程式 Z(t)
+GEOM_msg_fr	GEOM_PIPE_TSHAPE	Tuyau en T	PipeTShape	Tshapeパイプ
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_FILLET	Congé	Fillet	フィレット
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_HEX	Préparer pour un maillage hexaédrique	Prepare for hex mesh	六面体メッシュの準備
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_IPIPE	Tuyau incident	Incident pipe	パイプ追加
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_L	Demi-longueur	Half-length	半分の永さ
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_MPIPE	Tuyau principal	Main pipe	メインパイプ
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_POSITION	Définir la position	Set position	位置を設定
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_POSITION_LBL_L1	Nouvelle L1	New L1	New L1
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_POSITION_LBL_L2	Nouvelle L2	New L2	New L2
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_POSITION_P1	Jonction P1	Junction P1	Junction P1
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_POSITION_P2	Jonction P2	Junction P2	Junction P2
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_POSITION_P3	Jonction P3	Junction P3	Junction P3
+GEOM_msg_fr	GEOM_PIPE_TSHAPE_TITLE	Construction d'un Tuyau en T	Pipe TShape Construction	Tshapeパイプの構築
+GEOM_msg_fr	GEOM_PLANAR_EDGE_WIRE	Contour avec des arêtes planes	Wire with Planar Edges	フラットエッジによるワイヤー
+GEOM_msg_fr	GEOM_PLANAR_FACE	Face plane	Planar Face	平らなフェース
+GEOM_msg_fr	GEOM_PLANE	Plan	Plane	平面
+GEOM_msg_fr	GEOM_PLANE_PV	Point + Vecteur	Point + Vector	ポイント＋ベクトル
+GEOM_msg_fr	GEOM_PLANE_PVC	Point + Vecteur de Coordonnées 	Point + Coordinate Vector	ポイント＋ベクトル座標
+GEOM_msg_fr	GEOM_PLANE_SIZE	Taille du plan :	Size of plane :	平面のサイズ:
+GEOM_msg_fr	GEOM_PLANE_TITLE	Construction d'un Plan 	Plane Construction	平面の構築
+GEOM_msg_fr	GEOM_POINT1	Point 1	Point 1	ポイント 1
+GEOM_msg_fr	GEOM_POINT_I	Point %1	Point %1	ポイント %1
+GEOM_msg_fr	GEOM_POINT_ON_EDGE	Créer un point sur une arête	Point on Edge	エッジ上のポイント
+GEOM_msg_fr	GEOM_POINT_ON_FACE	Créer un point sur une face	Point on Face	フェース上のポイント
+GEOM_msg_fr	GEOM_POLYLINE	Ligne brisée	Polyline	折れ線
+GEOM_msg_fr	GEOM_POSITION_TITLE	Modifier la Position d'un Objet	Modify the Location of an Object	オブジェクトの位置を変更
+GEOM_msg_fr	GEOM_PRECISION_HINT	Il est possible d'ajuster la précision de la valeur d'entrée avec \nle paramètre '%1' aux préférences du module Géométrie.	Input value precision can be adjusted using\n%1' parameter in Geometry module preferences.	ジオメトリモジュールの設定でパラメーター '%1' を入力することで精度を調整することが可能です。
+GEOM_msg_fr	GEOM_PREF_GROUP_PRECISION	Précision des champs d'entrée	Input fields precision	フィールド精度の入力
+GEOM_msg_fr	GEOM_PREF_ang_tol_precision	Précision de la tolérance angulaire	Angular tolerance precision	角度公差の精度
+GEOM_msg_fr	GEOM_PREF_param_tol_precision	Tolérance de précision paramétrique	Parametric tolerance precision	パラメトリック公差精度
+GEOM_msg_fr	GEOM_PROJECTION_TITLE	Projection sur une face	Projection on Face	フェース上に投影
+GEOM_msg_fr	GEOM_PROPERTIES_SURFACE	Surface :	Surface is :	サーフェス:
+GEOM_msg_fr	GEOM_PROPERTIES_TITLE	Propriétés de Base	Basic Properties Information	基本プロパティ情報
+GEOM_msg_fr	GEOM_PRP_COMMAND	Pas de commandes associées avec cet id = %1.	No command associated with this id = %1.	この id = %1 に関連付けられているコマンドがない
+GEOM_msg_fr	GEOM_PRP_DONE	L'Opération a abouti	Operation done	操作完了
+GEOM_msg_fr	GEOM_PRP_EXPORT	Exporter la géométrie à %1 ...	Exporting geometry to %1 ...	ジオメトリを %1 にエクスポート...
+GEOM_msg_fr	GEOM_PRP_LOADING	Charger %1 ...	Loading %1 ...	読み込み %1...
+GEOM_msg_fr	GEOM_PRP_MIN_DIST	La Distance minimale n'est pas calculée	Min Distance not computed	最小距離は計算されません
+GEOM_msg_fr	GEOM_PRP_NOT_FOR_VTK_VIEWER	Interdit dans le visualiseur VTK	Not allowed in VTK viewer	VTK ビューアーでは許可がありません
+GEOM_msg_fr	GEOM_PRP_NULLSHAPE	Erreur, l'objet est inexistant ou incorrect!	Error, null or inappropriate shape !	エラー！オブジェクトは存在しない、または不適切な形状です。
+GEOM_msg_fr	GEOM_PRP_READY	Prêt	Ready	準備完了
+GEOM_msg_fr	GEOM_PRP_SELECT_EDGE	Choisissez les arêtes et cliquez sur Appliquer	Select edges and click on Apply	エッジを選択し、適用をクリック
+GEOM_msg_fr	GEOM_PRP_SELECT_FACE	Choisissez les faces à supprimer et cliquez sur Oui/Appliquer	Select faces to suppress and click on Ok/Apply	抑制するフェースを選択し、Ok/Applyをクリック
+GEOM_msg_fr	GEOM_PRP_SELECT_FIRST	Commencez par choisir l'objet principal	Select main shape first	メインオブジェクトを最初に選択
+GEOM_msg_fr	GEOM_PRP_SELECT_SUBSHAPES	Choisissez les Sous-Objets	Select Sub Shapes	サブオブジェクトを選択
+GEOM_msg_fr	GEOM_PRP_SHAPE_IN_STUDY	Commencez par indiquer l'objet principal	Main shape must be in the study before	最初にメインのオブジェクトを選択してください
+GEOM_msg_fr	GEOM_PUBLISH_CLOSE_BTN	P&ublier et fermer	P&ublish And Close	発行し閉じる(&u)
+GEOM_msg_fr	GEOM_PUBLISH_NAMED_SHAPES	Créer des groupes pour les objets indiqués (s'ils existent)?	Create groups for named shapes (if there are any)?	指定したオブジェクトのグループ(存在する場合)を作成しますか？
+GEOM_msg_fr	GEOM_PUBLISH_OBJECTS_TLT	Publier les objets	Publish Objects	オブジェクトを発行
+GEOM_msg_fr	GEOM_QUAD_FACE	Face Quadrangulaire	Quadrangle Face	四角形フェース
+GEOM_msg_fr	GEOM_QUAD_FACE_TITLE	Construction d'une Face Quadrangulaire	Quadrangle Face Construction	四角形フェースの構築
+GEOM_msg_fr	GEOM_RADIUS_I	Rayon %1 :	Radius %1 :	半径 %1:
+GEOM_msg_fr	GEOM_RADIUS_MAJOR	Demi grand axe :	Major radius :	長径:
+GEOM_msg_fr	GEOM_RADIUS_MINOR	Demi petit axe :	Minor radius :	短径:
+GEOM_msg_fr	GEOM_REALLY_DELETE	Voulez-vous vraiment supprimer %1 objet(s)?	Do you really want to delete %1 object(s)?	オブジェクト %1 を削除しますか?
+GEOM_msg_fr	GEOM_REALLY_DELETE_ALL	Voulez-vous vraiment supprimer tous les objets?	Do you really want to delete all objects?	すべてのオブジェクトを削除しますか?
+GEOM_msg_fr	GEOM_RECONSTRUCTION_LIMIT	Type Résultant 	Resulting Type	結果のタイプ
+GEOM_msg_fr	GEOM_RECONSTRUCTION_LIMIT_FACE	Face	Face	フェース
+GEOM_msg_fr	GEOM_RECONSTRUCTION_LIMIT_SHELL	Coque	Shell	シェル
+GEOM_msg_fr	GEOM_RECONSTRUCTION_LIMIT_SOLID	Solide	Solid	ソリッド
+GEOM_msg_fr	GEOM_RECONSTRUCTION_LIMIT_WIRE	Contour	Wire	ワイヤー
+GEOM_msg_fr	GEOM_REMOVE_ALL_HOLES	Supprimer tous les trous	Remove all holes	すべての穴を削除
+GEOM_msg_fr	GEOM_REMOVE_ALL_INT_WIRES	Supprimer tous les contours internes	Remove all internal wires	すべての内部ワイヤーを削除
+GEOM_msg_fr	GEOM_REMOVE_EXTRA_EDGES	Objet dont on suppime les arêtes inutiles	Object to remove extra edges	不要なエッジを削除するためのオブジェクト
+GEOM_msg_fr	GEOM_REMOVE_EXTRA_EDGES_TITLE	Supprimer les arêtes inutiles	Remove extra edges	不要なエッジを削除
+GEOM_msg_fr	GEOM_REMOVE_HOLES_TITLE	Supprimer les trous	Suppress holes	穴を削除
+GEOM_msg_fr	GEOM_REMOVE_INTERNAL_WIRES_TITLE	Supprimer les contours internes	Suppress internal wires	内部のワイヤーを削除
+GEOM_msg_fr	GEOM_REMOVE_WEBS	Supprimer les toiles	Remove webs	梁を削除
+GEOM_msg_fr	GEOM_REQUIRED_DEGREE	Degré nécessaire	Required degree	必要な自由度
+GEOM_msg_fr	GEOM_REVERSE	Inverser	Reverse	反転
+GEOM_msg_fr	GEOM_REVERSE_DIRECTION	Inverser la direction	Reverse Direction	方向を反転
+GEOM_msg_fr	GEOM_REVERSE_PLANE	Inverser la normale du plan	Reverse the plane normal	平面の法線を反転
+GEOM_msg_fr	GEOM_REVERSE_U	Inverser U	Reverse U	Uを反転
+GEOM_msg_fr	GEOM_REVERSE_V	inverser V	Reverse V	Vを反転
+GEOM_msg_fr	GEOM_REVERSE_VECTOR	Inverser un vecteur	Reverse Vector	ベクトルを反転
+GEOM_msg_fr	GEOM_REVOLUTION	Révolution	Revolution	公転
+GEOM_msg_fr	GEOM_REVOLUTION_TITLE	Construction par révolution	Construction By Revolution	公転の構築
+GEOM_msg_fr	GEOM_RMEE_UNION_FACES	Union des faces, qui appartiennent à la même surface	Union faces, laying on common surface	同じサーフェスに属するフェースを結合
+GEOM_msg_fr	GEOM_ROTATION	Rotation	Rotation	回転
+GEOM_msg_fr	GEOM_ROTATION_TITLE	Rotation d'un objet	Rotation Of An Object	オブジェクトの回転
+GEOM_msg_fr	GEOM_SCALE_DIMENSIONS	Voulez-vous prendre les unités en considération?
+Sinon les dimensions seront préservées sans modifications.	Would you like to take into account the units?
+Otherwise the dimensions will be kept without modifications.	この単位を考慮しますか?
+そうでなければ寸法は変更することなく保持されます。
+GEOM_msg_fr	GEOM_SCALE_FACTOR	Facteur d'échelle :	Scale Factor :	スケール ファクター：
+GEOM_msg_fr	GEOM_SCALE_FACTOR_X	Facteur de redimensionnnement suivant X :	Scale Factor X :	スケール ファクター X：
+GEOM_msg_fr	GEOM_SCALE_FACTOR_Y	Facteur de redimensionnnement suivant Y :	Scale Factor Y :	スケール ファクター Y：
+GEOM_msg_fr	GEOM_SCALE_FACTOR_Z	Facteur de redimensionnnement suivant Z :	Scale Factor Z :	スケール ファクター Z：
+GEOM_msg_fr	GEOM_SCALE_PRISM	Appliquer le facteur d'échelle	Scale the face opposite to the base	ベースに対して反対にフェースサイズを変更
+GEOM_msg_fr	GEOM_SCALE_TITLE	Redimensionner un objet	Scale An Object	オブジェクトのサイズを変更
+GEOM_msg_fr	GEOM_SECTION_TITLE	Section de deux objets	Section Of Two Objects	2つのオブジェクトのセクション
+GEOM_msg_fr	GEOM_SEGMENT	Segment de droite	Segment of straight line	直線のセグメント
+GEOM_msg_fr	GEOM_SELECTED_FACE	Face sélectionnée 	Selected face	選択したフェース
+GEOM_msg_fr	GEOM_SELECTED_SHAPE	Forme sélectionnée 	Selected shape	選択した形状
+GEOM_msg_fr	GEOM_SELECT_UNPUBLISHED_EDGES	Choisir les arêtes non-publiées	Select unpublished edges	非公開のエッジを選択
+GEOM_msg_fr	GEOM_SET_MATERIALS	Définir les materiaux	Set materials	材料を定義
+GEOM_msg_fr	GEOM_SEWING	Couture	Sewing	つなぎ合わせ
+GEOM_msg_fr	GEOM_SEWING_TITLE	Couture topologique	Topological sewing	トポロジーのつなぎ合わせ
+GEOM_msg_fr	GEOM_SHAPE	Forme	Shape	形状
+GEOM_msg_fr	GEOM_SHAPEPROCESS_TITLE	Traitement de formes	Shape Processing	形状の処理
+GEOM_msg_fr	GEOM_SHAPES	Formes	Shapes	形状
+GEOM_msg_fr	GEOM_SHAPES_ON_SHAPE_CSHAPE	Le solide de contrôle	Solid for checking	チェックのためのソリッド
+GEOM_msg_fr	GEOM_SHAPES_ON_SHAPE_ESHAPE	L'objet à éclater	Shape for exploding	展開する形状
+GEOM_msg_fr	GEOM_SHARED_SHAPE	Partagé_%1	Shared_%1	Shared_%1
+GEOM_msg_fr	GEOM_SHARED_SHAPES_INPUT	Paramètres d'entrée	Input data	データ入力
+GEOM_msg_fr	GEOM_SHARED_SHAPES_TITLE	Trouver les éléments partagés	Get Shared Shapes	共有アイテムを取得
+GEOM_msg_fr	GEOM_SHELL	Coque	Shell	シェル
+GEOM_msg_fr	GEOM_SHELLS	Coques	Shells	シェル
+GEOM_msg_fr	GEOM_SHELL_TITLE	Construction d'une coque	Shell Construction	シェルの構築
+GEOM_msg_fr	GEOM_SKETCHER_ABS	Absolu	Absolute	絶対値
+GEOM_msg_fr	GEOM_SKETCHER_ARC	Arc	Arc	円弧
+GEOM_msg_fr	GEOM_SKETCHER_CENTER_X	X Centre :	X Center :	X センター:
+GEOM_msg_fr	GEOM_SKETCHER_DEST	Destination	Destination	目的
+GEOM_msg_fr	GEOM_SKETCHER_DZ2	DZ :	DZ :	DZ :
+GEOM_msg_fr	GEOM_SKETCHER_END_POINT2	Point d'arrivée :	End Point :	終端のポイント:
+GEOM_msg_fr	GEOM_SKETCHER_NONE	Aucun (Tangentiel)	None (Tangential)	なし (接線)
+GEOM_msg_fr	GEOM_SKETCHER_POINT2	Point :	Point :	ポイント:
+GEOM_msg_fr	GEOM_SKETCHER_REL	Relatif	Relative	関係
+GEOM_msg_fr	GEOM_SKETCHER_UNDO	Revenir	Undo	アンドゥ
+GEOM_msg_fr	GEOM_SKETCHER_WARNING	Attention : Point final distant de l'arc de : 	Warning: End point not on the arc, distance = 	注意: エンドポイントが円弧上にありません。距離は
+GEOM_msg_fr	GEOM_SKETCHER_Y	Y	Y	そこ
+GEOM_msg_fr	GEOM_SOLID	Solide	Solid	ソリッド
+GEOM_msg_fr	GEOM_SOLID_TITLE	Construction d'un solide	Solid Construction	ソリッドの構築
+GEOM_msg_fr	GEOM_SOURCE_OBJECT	Point, arête ou contour de source	Source vertex, edge or wire	ポイント、エッジ、またはワイヤーの源
+GEOM_msg_fr	GEOM_SPHERE_CR	Centre + Rayon	Center + Radius	中央＋半径
+GEOM_msg_fr	GEOM_SPHERE_RO	Rayon (centre à l'origine)	Radius At Origin	原点中心で半径
+GEOM_msg_fr	GEOM_START_LCS	SCL du Début	Start LCS	LCS の始まり
+GEOM_msg_fr	GEOM_STATE_IN	IN	IN	IN
+GEOM_msg_fr	GEOM_STATE_ON	ON	ON	ON
+GEOM_msg_fr	GEOM_STATE_ONIN	ONIN	ONIN	ONIN
+GEOM_msg_fr	GEOM_STATE_OUT	OUT	OUT	OUT
+GEOM_msg_fr	GEOM_STEP	Pas :	Step :	ステップ：
+GEOM_msg_fr	GEOM_STEP_TITLE	Valeur du pas pour les constructions d'IHM	Step value for GUI constructions	GUI構築のステップ値
+GEOM_msg_fr	GEOM_STEP_U	Pas U :	Step U :	ステップ U:
+GEOM_msg_fr	GEOM_STEP_V	Pas V :	Step V :	ステップ V：
+GEOM_msg_fr	GEOM_STUDY_LOCKED	L'étude en cours est fermée et il n'est pas possible de la modifier	The active study is locked and therefore cannot be modified	現在のスタディはロックされているので、変更することはできません
+GEOM_msg_fr	GEOM_SUBSHAPE_SELECT	Choisir les sous-objets	Select Sub Shapes	サブオブジェクトを選択
+GEOM_msg_fr	GEOM_SUPPRESSHOLE_FACE_SHELL	Face ou coque	Face or shell	フェースやシェル
+GEOM_msg_fr	GEOM_SUPPRESSHOLE_SELECTFACE	Choisir la face avec un trou	Select the face with hole	穴のフェースを選択
+GEOM_msg_fr	GEOM_SUPPRESSHOLE_SELECTFACE_END	Choisir la face finale (si l'on traverse le trou)	Select end face (if hole traversing)	(穴を通す場合)フェース端を選択
+GEOM_msg_fr	GEOM_SUPPRESSHOLE_SELECTWIRE	Choisir le contour d'une face	Select wire on face	フェースの輪郭を選択
+GEOM_msg_fr	GEOM_SUPPRESSHOLE_SELECTWIRE_END	Choisir le contour final (si l'on traverse le trou)	Select end wire (if hole traversing)	(穴を通す場合)、輪郭端を選択
+GEOM_msg_fr	GEOM_SUPPRESSHOLE_SELECT_HOLES_ON_FACE	Choisir les trous sur la face	Select hole(s) on the face	フェース上の穴を選択
+GEOM_msg_fr	GEOM_SUPPRESSHOLE_TITLE	Supprimer les trous	Suppress holes	穴を削除
+GEOM_msg_fr	GEOM_SUPPRESS_RESULT	Supprimer le résultat	Suppress Result	結果を削除
+GEOM_msg_fr	GEOM_SUPPRESS_RESULT_INSIDE	A l'intérieur	Inside	内側
+GEOM_msg_fr	GEOM_SUPPRESS_RESULT_OUTSIDE	A l'extérieur	Outside	外側
+GEOM_msg_fr	GEOM_SUPRESSFACE	Supprimer une Face	Supress Face	フェースを削除
+GEOM_msg_fr	GEOM_SUPRESSFACE_SELECT	Choisissez les faces à supprimer	Select Faces To Suppress	削除するフェースを選択
+GEOM_msg_fr	GEOM_SUPRESSFACE_TITLE	Supprimer les faces d'un objet	Suppress Faces In An Object	オブジェクトのフェースを削除
+GEOM_msg_fr	GEOM_SURFACE_MODE	Mode de Surface 	Surface mode	サーフェスモード
+GEOM_msg_fr	GEOM_SURFCONE	Face conique 	Conical Face	円錐形フェース
+GEOM_msg_fr	GEOM_SURFCYLINDER	Face cylindrique 	Cylindrical Face	円筒形フェース
+GEOM_msg_fr	GEOM_SURFSPHERE	Face sphérique	Spherical Face	球形フェース
+GEOM_msg_fr	GEOM_SURFTORUS	Face toroïdale 	Toroidal Face	ドーナツ状フェース
+GEOM_msg_fr	GEOM_SameParameter	MêmeParamètre	SameParameter	同パラメータ
+GEOM_msg_fr	GEOM_SplitAngle	SéparerAngle	SplitAngle	分割角度
+GEOM_msg_fr	GEOM_SplitClosedFaces	SéparerFacesFermées	SplitClosedFaces	閉じたフェースの分割
+GEOM_msg_fr	GEOM_SplitContinuity	SéparerContinuité	SplitContinuity	接続を分離
+GEOM_msg_fr	GEOM_TARGET_OBJECT	Face d'objectif	Target face	目的フェース
+GEOM_msg_fr	GEOM_TOLERANCE	Tolérance	Tolerance	公差
+GEOM_msg_fr	GEOM_TOLERANCE_FACE	Face :	Face :	フェース：
+GEOM_msg_fr	GEOM_TOLERANCE_TITLE	Tolérance maximale 	Maximum Tolerance	最大公差
+GEOM_msg_fr	GEOM_TOLERANCE_VERTEX	Point:	Vertex :	ポイント:
+GEOM_msg_fr	GEOM_TORUS	Tore	Torus	円環
+GEOM_msg_fr	GEOM_TORUS_TITLE	Construction d'un tore 	Torus Construction	円環の構築
+GEOM_msg_fr	GEOM_TRANSLATION	Translation	Translation	変換
+GEOM_msg_fr	GEOM_TRANSLATION_COOR	Translation avec coordonnées	Translation With Coordinates	座標変換
+GEOM_msg_fr	GEOM_TRIHEDRON	Trièdre	Trihedron	三面体
+GEOM_msg_fr	GEOM_ToBezier	VersBezier	ToBezier	ToBezier
+GEOM_msg_fr	GEOM_UPARAMETER	Paramètre-U :	U-parameter :	パラメーター U:
+GEOM_msg_fr	GEOM_VECTOR_MAJOR	Grand Axe	Major Axis	主要軸
+GEOM_msg_fr	GEOM_VECTOR_NORMALE	Vecteur_Normal	Vector_Normal	Vector_Normal
+GEOM_msg_fr	GEOM_VPARAMETER	Paramètre-V :	V-parameter :	パラメーター V：
+GEOM_msg_fr	GEOM_WHATIS	Qu'est-ce que c'est ?	Whatis	Whatis
+GEOM_msg_fr	GEOM_WHATIS_OBJECT	Objet et ses caractéristiques topologiques 	Object And Its Topological Information	オブジェクトとそのトポロジー情報
+GEOM_msg_fr	GEOM_WHATIS_TITLE	Qu'est-ce que c'est ?	Whatis Information	Whatis Information
+GEOM_msg_fr	GEOM_WIRE	Contour	Wire	ワイヤー
+GEOM_msg_fr	GEOM_WIRES	Contour(s)	Wire(s)	ワイヤー
+GEOM_msg_fr	GEOM_WIRES_TO_REMOVE	Contours à supprimer	Wires to remove	削除するワイヤー
+GEOM_msg_fr	GEOM_WIREZ	Contours	Wires	ワイヤー
+GEOM_msg_fr	GEOM_WIRE_CONNECT	Création d'un contour à partir de contours/arêtes connecté(e)s	Wire creation from wires/edges connected	ワイヤー/エッジからワイヤーを作成
+GEOM_msg_fr	GEOM_WIRE_TITLE	Création d'un contour	Create A Wire	ワイヤーを作成
+GEOM_msg_fr	GEOM_WPLANE	Plan de travail	Working Plane	作業平面
+GEOM_msg_fr	GEOM_WPLANE_FACE	Plan, Face plane ou SCL	Plane, Planar Face or LCS	平面、平らなフェースまたはLCS
+GEOM_msg_fr	GEOM_WPLANE_ORIGIN	Choisissez un plan	Select a plane	平面を選択
+GEOM_msg_fr	GEOM_WPLANE_OXY	OXY	OXY	OXY
+GEOM_msg_fr	GEOM_WPLANE_TITLE	Sélection du plan de travail	Working Plane Selection	作業平面の選択
+GEOM_msg_fr	GEOM_WPLANE_VECTOR	Choisissez 2 vecteurs	Select 2 vectors	2ベクトルを選択
+GEOM_msg_fr	GEOM_WPLANE_VZ	Vecteur Z	Vector Z	ベクトル Z
+GEOM_msg_fr	GEOM_WRN_NO_APPROPRIATE_SELECTION	Pas d'objets appropriés choisis	No appropriate objects selected	適当なオブジェクトが選択されていません
+GEOM_msg_fr	GEOM_WRN_PARTITION_RESULT_EMPTY	Le résultat de la partition est vide, verifiez le paramètre limite de reconstruction	The partition result is empty, please verify the reconstruction limit parameter.	パーティションの結果が空です。再構成の制限パラメータを確認してください。
+GEOM_msg_fr	GEOM_WRN_RADIUS_NULL	Le rayon est nul	Radius is null	半径はゼロです
+GEOM_msg_fr	GEOM_X	X :	X :	X :
+GEOM_msg_fr	GEOM_X_I	X%1 :	X%1 :	X%1 :
+GEOM_msg_fr	GEOM_Y	Y :	Y :	Y :
+GEOM_msg_fr	GEOM_Y_I	Y%1 :	Y%1 :	Y%1 :
+GEOM_msg_fr	GEOM_Z	Z :	Z :	Z :
+GEOM_msg_fr	GEOM_Z_I	Z%1 :	Z%1 :	Z%1 :
+GEOM_msg_fr	GLUE_ALL_EDGES	Recoller toutes les arêtes coïncidentes	Glue all coincident edges	一致するすべてのエッジを固着
+GEOM_msg_fr	GLUE_EDGES	Recoller les arêtes	Glue edges	エッジの固着
+GEOM_msg_fr	GLUE_FACES	Recollement de faces	Glue faces	フェースの固着
+GEOM_msg_fr	GLUE_NEW_OBJ_NAME	Recollement	Glue	固着
+GEOM_msg_fr	HALF_LENGTH_INCIDENT_PIPE	Demi-longueur du tuyau incident	Incident pipe half length	半分の長さのパイプを追加
+GEOM_msg_fr	HALF_LENGTH_MAIN_PIPE	Demi-longueur du tuyau principal 	Main pipe half length	半分の長さのパイプを作成
+GEOM_msg_fr	HELP_BTN	&Aide	&Help	ヘルプ(&H)
+GEOM_msg_fr	JUNCTION_FACE_1	Jonction 1	Junction 1	Junction 1
+GEOM_msg_fr	JUNCTION_FACE_2	Jonction 2	Junction 2	Junction 2
+GEOM_msg_fr	JUNCTION_FACE_3	Jonction 3	Junction 3	Junction 3
+GEOM_msg_fr	LCS_NAME	SCLocal	LocalCS	LocalCS
+GEOM_msg_fr	LIMIT_TOLERANCE_NEW_OBJ_NAME	Tolérance_limite	Limit_tolerance	Limit_tolerance
+GEOM_msg_fr	MAIN_SHAPE	Objet Principal 	Main Shape	メインオブジェクト
+GEOM_msg_fr	MAIN_SUB_SHAPES	Objet principal et objets secondaires	Main Shape And Sub-Shapes	メインオブジェクトおよびサブオブジェクト
+GEOM_msg_fr	MAKE_FACE_TOLERANCE_TOO_BIG	La face créée a une tolérance élevée	Tolerance of resulting face is too big	結果のフェースの許容範囲が大きすぎる
+GEOM_msg_fr	MEN_3DSKETCH	Esquisse 3D	3D Sketch	3D スケッチ
+GEOM_msg_fr	MEN_ALL_SEL_ONLY	Sélectionner tout	Select All	すべてを選択
+GEOM_msg_fr	MEN_ARC	Arc	Arc	円弧
+GEOM_msg_fr	MEN_ARCHIMEDE	Archimède	Archimede	らせん
+GEOM_msg_fr	MEN_BOOLEAN	Opérations booléennes	Boolean	ブーリアン
+GEOM_msg_fr	MEN_CHANGE_ORIENTATION	Changer l'orientation	Change Orientation	向きを変更
+GEOM_msg_fr	MEN_CHECK	Contrôler un objet	Check Shape	形状チェック
+GEOM_msg_fr	MEN_CHECK_COMPOUND	Contrôler un assemblage de blocs	Check Compound of Blocks	ブロックのアセンブリチェック
+GEOM_msg_fr	MEN_CHECK_FREE_BNDS	Contrôler les contours libres	Check Free Boundaries	フリー境界チェック
+GEOM_msg_fr	MEN_CHECK_FREE_FACES	Contrôler les faces libres	Check Free Faces	フリーフェースチェック
+GEOM_msg_fr	MEN_CHECK_GEOMETRY	Contrôler la géométrie	Check Geometry	ジオメトリチェック
+GEOM_msg_fr	MEN_CIRCLE	Cercle	Circle	円
+GEOM_msg_fr	MEN_CLOSE_CONTOUR	Fermer le contour	Close Contour	ワイヤーを閉じる
+GEOM_msg_fr	MEN_COMMON	Intersection	Common	共通
+GEOM_msg_fr	MEN_CONE	Cône	Cone	円錐
+GEOM_msg_fr	MEN_CUT	Découpe	Cut	カット
+GEOM_msg_fr	MEN_CYLINDER	Cylindre	Cylinder	円柱
+GEOM_msg_fr	MEN_DISK	Disque	Disk	円盤
+GEOM_msg_fr	MEN_DISPLAY_ALL	Afficher tout	Show All	すべてを表示
+GEOM_msg_fr	MEN_DISPLAY_ONLY	Afficher uniquement	Show Only	選択のみ表示
+GEOM_msg_fr	MEN_EDIT	Edition	Edit	編集(&E)
+GEOM_msg_fr	MEN_ERASE	Cacher	Hide	非表示
+GEOM_msg_fr	MEN_ERASE_ALL	Cacher tout	Hide All	すべてを非表示
+GEOM_msg_fr	MEN_EXPLODE	Eclater	Explode	展開
+GEOM_msg_fr	MEN_EXPLODE_BLOCKS	Eclater en blocs	Explode on Blocks	ブロックで展開
+GEOM_msg_fr	MEN_EXPORT	Exporter...	Export...	エクスポート...
+GEOM_msg_fr	MEN_EXTRUSION	Extrusion	Extrusion	押出し
+GEOM_msg_fr	MEN_FACE	Face	Face	フェース
+GEOM_msg_fr	MEN_FACE_SEL_ONLY	Face	Face	フェース
+GEOM_msg_fr	MEN_FILE	Fichier	File	ファイル(&F)
+GEOM_msg_fr	MEN_FILLET	Congé 3D	Fillet 3D	3Dフィレット
+GEOM_msg_fr	MEN_FILLET_1D	Congé 1D	Fillet 1D	1Dフィレット
+GEOM_msg_fr	MEN_FILLET_2D	Congé 2D	Fillet 2D	2Dフィレット
+GEOM_msg_fr	MEN_FILLING	Nappe	Filling	埋込み
+GEOM_msg_fr	MEN_FUSE	Union	Fuse	結合
+GEOM_msg_fr	MEN_GENERATION	Génération	Generation	ジェネレーション
+GEOM_msg_fr	MEN_GLUE_EDGES	Recoller les arêtes	Glue Edges	固着エッジ
+GEOM_msg_fr	MEN_GLUE_FACES	Recoller les faces	Glue Faces	固着フェース
+GEOM_msg_fr	MEN_GROUP_CREATE	Créer un groupe	Create	グループを作成
+GEOM_msg_fr	MEN_HEX_SOLID	Solid hexaédrique	Hexahedral Solid	六面体ソリッド
+GEOM_msg_fr	MEN_IMPORT	Importer...	Import...	インポート...
+GEOM_msg_fr	MEN_ISOS	Isos	Isos	Isos
+GEOM_msg_fr	MEN_LINE	Ligne	Line	ライン
+GEOM_msg_fr	MEN_MASS_CENTER	Centre de gravité	Center of Mass	重心
+GEOM_msg_fr	MEN_MEASURES	Mesures	Measures	計測
+GEOM_msg_fr	MEN_MIRROR	Symétrie	Mirror Image	イメージの反転
+GEOM_msg_fr	MEN_MODIFY_LOCATION	Modifer la position	Modify Location	位置を編集
+GEOM_msg_fr	MEN_NORMALE	Vecteur normal à une face	Normal to a Face	フェースに垂直
+GEOM_msg_fr	MEN_OFFSET	Décaler une surface	Offset Surface	サーフェスをオフセット
+GEOM_msg_fr	MEN_ORIGIN_AND_VECTORS	Vecteurs de base et origine	Origin and Base Vectors	原点とベースベクトル
+GEOM_msg_fr	MEN_PIPE	Extrusion suivant un chemin	Extrusion Along Path	パスに沿って押出し
+GEOM_msg_fr	MEN_PIPETSHAPE	Tuyau en T	Pipe TShape	パイプ Tshape
+GEOM_msg_fr	MEN_PLANE	Plan	Plane	平面
+GEOM_msg_fr	MEN_POINT_ON_EDGE	Ajouter un point sur l'arête	Add Point on Edge	端にポイントを追加
+GEOM_msg_fr	MEN_POP_CREATE_GROUP	Créer un groupe	Create Group	グループを作成
+GEOM_msg_fr	MEN_POP_DEFLECTION	Coefficient de déformation	Deflection Coefficient	変形倍率
+GEOM_msg_fr	MEN_POP_DISABLE_AUTO_COLOR	Désactiver le couleur automatique	Disable Auto Color	自動カラーを無効
+GEOM_msg_fr	MEN_POP_ISOS	Isos	Isos	Isos
+GEOM_msg_fr	MEN_POP_PUBLISH_OBJ	Publier...	Publish...	発行...
+GEOM_msg_fr	MEN_POP_SHOW_CHILDREN	Montrer les enfants	Show Children	子供を表示
+GEOM_msg_fr	MEN_POP_UNPUBLISH_OBJ	Dépublier	Unpublish	発行停止
+GEOM_msg_fr	MEN_POP_VECTORS	Montrer l'orientation de l'arête	Show Edge Direction	エッジの方向を表示
+GEOM_msg_fr	MEN_Q_FACE	Face quadrangulaire 	Quadrangle Face	四角形フェース
+GEOM_msg_fr	MEN_REMOVE_EXTRA_EDGES	Suppimer les arêtes inutiles	Remove Extra Edges	不要なエッジを削除
+GEOM_msg_fr	MEN_REVOLUTION	Révolution	Revolution	公転
+GEOM_msg_fr	MEN_SCALE	Redimensionner	Scale Transform	サイズを変更
+GEOM_msg_fr	MEN_SELECT_ONLY	Sélectionner uniquement	Select Only	のみを選択
+GEOM_msg_fr	MEN_SEWING	Couture	Sewing	縫い合わせ
+GEOM_msg_fr	MEN_SHAPE_PROCESS	Traitement de forme	Shape Processing	形状処理
+GEOM_msg_fr	MEN_SHELL	Coque	Shell	シェル
+GEOM_msg_fr	MEN_SHELL_SEL_ONLY	Coque	Shell	シェル
+GEOM_msg_fr	MEN_SOLID	Solide	Solid	ソリッド
+GEOM_msg_fr	MEN_SOLID_SEL_ONLY	Solide	Solid	ソリッド
+GEOM_msg_fr	MEN_SUPPERSS_HOLES	Supprimer les trous	Suppress Holes	穴を削除
+GEOM_msg_fr	MEN_SUPPRESS_FACES	Supprimer des faces	Suppress Faces	フェースを削除
+GEOM_msg_fr	MEN_SUPPRESS_INT_WIRES	Supprimer des contours Internes	Suppress Internal Wires	内部の輪郭を削除
+GEOM_msg_fr	MEN_TOLERANCE	Tolérance	Tolerance	公差
+GEOM_msg_fr	MEN_TOOLS	Outils	Tools	ツール(&T)
+GEOM_msg_fr	MEN_TORUS	Tore	Torus	円環体
+GEOM_msg_fr	MEN_TRANSFORMATION	Transformation	Transformation	変形
+GEOM_msg_fr	MEN_TRANSLATION	Translation	Translation	変換
+GEOM_msg_fr	MEN_VECTOR_MODE_OFF	Cacher l'orientation de l'arête	Hide Edge Direction	エッジの方向を非表示
+GEOM_msg_fr	MEN_VECTOR_MODE_ON	Montrer l'orientation de l'arête	Show Edge Direction	エッジの方向を表示
+GEOM_msg_fr	MEN_VIEW	Affichage	View	表示(&V)
+GEOM_msg_fr	MEN_WHAT_IS	Qu'est-ce que c'est ?	What is	What is
+GEOM_msg_fr	MEN_WIRE	Contour	Wire	ワイヤー
+GEOM_msg_fr	MEN_WIREFRAME	Filaire	Wireframe	ワイヤーフレーム
+GEOM_msg_fr	MEN_WIRE_SEL_ONLY	Contour	Wire	ワイヤー
+GEOM_msg_fr	MEN_WORK_PLANE	Plan de travail	Working Plane	作業平面
+GEOM_msg_fr	MSG_SHARED_SHAPES_TOO_FEW_SHAPES	Pas assez d'éléments sélectionnés	To few shapes selected.	十分なアイテムが選択されていない
+GEOM_msg_fr	NB_FACES_MAX	Nombre de faces maximal	Max. nb. faces	面の最大数
+GEOM_msg_fr	NB_FACES_MIN	Nombre de faces maximal	Min. nb. faces	面の最小数
+GEOM_msg_fr	NON_GEOM_OBJECTS_SELECTED	Il y a des objets n'appartenant pas au composant %1 dans la sélection 	There are objects selected which do not belong to %1 component.	%1 コンポーネントに属していない選択オブジェクトがあります
+GEOM_msg_fr	NOT_FOUND_ANY	Aucune entité n'a été trouvée	Not a single entity has been found	エンティティが見つかりませんでした
+GEOM_msg_fr	NO_GROUP	Choisissez un groupe à éditer	Please, select a group to edit	編集するグループを選択してください
+GEOM_msg_fr	NO_MAIN_OBJ	Choisissez un objet principal	Please, select a main shape	メインオブジェクトを選択してください
+GEOM_msg_fr	NO_RESTR	Pas de restriction	No restriction	制限なし
+GEOM_msg_fr	NO_SUBSHAPES_SELECTED	Choisissez un ou plusieurs sous-objets	Please, select one or more sub-shapes	1つまたは複数のサブオブジェクトを選択してください
+GEOM_msg_fr	NUMBER_CLOSED	Nombre de contours libres fermés	Number of closed free boundaries: 	閉じた自由境界の数
+GEOM_msg_fr	NUMBER_OPEN	Nombre de contours libres ouverts	Number of open free boundaries: 	開いた自由境界の数
+GEOM_msg_fr	OK_BTN	&OK	&OK	OK(&O)
+GEOM_msg_fr	PREF_AUTO_CREATE	Créer automatiquement	Auto create	自動作成
+GEOM_msg_fr	PREF_BASE_VECTORS_LENGTH	Longueur des vecteurs de base	Length of base vectors	基準ベクトルの長さ
+GEOM_msg_fr	PREF_DEFLECTION	Coefficient de déformation	Deflection coefficient	変形倍率
+GEOM_msg_fr	PREF_FREE_BOUND_COLOR	Couleur des contours libres	Color of free boundaries	自由境界の色
+GEOM_msg_fr	PREF_GROUP_OCCVIEWER	Visualiseur OCC 3d	OCC Viewer 3d	OCC ビュワー 3d
+GEOM_msg_fr	PREF_GROUP_ORIGIN_AND_BASE_VECTORS	Vecteurs de base et origine	Origin and base vectors	原点と基準ベクトル
+GEOM_msg_fr	PREF_STEP_VALUE	Valeur du pas pour les boîtes d'incrément	Step value for spin boxes	スピンボックスのステップ値
+GEOM_msg_fr	PROCESS_SHAPE_NEW_OBJ_NAME	FormeRetraitée	ProcessShape	ProcessShape
+GEOM_msg_fr	REMOVE_EXTRA_EDGES_NEW_OBJ_NAME	PasdAretesSupplementaires	NoExtraEdges	NoExtraEdges
+GEOM_msg_fr	REMOVE_HOLES_NEW_OBJ_NAME	SupprimerTrous	SupressHoles	SupressHoles
+GEOM_msg_fr	REMOVE_INT_WIRES_NEW_OBJ_NAME	SupprimerContoursInt	RemoveIntWires	RemoveIntWires
+GEOM_msg_fr	SELECT_ALL	Tout sélectionner	Select All	すべて選択
+GEOM_msg_fr	SELECT_EDGES	Choisir les arêtes	Select Edges	エッジを選択
+GEOM_msg_fr	SELECT_FACES	Choisir les Faces	Select Faces	フェースを選択
+GEOM_msg_fr	SELECT_UNPUBLISHED_EDGES	Choisir les arêtes non-publiées	Select unpublished edges	非公開のエッジを選択
+GEOM_msg_fr	SET_MARKER_TLT	Définir le Marqueur de Point	Set Point Marker	ポイント マーカーを設定
+GEOM_msg_fr	SEWING_NEW_OBJ_NAME	Couture	Sewing	縫い合わせ
+GEOM_msg_fr	SHAPE_SEL_RESTR	Restriction de la sélection	Main Shape Selection restriction	メインオブジェクト選択の制限
+GEOM_msg_fr	SHOW_ALL_SUB_SHAPES	Afficher tous les sous-objets	Show all sub-shapes	すべてのサブオブジェクトを表示
+GEOM_msg_fr	SHOW_ONLY_SELECTED	Afficher uniquement la sélection	Show only selected	選択範囲のみを表示
+GEOM_msg_fr	STB_3DSKETCH	Créer une esquisse 3D	Create 3D sketch	3Dスケッチを作成
+GEOM_msg_fr	STB_ALL_SEL_ONLY	Choisir tous les objets	Select all Objects	すべてのオブジェクトを選択
+GEOM_msg_fr	STB_ARC	Créer un arc	Create an arc	円弧を作成
+GEOM_msg_fr	STB_ARCHIMEDE	Opération archimède 	Archimede operation	らせん操作
+GEOM_msg_fr	STB_BASIC_PROPS	Montrer les propriétés de base de l'objet	Show basic properties of the shape	オブジェクトの基本プロパティを表示
+GEOM_msg_fr	STB_BND_BOX	Calculer la boîte englobante de l'objet	Compute bounding box of the shape	オブジェクトの境界ボックスを計算
+GEOM_msg_fr	STB_BOX	Créer une boîte	Create a box	ボックスを作成
+GEOM_msg_fr	STB_CHAMFER	Créer un chanfrein	Create a chamfer	面取りを作成
+GEOM_msg_fr	STB_CHANGE_ORIENTATION	Changer l'orientation	Change orientation	方向を変更
+GEOM_msg_fr	STB_CHECK	Contrôler une forme	Check shape validity	形状の妥当性を確認
+GEOM_msg_fr	STB_CHECK_COMPOUND	Contrôler un assemlage de blocs	Check compound of blocks	ブロックアセンブリを確認
+GEOM_msg_fr	STB_CHECK_FREE_BNDS	Vérifier les contours libres	Check free boundaries	自由境界をチェック
+GEOM_msg_fr	STB_CHECK_FREE_FACES	Contrôler les faces libres	Check free faces	フリーフェースの確認
+GEOM_msg_fr	STB_CHECK_GEOMETRY	Contrôler la géométrie	Check Geometry	ジオメトリの確認
+GEOM_msg_fr	STB_CIRCLE	Créer un cercle	Create a circle	円を作成
+GEOM_msg_fr	STB_CLIPPING	Intervalle de découpe	Clipping range	切り抜き範囲
+GEOM_msg_fr	STB_CLOSE_CONTOUR	Fermer le contour	Perform close contour	近い輪郭を作成
+GEOM_msg_fr	STB_COMMON	Intersection	Common	共通
+GEOM_msg_fr	STB_COMPOUND	Construire un assemblage	Build a compound	アセンブリをビルド
+GEOM_msg_fr	STB_COMPOUND_SEL_ONLY	Ne choisir que des assemblages	Select only a Compounds	アセンブリのみを選択
+GEOM_msg_fr	STB_CONE	Créer un cône	Create a cone	円錐を作成
+GEOM_msg_fr	STB_CURVE	Créer une courbe	Create a curve	カーブを作成
+GEOM_msg_fr	STB_CUT	Découpe	Cut	カット
+GEOM_msg_fr	STB_CYLINDER	Créer un cylindre	Create a cylinder	円柱を作成
+GEOM_msg_fr	STB_DELETE	Supprimer un objet	Delete object	オブジェクトを削除
+GEOM_msg_fr	STB_DISK	Créer un disque	Create a disk	円盤を作成
+GEOM_msg_fr	STB_DISPLAY_ALL	Afficher tout	Show all	すべてを表示
+GEOM_msg_fr	STB_DISPLAY_ONLY	Afficher uniquement	Show only	選択のみ表示
+GEOM_msg_fr	STB_EDGE	Créer une arête	Build an edge	エッジを作成
+GEOM_msg_fr	STB_EDGE_SEL_ONLY	Ne choisir que des arêtes	Select only a Edges	エッジだけを選択
+GEOM_msg_fr	STB_ELLIPSE	Créer un ellipse	Create an ellipse	楕円を作成
+GEOM_msg_fr	STB_ERASE	Cacher le(s) objet(s)	Hide object(s)	オブジェクトを非表示
+GEOM_msg_fr	STB_ERASE_ALL	Cacher tout	Hide all	すべての非表示
+GEOM_msg_fr	STB_EXPLODE	Eclater	Explode	展開
+GEOM_msg_fr	STB_EXPLODE_BLOCKS	Eclater en Blocs	Explode on Blocks	ブロックを展開
+GEOM_msg_fr	STB_EXPORT	Exporter la géométrie au fichier BREP	Export geometry to BREP file	ジオメトリをBREPファイルにエクスポート
+GEOM_msg_fr	STB_EXTRUSION	Créer une extrusion	Create an extrusion	押し出しを作成
+GEOM_msg_fr	STB_FACE	Construire une face	Build a face	フェースを作成
+GEOM_msg_fr	STB_FACE_SEL_ONLY	Ne choisir que des faces	Select only a Faces	フェースだけを選択
+GEOM_msg_fr	STB_FILLET	Créer un congé 3D	Create 3D fillet	3Dフィレットを作成
+GEOM_msg_fr	STB_FILLET_1D	Créer un congé 1D	Create 1D fillet	1Dフィレットを作成
+GEOM_msg_fr	STB_FILLET_2D	Créer un congé 2D	Create 2D fillet	2Dフィレットを作成
+GEOM_msg_fr	STB_FILLING	Créer une nappe	Create a filling	埋込みを作成
+GEOM_msg_fr	STB_FUSE	Union	Fuse	結合
+GEOM_msg_fr	STB_GET_SHARED_SHAPES	Trouve les éléments partagés	Get shared shapes	共有アイテムを取得
+GEOM_msg_fr	STB_GLUE_EDGES	Recoller les arêtes	Perform glue edges	エッジ固着を作成
+GEOM_msg_fr	STB_GLUE_FACES	Recoller les faces	Perform glue faces	フェース固着を作成
+GEOM_msg_fr	STB_GROUP_CREATE	Créer un groupe	Create a group	グループを作成
+GEOM_msg_fr	STB_GROUP_EDIT	Editer un groupe	Edit a group	グループを編集
+GEOM_msg_fr	STB_HEX_SOLID	Solide hexaédrique	Hexahedral Solid	六面体ソリッド
+GEOM_msg_fr	STB_IMPORT	Importer une géométrie d'un fichier BREP	Import geometry from BREP file	BREPファイルをジオメトリにインポート
+GEOM_msg_fr	STB_INERTIA	Calculer les moments d'intertie de l'objet	Compute moments of intertia of the shape	オブジェクトの慣性モーメントを計算
+GEOM_msg_fr	STB_ISOS	Définir le nombre d'isolignes	Set number of isolines	輪郭線の数を設定
+GEOM_msg_fr	STB_LIMIT_TOLERANCE	Tolérance limite	Limit tolerance	公差制限
+GEOM_msg_fr	STB_LINE	Créer une ligne	Create a line	ラインを作成
+GEOM_msg_fr	STB_LOCAL_CS	Créer un système local de coordonnées	Create a local coordinate system	ローカル座標系を作成
+GEOM_msg_fr	STB_MASS_CENTER	Calculer le centre de gravité de l'objet	Compute center of mass of the shape	オブジェクトの重心を計算
+GEOM_msg_fr	STB_MEASURE_ANGLE	Calculer l'angle entre deux lignes ou arêtes linéaires	Compute angle between two lines or linear edges	2つのラインまたはエッジ間の角度を計算
+GEOM_msg_fr	STB_MIN_DIST	Calculer la distance minimale entre deux objets	Compute minimum distance between two objects	2つのオブジェクト間の最小距離を計算
+GEOM_msg_fr	STB_MIRROR	Refléter un objet	Mirror a shape	オブジェクトをリフレクト
+GEOM_msg_fr	STB_MODIFY_LOCATION	Modifier la position d'un objet	Modify shape's location	オブジェクトの位置を変更
+GEOM_msg_fr	STB_MUL_ROTATION	Effectuer une multi-rotation	Perform multi-rotation	Multi-rotation を実行
+GEOM_msg_fr	STB_MUL_TRANSFORM	Effectuer une multi-transformation	Perform multi-transformation	Multi-transformation を実行
+GEOM_msg_fr	STB_MUL_TRANSLATION	Effectuer une multi-translation	Perform multi-translation	Multi-translation を実行
+GEOM_msg_fr	STB_NORMALE	Vecteur normal à une face	Compute normal to the face	フェースの垂直ベクトルを計算
+GEOM_msg_fr	STB_OFFSET	Décaler une surface 	Offset surface	サーフェスをオフセット
+GEOM_msg_fr	STB_ORIGIN_AND_VECTORS	Créer les vecterurs de base et l'origine	Create an origin and base Vectors	原点と基本ベクトルを作成
+GEOM_msg_fr	STB_PARTITION	Effectuer une partition	Make a partition	パーティションを作成
+GEOM_msg_fr	STB_PIPE	Créer un objet par extrusion suivant un chemin	Create a shape by extrusion along a path	パスに沿ったを押し出しを作成
+GEOM_msg_fr	STB_PIPETSHAPE	Créer un nouveau tuyau en T	Create new Pipe TShape object	新しいTShapeパイプを作成
+GEOM_msg_fr	STB_PLANE	Créer un plan	Create a plane	平面を作成
+GEOM_msg_fr	STB_POINT	Créer un point	Create a point	ポイントを作成
+GEOM_msg_fr	STB_POINT_COORDS	Montrer les coordonnées du point	Display point coordinates	ポイントの座標を表示
+GEOM_msg_fr	STB_POINT_ON_EDGE	Ajouter un point sur l'arête	Add point on edge	エッジにポイントを追加
+GEOM_msg_fr	STB_POP_CREATE_GROUP	Créer un Groupe	Create Group	グループを作成
+GEOM_msg_fr	STB_POP_DEFLECTION	Coefficient de déformation	Deflection Coefficient	変形倍率
+GEOM_msg_fr	STB_POP_DISABLE_AUTO_COLOR	Désactiver le couleur automatique	Disable auto color	自動カラーを無効
+GEOM_msg_fr	STB_POP_HIDE_CHILDREN	Cacher les objets fils	Hide child objects	子供オブジェクトを隠す
+GEOM_msg_fr	STB_POP_ISOS	Isolignes	Isolines	輪郭
+GEOM_msg_fr	STB_POP_POINT_MARKER	Définir un marqueur de point	Set Point Marker	ポイントマーカーを設定
+GEOM_msg_fr	STB_POP_PUBLISH_OBJ	Publier l'objet	Publish object	オブジェクトを発行
+GEOM_msg_fr	STB_POP_SHOW_CHILDREN	Monter les objets fils	Show child objects	子供オブジェクトを表示
+GEOM_msg_fr	STB_POP_UNPUBLISH_OBJ	Dépublier l'objet	Unpublish object	オブジェクトの発行停止
+GEOM_msg_fr	STB_POP_WIREFRAME	Contours	Wireframe	ワイヤーフレーム
+GEOM_msg_fr	STB_PROJECTION	Projetter un point, une arête ou un contour sur une face	Project a point, an edge or a wire on a face	フェース上にポイント、エッジ、またはワイヤーを投影
+GEOM_msg_fr	STB_Q_FACE	Face quadrangulaire 	Quadrangle Face	四角形フェース
+GEOM_msg_fr	STB_RECTANGLE	Créer une face rectangulaire 	Create rectangular face	長方形の面を作成
+GEOM_msg_fr	STB_RELOAD_IMPORTED	Recharger l'objet importé depuis le disque	Reload imported shape from its original place on disk	ディスク上の元の場所からインポートした形状をリロード
+GEOM_msg_fr	STB_REMOVE_EXTRA_EDGES	Suppimer les arêtes inutiles	Remove extra edges	不要なエッジを削除
+GEOM_msg_fr	STB_REVOLUTION	Créer une révolution	Create a revolution	公転を作成
+GEOM_msg_fr	STB_ROTATION	Tourner un objet	Rotate a shape	オブジェクトを回転
+GEOM_msg_fr	STB_SCALE	Redimensionner un objet	Scale a shape	オブジェクトのサイズを変更
+GEOM_msg_fr	STB_SEWING	Effectuer la couture	Perform sewing	縫い合わせ実行
+GEOM_msg_fr	STB_SHADING_COLOR	Définir la couleur d'ombrage	Set shading color	網かけの色を設定
+GEOM_msg_fr	STB_SHAPE_PROCESS	Effectuer le traitement de formes	Perform shape processing 	形状処理を実行する
+GEOM_msg_fr	STB_SHELL	Construire une coque	Build a shell	シェルを構築
+GEOM_msg_fr	STB_SHELL_SEL_ONLY	Ne choisir que des coques	Select only a Shells	シェルのみを選択
+GEOM_msg_fr	STB_SKETCH	Créer une esquisse 2D	Create 2D sketch	2Dスケッチを作成
+GEOM_msg_fr	STB_SOLID	Construire un solide	Build a solid	ソリッドを構築
+GEOM_msg_fr	STB_SOLID_SEL_ONLY	Ne choisir que des solides	Select only a Solids	ソリッドだけを選択
+GEOM_msg_fr	STB_SPHERE	Créer une sphère	Create a sphere	球を作成
+GEOM_msg_fr	STB_STEP_VALUE	Définir le valeur du pas	Set step value	ステップの値を設定
+GEOM_msg_fr	STB_SUPPERSS_HOLES	Effectuer la suppression des trous	Perform suppress holes	穴の削除を実行
+GEOM_msg_fr	STB_SUPPRESS_FACES	Effectuer la suppression des faces	Perform suppress faces	フェースの削除を実行
+GEOM_msg_fr	STB_SUPPRESS_INT_WIRES	Effectuer la suppression des contours internes	Perform suppress internal wires	内部ワイヤーの削除を実行
+GEOM_msg_fr	STB_TOLERANCE	Calculer la tolérance d'un objet	Compute tolerance of the shape	オブジェクトの距離を計算
+GEOM_msg_fr	STB_TORUS	Créer un tore	Create a torus	円環を作成
+GEOM_msg_fr	STB_TRANSLATION	Translater un objet	Translate shape	オブジェクトを変換
+GEOM_msg_fr	STB_VECTOR	Créer un vecteur	Create a vector	ベクトルを作成
+GEOM_msg_fr	STB_VECTOR_MODE	Changer le mode de représentation des arêtes	Change Edge Presentation Mode	エッジの表示モードを変更
+GEOM_msg_fr	STB_VERTEX_SEL_ONLY	Ne choisir que des points	Select only a Points	ポイントのみを選択
+GEOM_msg_fr	STB_WHAT_IS	Qu'est-ce que c'est ?	What is	What is
+GEOM_msg_fr	STB_WIRE	Construire un contour	Build a wire	ワイヤーを構築
+GEOM_msg_fr	STB_WIRE_SEL_ONLY	Ne choisir que des contours	Select only a Wires	ワイヤーだけを選択
+GEOM_msg_fr	STB_WORK_PLANE	Créer un plan de travail	Create a working plane	作業平面を作成
+GEOM_msg_fr	SUBSHAPES_OF_SHAPE2	Sous-Objets de l'Objet Secondaire Uniquement	Only Sub-Shapes of the Second Shape	２つ目のオブジェクトのサブオブジェクトのみ
+GEOM_msg_fr	SUPPRESS_RESULT	Supprimer le résultat	Suppress Result	結果を削除
+GEOM_msg_fr	SUPRESS_FACE_NEW_OBJ_NAME	FacesSupprimees	SupressFaces	SupressFaces
+GEOM_msg_fr	ShHealOper_ErrorExecution_msg	L'algorithme de traitement de formes n'a pas abouti	Shape Healing algorithm failed	形状縫合に失敗
+GEOM_msg_fr	ShHealOper_InvalidParameters_msg	Les paramètres de l'algorithme de traitement de formes sont incorrects	Incorrect parameters for Shape Healing algorithm	形状縫合アルゴリズムのパラメータが正しくありません
+GEOM_msg_fr	ShHealOper_NotError_msg	L'algorithme de traitement de formes n'a pas fait de modifications de la forme d'origine	Shape Healing algorithm has done no modification of the original shape	形状縫合アルゴリズムでは元の形状を変更しません
+GEOM_msg_fr	THERE_ARE_NO_EDGES_FOR_GLUING	Il n'y a pas d'arêtes à coller	There are no edges for gluing	固着するエッジはありません
+GEOM_msg_fr	THERE_ARE_NO_FACES_FOR_GLUING	Il n'y a pas de faces à coller	There are no faces for gluing	固着するフェースはありません
+GEOM_msg_fr	THICKNESS	Epaisseur	Thickness	厚み
+GEOM_msg_fr	TIME_CONSUMING	L'activation de cette option peut résulter en une perte de temps sur certains objets.\nVoulez-vous continuer?	Enabling this option may result in a very time-consuming operation for some input shapes.\nWould you like to continue?	このオプションを有効にすると、いくつかの形状入力に非常に時間のかかる操作になることがあります。\n続行しますか？
+GEOM_msg_fr	TOM_O	O	O	O
+GEOM_msg_fr	TOM_O_PLUS	+ en O	+ in O	+ in O
+GEOM_msg_fr	TOM_O_POINT	. en O	. in O	. in O
+GEOM_msg_fr	TOM_O_STAR	* en O	* in O	* in O
+GEOM_msg_fr	TOM_O_X	X en O	X in O	X in O
+GEOM_msg_fr	TOM_PLUS	0	0	0
+GEOM_msg_fr	TOOL_BOOLEAN	Opérations booléennes 	Boolean operations	ブーリアン操作
+GEOM_msg_fr	TOOL_GENERATION	Génération	Generation	ジェネレーション
+GEOM_msg_fr	TOP_3DSKETCH	Esquisse 3D	3D sketch	3Dスケッチ
+GEOM_msg_fr	TOP_ARC	Créer un arc	Create an arc	円弧を作成
+GEOM_msg_fr	TOP_ARCHIMEDE	Archimède	Archimede	らせん
+GEOM_msg_fr	TOP_BOX	Créer une boîte	Create a box	ボックスを作成
+GEOM_msg_fr	TOP_CHANGE_ORIENTATION	Changer l'orientation	Change orientation	方向を変更
+GEOM_msg_fr	TOP_CHECK	Valider l'objet	Check shape	オブジェクトを確認
+GEOM_msg_fr	TOP_CHECK_COMPOUND	Valider l'assemblage de blocs	Check compound of blocks	ブロック アセンブリを確認
+GEOM_msg_fr	TOP_CHECK_FREE_BNDS	Valider les contours libres	Check free boundaries	自由境界を確認
+GEOM_msg_fr	TOP_CHECK_FREE_FACES	Contrôler les faces libres	Check free faces	フリーフェースを確認
+GEOM_msg_fr	TOP_CHECK_GEOMETRY	Contrôler la géométrie	Check Geometry	ジオメトリを確認
+GEOM_msg_fr	TOP_CIRCLE	Créer un cercle	Create a circle	円を作成
+GEOM_msg_fr	TOP_CLIPPING	Intervalle de découpe	Clipping range	切り取り範囲
+GEOM_msg_fr	TOP_CLOSE_CONTOUR	Fermer le contour	Perform close contour	近い輪郭を作成
+GEOM_msg_fr	TOP_COMMON	Intersection	Common	共通
+GEOM_msg_fr	TOP_COMPOUND	Construire un assemblage	Build compound	アセンブリをビルド
+GEOM_msg_fr	TOP_CONE	Créer un cône	Create a cone	円錐を作成
+GEOM_msg_fr	TOP_CURVE	Créer une courbe	Create a curve	カーブを作成
+GEOM_msg_fr	TOP_CUT	Découpe	Cut	カット
+GEOM_msg_fr	TOP_CYLINDER	Créer un cylindre	Create a cylinder	円柱を作成
+GEOM_msg_fr	TOP_DELETE	Supprimer l'objet	Delete object	オブジェクトを削除
+GEOM_msg_fr	TOP_DISK	Créer un disque	Create a disk	円盤を作成
+GEOM_msg_fr	TOP_DISPLAY_ALL	Afficher tout	Show all	すべてを表示
+GEOM_msg_fr	TOP_EDGE	Construire une arête	Build edge	エッジを構築
+GEOM_msg_fr	TOP_ELLIPSE	Créer un ellipse	Create an ellipse	楕円を作成
+GEOM_msg_fr	TOP_ERASE	Cacher	Hide	非表示
+GEOM_msg_fr	TOP_ERASE_ALL	Cacher tout	Hide all	すべて非表示
+GEOM_msg_fr	TOP_EXPLODE	Eclater	Explode	展開
+GEOM_msg_fr	TOP_EXPLODE_BLOCKS	Eclater en blocs	Explode on Blocks	ブロックを展開
+GEOM_msg_fr	TOP_EXPORT	Exporter une géométrie au format BREP	Export geometry to BREP file	ジオメトリをBREPファイルでエクスポート
+GEOM_msg_fr	TOP_EXTRUSION	Créer une extrusion	Create an extrusion	押し出しを作成
+GEOM_msg_fr	TOP_FACE	Construire une face	Build face	フェースを作成
+GEOM_msg_fr	TOP_FILLET	Congé 3D	Fillet 3D	3Dフィレット
+GEOM_msg_fr	TOP_FILLET_1D	Congé 1D	Fillet 1D	1Dフィレット
+GEOM_msg_fr	TOP_FILLET_2D	Congé 2D	Fillet 2D	2Dフィレット
+GEOM_msg_fr	TOP_FILLING	Créer une nappe	Create a filling	埋込みを作成
+GEOM_msg_fr	TOP_FUSE	Union	Fuse	結合
+GEOM_msg_fr	TOP_GLUE_EDGES	Recoller les arêtes	Perform glue edges	固着エッジを作成
+GEOM_msg_fr	TOP_GLUE_FACES	Recoller les faces	Perform glue faces	固着フェースを作成
+GEOM_msg_fr	TOP_GROUP_CREATE	Créer un groupe	Create a group	グループを作成
+GEOM_msg_fr	TOP_GROUP_EDIT	Editer un groupe	Edit a group	グループを編集
+GEOM_msg_fr	TOP_HEX_SOLID	Solide hexaédrique	Hexahedral Solid	六面体ソリッド
+GEOM_msg_fr	TOP_IMPORT	Importer une géométrie d'un fichier BREP	Import geometry from BREP file	ジオメトリをBREPファイルからインポート
+GEOM_msg_fr	TOP_ISOS	Définir le nombre d'isolignes	Set number of isolines	輪郭線の数を設定
+GEOM_msg_fr	TOP_LIMIT_TOLERANCE	Tolérance limite	Limit tolerance	公差制限
+GEOM_msg_fr	TOP_LINE	Créer une ligne	Create a line	ラインを作成
+GEOM_msg_fr	TOP_LOCAL_CS	Créer un système local de coordonnées	Create a local coordinate system	ローカル座標系を作成
+GEOM_msg_fr	TOP_MASS_CENTER	Centre de gravité	Center of mass	重心
+GEOM_msg_fr	TOP_MIRROR	Symétrie	Mirror image	イメージの反転
+GEOM_msg_fr	TOP_MODIFY_LOCATION	Modifer la position	Modify location	位置を編集
+GEOM_msg_fr	TOP_NORMALE	Vecteur normal à une face	Normal to a face	フェースに垂直なベクトル
+GEOM_msg_fr	TOP_PIPE	Extrusion suivant un chemin	Extrusion along path	パスに沿った押し出し
+GEOM_msg_fr	TOP_PIPETSHAPE	Créer un tuyau en T	Create Pipe TShape	Tshapeパイプを作成
+GEOM_msg_fr	TOP_PLANE	Créer un plan	Create a plane	平面を作成
+GEOM_msg_fr	TOP_POINT	Créer un point	Create a point	ポイントを作成
+GEOM_msg_fr	TOP_POINT_COORDS	Coordonnées d'un point	Point coordinates	ポイントの座標
+GEOM_msg_fr	TOP_POINT_ON_EDGE	Ajouter un point sur l'arête	Add point on edge	エッジ上にポイントを追加
+GEOM_msg_fr	TOP_POP_CREATE_GROUP	Créer un groupe	Create Group	グループを作成
+GEOM_msg_fr	TOP_POP_DEFLECTION	Coefficient de déformation 	Deflection Coefficient	変形倍率
+GEOM_msg_fr	TOP_POP_DISABLE_AUTO_COLOR	Désactiver le couleur automatique	Disable auto color	自動カラーを無効
+GEOM_msg_fr	TOP_POP_PUBLISH_OBJ	Publier l'objet	Publish object	オブジェクトを発行
+GEOM_msg_fr	TOP_POP_SHADING	Ombrage	Shading	網かけ
+GEOM_msg_fr	TOP_POP_UNPUBLISH_OBJ	Dépublier l'objet	Unpublish object	オブジェクトの発行停止
+GEOM_msg_fr	TOP_POP_WIREFRAME	Contours	Wireframe	ワイヤーフレーム
+GEOM_msg_fr	TOP_Q_FACE	Face quadrangulaire 	Quadrangle Face	四角形フェース
+GEOM_msg_fr	TOP_RECTANGLE	Créer une face rectangulaire	Create rectangular face	長方形のフェース作成
+GEOM_msg_fr	TOP_REMOVE_EXTRA_EDGES	Suppimer les arêtes inutiles	Remove extra edges	不要なエッジを削除
+GEOM_msg_fr	TOP_REVOLUTION	Créer une révolution	Create a revolution	公転を作成
+GEOM_msg_fr	TOP_ROTATION	Rotation	Rotation	回転
+GEOM_msg_fr	TOP_SCALE	Redimensionner	Scale transform	サイズを変更
+GEOM_msg_fr	TOP_SEWING	Effecture une couture	Perform sewing	縫い合わせ実行
+GEOM_msg_fr	TOP_SHADING_COLOR	Définir la couleur d'ombrage	Set shading color	網かけの色を設定
+GEOM_msg_fr	TOP_SHAPE_PROCESS	Effectuer le traitement de forme	Perform shape processing	形状処理を実行する
+GEOM_msg_fr	TOP_SHELL	Construire une coque	Build shell	シェルを構築
+GEOM_msg_fr	TOP_SOLID	Créer un solide	Build solid	ソリッドを作成
+GEOM_msg_fr	TOP_SPHERE	Créer une sphère	Create a sphere	球を作成
+GEOM_msg_fr	TOP_STEP_VALUE	Définir la valeur du pas	Set step value	ステップ値を設定
+GEOM_msg_fr	TOP_SUPPERSS_HOLES	Supprimer les trous	Perform suppress holes	穴を削除
+GEOM_msg_fr	TOP_SUPPRESS_FACES	Supprimer les faces	Perform suppress faces	フェースを削除
+GEOM_msg_fr	TOP_SUPPRESS_INT_WIRES	Supprimer les contours internes	Perform suppress internal wires	内部のワイヤーを削除
+GEOM_msg_fr	TOP_TOLERANCE	Tolérance	Tolerance	公差
+GEOM_msg_fr	TOP_TORUS	Créer un tore	Create a torus	円環を作成
+GEOM_msg_fr	TOP_TRANSLATION	Translation	Translation	変換
+GEOM_msg_fr	TOP_VECTOR	Créer un vecteur	Create a vector	ベクトルを作成
+GEOM_msg_fr	TOP_WHAT_IS	Qu'est-ce que c'est ?	What is	What is
+GEOM_msg_fr	TOP_WIRE	Construire un contour	Build wire	ワイヤーを構築
+GEOM_msg_fr	TOP_WORK_PLANE	Créer un plan de travail	Create a working plane	作業平面を作成
+GEOM_msg_fr	UNSELECT_ALL	Tout désélectio&nner	U&nselect All	すべての選択を解除(&n)
+GEOM_msg_fr	VEC_PARALLEL	Il n'est pas possible que les axes du système de coordonnées soient parallels	Coordinate system axes cannot be parallel	座標系の軸は平行であることはできません
+GEOM_msg_fr	VERTEX_1	Sommet 1	Vertex 1	ポイント 1
+GEOM_msg_fr	VERTEX_2	Sommet 2	Vertex 2	ポイント 2
+GEOM_msg_fr	VERTEX_3	Sommet 3	Vertex 3	ポイント 3
+GEOM_msg_fr	VERTEX_4	Sommet 4	Vertex 4	ポイント 4
+GEOM_msg_fr	WRN_NOT_IMPLEMENTED	Désolé, cette fonctionnalité n'est pas encore implémentée	Sorry, this functionality is not yet implemented	申し訳ありませんが、この機能はまだ実装されていません
+GEOM_msg_fr	WRN_NULL_OBJECT_OR_SHAPE	La forme %1 pour la création d'un solide est invalide	Shape %1 for solid creation is null	ソリッド作成のオブジェクト %1 が無効
+GEOM_msg_fr	WRN_SHAPE_NOT_SHELL	Impossible de créer un solide à partir de la forme %1 car ce n'est pas une coque	Unable to create solid from shape %1 as it is not a shell	シェルではないためオブジェクト %1 からソリッドを作成できません
+GEOM_msg_fr	WRN_SHAPE_UNCLOSED	Impossible de créer un solide à partir d'une forme non-fermée %1	Unable to create solid from unclosed shape %1	閉じていないオブジェクト %1 からソリッドを作成できません
+GEOM_msg_fr	Y	Y	Y	Y
+GHS3DPlugin_msg_fr	GHS3D_ENF_MESH_CONSTRAINT_FACE	Faces	Faces	フェース
+GHS3DPlugin_msg_fr	GHS3D_ENF_VER_Y_COLUMN	Y	Y	Y
+HELLO_msg_fr	BUT_OK	OK	OK	OK
+LIGHT_msg_fr	BUT_OK	&OK	&OK	OK(&O)
+LIGHT_msg_fr	LIGHTGUI_ADD_LINE	Ajouter une nouvelle ligne avant la ligne choisie	Add new line before the selected one	選択した行の前に新しい行を追加
+LIGHT_msg_fr	LIGHTGUI_EDIT_LINE	Editer la ligne choisie	Edit selected line	選択した行を編集
+LIGHT_msg_fr	LIGHTGUI_MEN_DUMP	Clipper	Dump	リスト
+LIGHT_msg_fr	LIGHTGUI_MEN_LOAD	Charger	Load	読込み
+LIGHT_msg_fr	LIGHT_LIGHT	LEGER	LIGHT	LIGHT
+LIGHT_msg_fr	LIGHT_ROOT_TOOLTIP	Objet racine du module LEGER	LIGHT module root object	LIGHTモジュールのルートオブジェクト
+LIGHT_msg_fr	MEN_ADD_LINE	Insérer une nouvelle ligne de texte	Insert new text line	新しい行を挿入
+LIGHT_msg_fr	MEN_CLEAR_ALL	Effacer tous	Clear all	すべて消去
+LIGHT_msg_fr	MEN_DEL_LINE	Supprimer une ligne	Remove line	行を削除
+LIGHT_msg_fr	MEN_DISPLAY_LINE	Display selected line	Display selected line	選択した行を表示
+LIGHT_msg_fr	MEN_EDIT_LINE	Editer la ligne choisie	Edit selected line	選択した行を編集
+LIGHT_msg_fr	MEN_ERASE_LINE	Effacer la ligne choisie	Erase selected line	選択した行を削除
+LIGHT_msg_fr	MEN_LIGHT	LEGER	LIGHT	LIGHT
+LIGHT_msg_fr	MEN_LOAD_FILE	Ouvrir un fichier texte	Load text file	テキストファイルを開く
+LIGHT_msg_fr	MEN_SAVE_FILE	Sauvegarder un fichier texte	Save text file	テキストファイルを保存
+LIGHT_msg_fr	STB_ADD_LINE	Insérer une nouvelle ligne avant la ligne choisie	Insert new line before the selected one	選択した行の前に新しい行を挿入
+LIGHT_msg_fr	STB_CLEAR_ALL	Effacer toutes les lignes de texte	Remove all text lines	すべての行のテキストをクリア
+LIGHT_msg_fr	STB_DEL_LINE	Supprimer la ligne choisie	Remove selected line	選択した行を削除
+LIGHT_msg_fr	STB_DISPLAY_LINE	Visualiser la ligne choisie	Display selected line	選択した行を表示
+LIGHT_msg_fr	STB_EDIT_LINE	Editer la ligne choisie	Edit selected line	選択した行を編集
+LIGHT_msg_fr	STB_ERASE_LINE	Effacer la ligne choisie	Erase selected line	選択した行を削除
+LIGHT_msg_fr	STB_LOAD_FILE	Ouvrir un fichier texte	Load text file	テキストファイルを開く
+LIGHT_msg_fr	STB_SAVE_FILE	Sauvegarder un fichier texte	Save text file	テキストファイルを保存
+LIGHT_msg_fr	TOP_ADD_LINE	Ajouter une ligne	Add line	行を追加
+LIGHT_msg_fr	TOP_CLEAR_ALL	Effacer tous	Clear all	すべて消去
+LIGHT_msg_fr	TOP_DEL_LINE	Supprimer la ligne	Remove line	行を削除
+LIGHT_msg_fr	TOP_DISPLAY_LINE	Visualiser la ligne	Display line	行を表示
+LIGHT_msg_fr	TOP_EDIT_LINE	Editer la ligne	Edit line	行を編集
+LIGHT_msg_fr	TOP_ERASE_LINE	Effacer la ligne	Erase line	行を削除
+LIGHT_msg_fr	TOP_LOAD_FILE	Ouvrir un fichier texte	Load text file	テキストファイルを開く
+LIGHT_msg_fr	TOP_SAVE_FILE	Sauvegarder un fichier texte	Save text file	テキストファイルを保存
+LIGHT_msg_fr	WRN_DELETE_FAILED	Impossible de supprimer la ligne	Can't delete line	行を削除できません
+LIGHT_msg_fr	WRN_DUMP_FAILED	Le fichier cliché n'est pas abouti!	Dumping file is failed!	ダンプファイルが消えています
+LIGHT_msg_fr	WRN_EDIT_FAILED	Impossible d'éditer la ligne!	Can't edit line!	行を編集できません！
+LIGHT_msg_fr	WRN_LOAD_FAILED	Impossible d'ouvrir le fichier!	Loading file is failed!	ファイルを開くことができません！
+LIGHT_msg_fr	WRN_UNKNOWN_COMMAND	Une commande pas reconnue!	Unrecognized command!	認識されないコマンド！
+LightApp_msg_fr	ABOUT_BASE	Informations générales	Base information	一般情報
+LightApp_msg_fr	ABOUT_CLOSE	&Fermer	&Close	閉じる(&C)
+LightApp_msg_fr	ABOUT_COPYRIGHT	Copyright (C) 2007-2011 CEA/DEN, EDF R&D, OPEN CASCADE\nCopyright (C) 2003-2007 OPEN CASCADE, EADS/CCR, LIP6,\nCEA/DEN, CEDRAT, EDF R&D, LEG, PRINCIPIA R&D, BUREAU VERITAS	Copyright (C) 2007-2011 CEA/DEN, EDF R&D, OPEN CASCADE\nCopyright (C) 2003-2007 OPEN CASCADE, EADS/CCR, LIP6,\nCEA/DEN, CEDRAT, EDF R&D, LEG, PRINCIPIA R&D, BUREAU VERITAS\n	Copyright (C) 2007-2011 CEA/DEN, EDF R&D, OPEN CASCADE\nCopyright (C) 2003-2007 OPEN CASCADE, EADS/CCR, LIP6,\nCEA/DEN, CEDRAT, EDF R&D, LEG, PRINCIPIA R&D, BUREAU VERITAS
+LightApp_msg_fr	ABOUT_MODULE_INFOS	Modules	Modules information	モジュール情報
+LightApp_msg_fr	ACTIVATE_MODULE_OP_NEW	&Nouveau	&New	新規作成(&N)
+LightApp_msg_fr	ACTIVATE_MODULE_OP_OPEN	&Ouvrir...	&Open...	オープン(&O)
+LightApp_msg_fr	ACTIVATING_MODULE	Activation du module "%1" en cours	Trying to activate module "%1"	モジュール”%1”をアクティブにする
+LightApp_msg_fr	APP_NAME	SALOME	SALOME	Salome-Meca
+LightApp_msg_fr	BROWSER_CLOSE	&Fermer	&Close	閉じる(&C)
+LightApp_msg_fr	BROWSER_FIND	&Chercher...	&Find...	検索...(&F)
+LightApp_msg_fr	BROWSER_FINDNEXT	Chercher &suivant	Find &next	次を検索(&n)
+LightApp_msg_fr	BROWSER_FINDPREV	Chercher &précédent	Find &previous	前を検索(&p)
+LightApp_msg_fr	BROWSER_FORWARD	Avancer	Go Forward	前に
+LightApp_msg_fr	BROWSER_TITLE	Aide de SALOME	SALOME Help Browser	Salomヘルプブラウザー
+LightApp_msg_fr	CANCEL	&Annuler	&Cancel	キャンセル(&C)
+LightApp_msg_fr	CAPTION	Activer le module	Activate module	モジュールをアクティブにする
+LightApp_msg_fr	DEFAULT_BTN_TEXT	Défauts	Defaults	デフォルト
+LightApp_msg_fr	DEFAULT_QUESTION	Voulez-vous restaurer les préférences par défaut ?	Do you want to retrieve default preferences?	既定の設定を復元しますか？
+LightApp_msg_fr	DESCRIPTION	Vous activez le module\n<b>%1</b>.<br>Choisissez l'action nécessaire avec le bouton correspondant ci-dessous	You're activating module\n<b>%1</b>.<br>Please, select required action by pressing the corresponding button below.	あなたは、 <b>%1</b>モジュールを有効にしようとしています。<br>下の対応するボタンで必要なアクションを選択して下さい。
+LightApp_msg_fr	EXTERNAL_BROWSER_CANNOT_SHOW_PAGE	Le navigateur externe "%1" ne peut pas trouver la page d'aide "%2". Voulez-vous le modifierdans les préférences ?	External browser "%1" can not show help page "%2". Do you want to change it in preferences?	外部ブラウザー “%1” は、ヘルプページ”% 2”を表示できません。環境設定で変更しますか?
+LightApp_msg_fr	IMPORT_PREFERENCES	Importer les préférences	Import preferences	インポート設定
+LightApp_msg_fr	INF_CANCELLED	L'activation du module est annulée	Module activation cancelled	モジュールの有効化をキャンセル
+LightApp_msg_fr	LANG_CHANGED	La langue de l'application a été modifié.\nLes modifications seront appliquées à la prochaine session.	Application language has been changed.\nThe changes will be applied on the next application session.	アプリケーションの言語が変更されました。\n変更は、次のセッションに適用されます。
+LightApp_msg_fr	LOG_WINDOW	Fenêtre de messages	Message Window	メッセージウィンドウ
+LightApp_msg_fr	MEN_DESK_CLOSE	&Fermer	&Close	閉じる(&C)
+LightApp_msg_fr	MEN_DESK_CLOSE_ALL	&Tout fermer	Close All	すべて閉じる
+LightApp_msg_fr	MEN_DESK_GROUP_ALL	Tout &grouper	&Group All	すべてをグループ化(&G)
+LightApp_msg_fr	MEN_DESK_MODULE_HELP	Module &Aide	Module Help	モジュールのヘルプ(&A)
+LightApp_msg_fr	MEN_DESK_MRU	&Récemment utilisés	Most Recently Used	最近使用したファイル
+LightApp_msg_fr	MEN_DESK_PREFERENCES	&Préférences...	Pre&ferences...	環境設定...(&f)
+LightApp_msg_fr	MEN_DESK_RENAME	&Renommer	&Rename	名前変更(&R)
+LightApp_msg_fr	MEN_DESK_THEME	T&hème	Theme	テーマ
+LightApp_msg_fr	MEN_DISPLAY_ONLY	Afficher uniquement	Show Only	これのみ表示
+LightApp_msg_fr	MEN_ERASE_ALL	Tout cacher	Hide All	すべて非表示
+LightApp_msg_fr	MEN_HIDE	Cacher	Hide	非表示
+LightApp_msg_fr	NEW_WINDOW_0	Vue &GL 	&GL view	GL view(&G)
+LightApp_msg_fr	NEW_WINDOW_1	Vue &Plot2d 	&Plot2d view	Plot2d view(&P)
+LightApp_msg_fr	NEW_WINDOW_2	Vue &OCC	&OCC view	OCC view(&O)
+LightApp_msg_fr	NEW_WINDOW_3	Vue VT&K	VT&K view	VTK view(&K)
+LightApp_msg_fr	NEW_WINDOW_4	Vue &QxGraph	&QxGraph view	QxGraph view(&Q)
+LightApp_msg_fr	NEW_WINDOW_5	Vue Qx&Scene	Qx&Scene view	QxScene view(&S)
+LightApp_msg_fr	OBJECT_BROWSER	Arbre d'étude	Object Browser	オブジェクトブラウザー
+LightApp_msg_fr	PREFERENCES_NOT_LOADED	Les préférences du module "<b>%N</b>" seront accessibles quand le module sera chargé	Preferences for module "<b>%N</b>" will be available when the module is loaded	“<b>%n</b>”モジュールの環境設定は、そのモジュールをロードしているときだけです。
+LightApp_msg_fr	PREF_3DVIEWER_BACKGROUND	Couleur de l'arrière-plan (vue 3D)	3D View background color	３Dビューの背景色
+LightApp_msg_fr	PREF_ALL_DISLPAYED_FRAMES	Enregistrer toutes les images affichées	Recording all displayed frames	表示されるすべてのフレームを保存
+LightApp_msg_fr	PREF_ARITHMETIC	Progression arithmétique	Arithmetic progression	Arithmetic progression
+LightApp_msg_fr	PREF_ASCII_FILE	Enregistrement ASCII	ASCII save	ASCIIでの保存
+LightApp_msg_fr	PREF_AUTO_SAVE_DISABLED	Désactivé	Disabled	無効
+LightApp_msg_fr	PREF_BOTTOM	Dessous	Bottom	Bottom
+LightApp_msg_fr	PREF_BROWSE_AFTER_APPLY_AND_CLOSE_ONLY	Seulement après "Appliquer et Fermer"	After Apply & Close only	適用後閉じる
+LightApp_msg_fr	PREF_BROWSE_TO_THE_PUBLISHED_OBJECT	Se déplacer sur l'objet publié	Browse to the published object	公開オブジェクトをブラウズ
+LightApp_msg_fr	PREF_FONT	Police	Font	フォント
+LightApp_msg_fr	PREF_FRAME_RECORDING	Enregistrement AVI	AVI Recording	AVIで記録
+LightApp_msg_fr	PREF_GROUP_LOOK_AND_FEEL	Aspect	Look and feel	外観
+LightApp_msg_fr	PREF_GROUP_MRU	Montrer les études récemment utilisées	Show MRU items	MRUアイテムの表示
+LightApp_msg_fr	PREF_GROUP_OCCVIEWER	Visualiseur OCC 3D	OCC Viewer 3d	OCC ビューアー 3D
+LightApp_msg_fr	PREF_GROUP_PLOT2DVIEWER	Visualiseur Plot2d	Plot2d Viewer	Plot2d ビューアー
+LightApp_msg_fr	PREF_GROUP_SHORTCUTS	Réglage des raccourcis clavier	Shortcuts settings	ショートカットの設定
+LightApp_msg_fr	PREF_GROUP_STUDY	Propiétés de l'étude	Study properties	スタディのプロパティ
+LightApp_msg_fr	PREF_GROUP_STYLE	Style Salomé	Salome style	Salomeスタイル
+LightApp_msg_fr	PREF_GROUP_SUPERV	Superviseur des graphes	Graph Supervisor	グラフスーパーバイザー
+LightApp_msg_fr	PREF_GROUP_TTL	Paramètres	Settings	設定
+LightApp_msg_fr	PREF_ISOS_U	Nombre d'isolignes selon U	Number of isolines along U	Uに沿った輪郭の数
+LightApp_msg_fr	PREF_ISOS_V	Nombre d'isolignes selon V	Number of isolines along V	Vに沿った輪郭の数
+LightApp_msg_fr	PREF_LEGEND_FONT	Police de la légende	Legend font	凡例のフォント
+LightApp_msg_fr	PREF_MARKER_SIZE	Taille de repère:	Marker size:	マーカーサイズ
+LightApp_msg_fr	PREF_MRU_ADD_FIRST	Ajouter au début	Add to the beginning	先頭に追加
+LightApp_msg_fr	PREF_MRU_ADD_LAST	Ajouter à la fin	Add to the end	最後に追加
+LightApp_msg_fr	PREF_MRU_MOVE_FIRST	Placer au début	Move to the beginning	先頭に移動
+LightApp_msg_fr	PREF_MRU_MOVE_LAST	Placer à la fin	Move to the end	末尾に移動
+LightApp_msg_fr	PREF_MRU_VISIBLE_COUNT	Nombre d'études	Number of MRU items	MRUアイテムの数
+LightApp_msg_fr	PREF_MULTI_FILE	Sauvegarde multi-fichiers	Multi file save	複数のファイル保存
+LightApp_msg_fr	PREF_OBJ_BROWSER_SETTINGS	Paramètres de l'arbre d'étude	Object browser settings	オブジェクトブラウザーの設定
+LightApp_msg_fr	PREF_OPAQUE_RESIZE	Redimensionnement opaque	Opaque resize	不透明のサイズ変更
+LightApp_msg_fr	PREF_PERSPECTIVE	Perspective	Perspective	遠近法
+LightApp_msg_fr	PREF_RESIZE_ON_EXPAND_ITEM	Redimensionner les colonnes quand l'objet est déplié	Resize columns on expand item	オブジェクトを開いたときの列のサイズを変更
+LightApp_msg_fr	PREF_SELECTED_FONT_COLOR	Couleur de surlignement de la légende	Highlighted legend font color	ハイライトした凡例の文字色
+LightApp_msg_fr	PREF_SHOW_LEGEND	Montrer la légende	Show legend	凡例を表示
+LightApp_msg_fr	PREF_SHOW_STATIC_TRIHEDRON	Montrer le trièdre statique	Show static trihedron	静的三面体をを表示
+LightApp_msg_fr	PREF_SKIPPED_FRAMES	Enregistrer à FPS donné	Recording at a given FPS	与えられたFPSに記録しています
+LightApp_msg_fr	PREF_SPACEMOUSE_BTN_*	Bouton *	Button *	ボタン *
+LightApp_msg_fr	PREF_SPACEMOUSE_FUNC_1	Réduire l'incrément de vitesse	Decrease speed increment	速度低減
+LightApp_msg_fr	PREF_SPACEMOUSE_FUNC_2	Augmenter l'incrément de vitesse	Increase speed increment	速度増加
+LightApp_msg_fr	PREF_SPACEMOUSE_FUNC_3	Changement Dominant/Combiné	Dominant / combined switch	Dominant / combined スイッチ
+LightApp_msg_fr	PREF_STANDARD_STYLE	Style de contrôles type Salomé	Salome standard controls	Salome標準コントロール
+LightApp_msg_fr	PREF_STORE_POS	Enregistrer la position des fenêtres	Store positions of windows	ウィンドウの位置を保存
+LightApp_msg_fr	PREF_TAB_DIRECTORIES	Emplacements	Directories	ディレクトリー
+LightApp_msg_fr	PREF_TAB_GENERAL	Général	General	一般
+LightApp_msg_fr	PREF_TAB_OBJBROWSER	Arbre d'étude	Object browser	オブジェクトブラウザー
+LightApp_msg_fr	PREF_TAB_SHORTCUTS	Raccourcis clavier	Shortcuts	ショートカット
+LightApp_msg_fr	PREF_TAB_VIEWERS	Visualiseurs	Viewers	ビューワー
+LightApp_msg_fr	PREF_TOP	Dessus	Top	トップ
+LightApp_msg_fr	PREF_USE_SALOME_STYLE	Utiliser le style Salomé	Use Salome style	Salomeスタイルを使用
+LightApp_msg_fr	PREF_XYVIEWER_BACKGROUND	Couleur de l'arrière-plan (vue XY)	XY View background color	XY ビューの背景色
+LightApp_msg_fr	PREF_XZVIEWER_BACKGROUND	Couleur de l'arrière-plan (vue XZ)	XZ View background color	XZ ビューの背景色
+LightApp_msg_fr	PREF_YZVIEWER_BACKGROUND	Couleur de l'arrière-plan (vue YZ)	YZ View background color	YZ ビューの背景色
+LightApp_msg_fr	PREF_ZOOMING_AT_CENTER	Relatif au centre de la vue	Relative to the view's center	ビューの中心で
+LightApp_msg_fr	PREF_ZOOMING_AT_CURSOR	Relatif au curseur	Relative to the cursor	カーソル中心で
+LightApp_msg_fr	PRP_APP_MODULE	Basculer au point neutre de la plate-forme SALOME	Switch to SALOME platform neutral point	Salomeプラットフォームの中立ポイントにスイッチ
+LightApp_msg_fr	PRP_DESK_PREFERENCES	Permettre de changer les préférences	Allow to change the preferences	設定を変更することができます
+LightApp_msg_fr	PRP_FULLSCREEN	Basculer en mode plein écran	Switch to full screen mode	全画面表示モードに切り替え
+LightApp_msg_fr	PRP_GROUP_ALL	Grouper toutes les fenêtres	Group all windows	すべてのウィンドウをグループ化
+LightApp_msg_fr	PRP_MODULE	Basculer vers le module "%1"	Switch to the module "%1"	モジュール”% 1」”に切り替え
+LightApp_msg_fr	PRP_RENAME	Renommer la fenêtre active	Rename active window	アクティブなウィンドウの名前を変更
+LightApp_msg_fr	PRP_THEME	Changer les propriétés du style 	Change style properties	スタイルのプロパティを変更
+LightApp_msg_fr	STB_ERASE_ALL	Tout cacher	Hide all	すべて非表示
+LightApp_msg_fr	STB_HIDE	Cacher	Hide	非表示
+LightApp_msg_fr	TOP_ERASE_ALL	Tout cacher	Hide all	すべて非表示
+LightApp_msg_fr	TOP_HIDE	Cacher	HIde	非表示
+LightApp_msg_fr	TOT_DESK_MRU	Récemment utilisés	Most recently used	最近使用したファイル
+LightApp_msg_fr	TOT_GROUP_ALL	Tout grouper	Group all	すべてをグループ化
+LogWindow_msg_fr	BUT_OK	&OK	&OK	OK(&O)
+LogWindow_msg_fr	EDIT_CLEAR_CMD	&Effacer	Clea&r	Clear(&r)
+LogWindow_msg_fr	EDIT_SAVETOFILE_CMD	&Sauvegarder le journal dans un fichier...	&Save log to file...	ログをファイルに保存...(&S)
+LogWindow_msg_fr	EDIT_SELECTALL_CMD	&Tout sélectionner	Select &All	すべて選択(&A)
+MED_msg_fr	MED_BUT_OK	OK	OK	OK
+MED_msg_fr	MED_INF_FIELDNAME	Indiquez le nom du champ que vous allez lire	Please enter the name of the field you want to read	読み取りするフィールドの名前を指定して下さい
+MED_msg_fr	MED_INF_MESHNAME	Indiquez le nom du maillage que vous allez lire	Please enter the name of the mesh you want to read	読み取りするメッシュの名前を指定して下さい
+MED_msg_fr	MED_INF_NOIOR	L'objet n'a pas d'IOR	Object has no IOR	オブジェクトは、IOR を持たない
+MED_msg_fr	MED_INF_NOTIMPL	Pas Implémenté pour cet Objet	Not Implemented for this Object	このオブジェクトは実装されない
+MED_msg_fr	MED_MEN_IMPORT_MED	Fichiers MED ( *.med )	MED Files ( *.med )	MED ファイル (* .med)
+MED_msg_fr	MEN_DUMPMESH	Clicher Maillage	Dump Mesh	メッシュリスト
+MED_msg_fr	MEN_DUMPSUBMESH	Clicher Sous-Maillage	Dump SubMesh	サブメッシュリスト
+MED_msg_fr	MEN_EXPLORE	Explorer un Fichier MED	Explore Med File	MED ファイルを探索
+MED_msg_fr	MEN_HIDE	Cacher	Hide	非表示
+MED_msg_fr	MEN_POPUPTEST	Tester le menu contextuel	Popup Test	ポップアップテスト
+MED_msg_fr	STB_DUMPMESH	Clicher Maillage	dump Mesh	メッシュリスト
+MED_msg_fr	STB_DUMPSUBMESH	Clicher Maillage	dump Mesh	サブメッシュリスト
+MED_msg_fr	STB_EXPLORE	Explorer Fichier MED	Explore Med File	MED ファイルを探索
+MED_msg_fr	STB_HIDE	Cacher	Hide	非表示
+MED_msg_fr	STB_MESHSEL	Lire un maillage	Read a mesh	メッシュ読み込み
+MED_msg_fr	STB_POPUPTEST	Tester le menu contextuel	Popup test	ポップアップテスト
+MED_msg_fr	TB_MED	Barre d'outils MED	Med Toolbar	MED ツールバー
+MED_msg_fr	TOP_DUMPMESH	Clicher un Maillage	Dump Mesh	メッシュリスト
+MED_msg_fr	TOP_DUMPSUBMESH	Clicher un Sous-Maillage	Dump SubMesh	サブメッシュリスト
+MED_msg_fr	TOP_EXPLORE	Explorer un Fichier MED	Explore Med File	MED ファイルを探索
+MED_msg_fr	TOP_HIDE	Cacher	Hide	非表示
+MED_msg_fr	TOP_POPUPTEST	Tester un menu contextuel	Popup test	ポップアップテスト
+NETGENPlugin_msg_fr	NETGEN_2D_HYPOTHESIS	Netgen 2D	Netgen 2D	Netgen 2D
+NETGENPlugin_msg_fr	NETGEN_2D_TITLE	Construction d'une hypothèse	Hypothesis Construction	前提条件の構築
+NETGENPlugin_msg_fr	NETGEN_3D_TITLE	Construction d'une hypothèse	Hypothesis Construction	前提条件の構築
+NETGENPlugin_msg_fr	NETGEN_ALLOW_QUADRANGLES	Autoriser les quadrangles	Allow Quadrangles	四角形を許可
+NETGENPlugin_msg_fr	NETGEN_COARSE	Grossier	Coarse	粗い
+NETGENPlugin_msg_fr	NETGEN_FINE	Fin	Fine	細かい
+NETGENPlugin_msg_fr	NETGEN_FINENESS	Finesse	Fineness	細かさ
+NETGENPlugin_msg_fr	NETGEN_LSZ_EDGE	Sur une arête	On Edge	エッジ上
+NETGENPlugin_msg_fr	NETGEN_LSZ_FACE	Sur une sous-face	On Sub-Face	サブフェース上
+NETGENPlugin_msg_fr	NETGEN_LSZ_VERTEX	Sur un point	On Vertex	点上
+NETGENPlugin_msg_fr	NETGEN_MODERATE	Moyen	Moderate	普通
+NETGENPlugin_msg_fr	NETGEN_SECOND_ORDER	Second ordre	Second Order	2次要素
+NETGENPlugin_msg_fr	NETGEN_SEG_PER_EDGE	Nb. segments par arête	Nb. Segs per Edge	エッジ上の分割数
+NETGENPlugin_msg_fr	NETGEN_SEG_PER_RADIUS	Nb. segments par rayon	Nb. Segs per Radius	半径毎の分割数
+NETGENPlugin_msg_fr	NETGEN_SimpleParameters_2D_TITLE	Construction d'une hypothèse	Hypothesis Construction	前提条件の構築
+NETGENPlugin_msg_fr	NETGEN_SimpleParameters_3D_TITLE	Construction d'une hypothèse	Hypothesis Construction	前提条件の構築
+NETGENPlugin_msg_fr	NETGEN_VERYCOARSE	Très grossier	Very Coarse	非常に粗く
+NETGENPlugin_msg_fr	NETGEN_VERYFINE	Très fin	Very Fine	非常に細かく
+NETGENPlugin_msg_fr	NG_1D	1D	1D	1D
+NETGENPlugin_msg_fr	NG_2D	2D	2D	2D
+NETGENPlugin_msg_fr	NG_3D	3D	3D	3D
+NETGENPlugin_msg_fr	NG_LENGTH_FROM_FACES	Longueur à partir des faces	Length from faces	フェースの長さ
+OCCViewer_msg_fr	DSC_GRADUATED_AXES	Axes gradués	Graduated axes	目盛付軸
+OCCViewer_msg_fr	MEN_CHANGE_BACKGROUD	Changer l'arrière-plan	Change Background...	背景を変更
+OCCViewer_msg_fr	MEN_CHANGE_IMAGE	Régler/Changer l''image d'arrière-plan...	Set/Change Background Image...	背景画像を設定/変更...
+OCCViewer_msg_fr	MEN_DUMP_VIEW	Sauvegarder la Vue	Dump View...	ビューを保存
+OCCViewer_msg_fr	MEN_SHOW_TOOLBAR	Montrer la Barre d'Outils	Show Toolbar	ツールバーを表示
+OCCViewer_msg_fr	MNU_GRADUATED_AXES	Axes gradués	Graduated axes	目盛付軸
+PARAVIS_msg_fr	BUT_OK	&OK	&OK	OK(&O)
+PARAVIS_msg_fr	LIGHT_LIGHT	LIGHT	LIGHT	LIGHT
+PARAVIS_msg_fr	LIGHT_ROOT_TOOLTIP	Objet racine du module LIGHT	LIGHT module root object	LIGHTモジュール ルート オブジェクト
+PARAVIS_msg_fr	MEN_+X	+X	+X	+X
+PARAVIS_msg_fr	MEN_+Y	+Y	+Y	+Y
+PARAVIS_msg_fr	MEN_+Z	+Z	+Z	+Z
+PARAVIS_msg_fr	MEN_-X	-X	-X	-X
+PARAVIS_msg_fr	MEN_-Y	-Y	-Y	-Y
+PARAVIS_msg_fr	MEN_-Z	-Z	-Z	-Z
+PARAVIS_msg_fr	MEN_ADD_CAMERA_LINK	Ajouter un lien de caméra...	Add Camera Link...	カメラのリンクを追加...
+PARAVIS_msg_fr	MEN_ADD_LINE	Insérer une nouvelle ligne de texte	Insert new text line	テキストの新しい行を挿入
+PARAVIS_msg_fr	MEN_ADD_STATE	Ajouter l'état	Add state	状態を追加
+PARAVIS_msg_fr	MEN_CAMERA	Caméra	Camera	カメラ
+PARAVIS_msg_fr	MEN_CAMERA_REDO	Rétablir la caméra	Camera Redo	カメラをリドゥ
+PARAVIS_msg_fr	MEN_CAMERA_REDO_ACTION	&Rétablir %1	R&edo %1	%1 をリドゥ(&e)
+PARAVIS_msg_fr	MEN_CAMERA_REDO_ACTION_TIP	Rétablir %1	Redo %1	%1 をリドゥ
+PARAVIS_msg_fr	MEN_CAMERA_UNDO	Annuler le Caméra	Camera Undo	カメラをアンドゥ
+PARAVIS_msg_fr	MEN_CAMERA_UNDO_ACTION	&Annuler %1	U&ndo %1	アンドゥ %1 (&n)
+PARAVIS_msg_fr	MEN_CAMERA_UNDO_ACTION_TIP	Annuler %1	Undo %1	アンドゥ %1
+PARAVIS_msg_fr	MEN_CANTREDO	Impossible de rétablir	Can't Redo	リドゥできません
+PARAVIS_msg_fr	MEN_CANTUNDO	Impossible d'Annuler	Can't Undo	アンドゥできません
+PARAVIS_msg_fr	MEN_CANT_CAMERA_REDO	Impossible de rétablir la caméra	Can't Redo Camera	カメラをリドゥできません
+PARAVIS_msg_fr	MEN_CANT_CAMERA_UNDO	Impossible d'Annuler le Caméra	Can't Undo Camera	カメラをアンドゥできません
+PARAVIS_msg_fr	MEN_CHANGE_INPUT	Changer les &entrées...	Change &Input...	インプットを変更...(&I)
+PARAVIS_msg_fr	MEN_CONNECT	&Connecter...	&Connect...	接続...(&C)
+PARAVIS_msg_fr	MEN_CREATE_CUSTOM_FILTER	&Créer un filtre personnalisé...	&Create Custom Filter...	カスタムフィルターの作成...(&C)
+PARAVIS_msg_fr	MEN_CREATE_LOOKMARK	Créer un signet visuel	Create Lookmark	Lookmarkを作成
+PARAVIS_msg_fr	MEN_CUSTOM_WINDOW_SIZE	Verrouiller la taille de la vue personnalisée	Lock View Size Custom...	カスタム ビューのサイズをロック
+PARAVIS_msg_fr	MEN_DELETE	&Supprimer	&Delete	削除(&D)
+PARAVIS_msg_fr	MEN_DELETE_ALL	Supprimer tout	Delete All	すべて削除
+PARAVIS_msg_fr	MEN_DEL_LINE	Supprimer la ligne	Remove line	ラインを削除
+PARAVIS_msg_fr	MEN_DESK_TOOLS	&Outils	&Tools	ツール(&T)
+PARAVIS_msg_fr	MEN_EXPORT	Exporter...	Export...	エクスポート...
+PARAVIS_msg_fr	MEN_LIGHT	LIGHT	LIGHT	LIGHT
+PARAVIS_msg_fr	MEN_LOAD_STATE	&Ouvrir l'état...	&Load State...	状態を開く...(&L)
+PARAVIS_msg_fr	MEN_MANAGE_CUSTOM_FILTERS	Gérer les filtres personnalisés...	&Manage Custom Filters...	カスタム フィルターの管理...
+PARAVIS_msg_fr	MEN_MANAGE_LINKS	Gérer les liens...	Manage Links...	リンクを管理...
+PARAVIS_msg_fr	MEN_MANAGE_PLUGINS	Gérer les plugins...	Manage Plugins...	プラグインの管理...
+PARAVIS_msg_fr	MEN_NEW_PV_VIEW	Vue ParaView	ParaView view	ParaViewビュー
+PARAVIS_msg_fr	MEN_OPEN	&Importer...	&Import...	インポート...(&I)
+PARAVIS_msg_fr	MEN_OPEN_FILE	Ouvrir un fichier ParaView...	Open ParaView File...	ParaView ファイルを開く...
+PARAVIS_msg_fr	MEN_OUTPUT_WINDOW	&Fenêtre de sortie	&Output Window	出力ウィンドウ(&O)
+PARAVIS_msg_fr	STB_POSTACCEPT	Prêt	Ready	準備完了
+PARAVIS_msg_fr	STB_PREACCEPT	Mise à jour...	Updating...	更新...
+PARAVIS_msg_fr	STB_PREVIOUS_FRAME	Cadre précédent	Previous Frame	以前のフレーム
+QxSceneViewer_msg_fr	DSC_PAN_VIEW	Déplacer la vue	Panning the view	ビューを移動
+QxSceneViewer_msg_fr	DSC_RESET_VIEW	Restaurer le point de vue	Reset View Point	ビューポイントをリセット
+QxSceneViewer_msg_fr	MEN_CHANGE_BACKGROUND	Changer l'arrière-plan	Change Background...	背景を変更
+QxSceneViewer_msg_fr	MNU_PAN_VIEW	Déplacement	Panning	移動
+QxSceneViewer_msg_fr	MNU_RESET_VIEW	Restaurer	Reset	リセット
+QxSceneViewer_msg_fr	QXSCENE_VIEW_TITLE	Scène QGraphics:%M - visualisateur:%V	QGraphics scene:%M - viewer:%V	QGraphics scene:%M - viewer:%V
+SMESH_msg_fr	0DELEM	Elément 0D	0D element	０D要素
+SMESH_msg_fr	0D_ELEMENT	ELÉMENTS 0D	0D ELEMENT	０D要素
+SMESH_msg_fr	0D_ELEMENTS	ELÉMENTS 0D	0D ELEMENTS	０D要素
+SMESH_msg_fr	0D_LAB	0D:	0D:	０D:
+SMESH_msg_fr	1D_FROM_2D	1D à partir de 2D	1D from 2D	2Dから1D
+SMESH_msg_fr	1D_FROM_3D	1D à partir de groupes 2D	1D from 2D groups	2Dグループから１D
+SMESH_msg_fr	1D_LAB	1D (arêtes):	1D (edges):	1D（エッジ）:
+SMESH_msg_fr	2D_FROM_3D	2D à partir de 3D	2D from 3D	3Dから２D
+SMESH_msg_fr	2D_LAB	2D (faces):	2D (faces):	2D (フェース):
+SMESH_msg_fr	3D_BLOCK	Bloc 3D	3D block	3Dブロック
+SMESH_msg_fr	3D_LAB	3D (volumes):	3D (volumes):	3D（ボリューム）:
+SMESH_msg_fr	ADDITIONAL_INFO	Infos détaillées	Additional Info	追加情報
+SMESH_msg_fr	ADD_HYPOTHESIS	Ajouter l'hypothèse	Add. Hypothesis	前提条件を追加
+SMESH_msg_fr	ADD_TO	Ajouter à...	Add to...	追加...
+SMESH_msg_fr	ADD_TO_TLT	Ajouter le filtre de sélection à la librairie	Add selection filter to library	選択フィルターをライブラリーに追加
+SMESH_msg_fr	ALGORITHM_WITHOUT_HYPOTHESIS	L'algorithm pour la dimension %1 est défini mais l'hypothèse ne l'est pas	Algorithm is defined for %1 dimension but hypothesis is not defined	アルゴリズムが %1 に定義されていますが、前提条件は定義されていません
+SMESH_msg_fr	ALONG_XY	|| X-Y	|| X-Y	|| X-Y
+SMESH_msg_fr	ALONG_YZ	|| Y-Z	|| Y-Z	|| Y-Z
+SMESH_msg_fr	ALONG_ZX	|| Z-X	|| Z-X	|| Z-X
+SMESH_msg_fr	AND	Et	And	アンド
+SMESH_msg_fr	AUTO_APPLY	Appliquer automatiquement	Auto Apply	自動的に適用
+SMESH_msg_fr	BASE_INFO	Informations de base	Base Info	基本情報
+SMESH_msg_fr	BELONG_TO_CYLINDER	Appartient au cylindre	Belong to Cylinder	円筒に属する
+SMESH_msg_fr	BELONG_TO_GEOM	Appartient à la géométrie	Belong to Geom	ジオメトリに属する
+SMESH_msg_fr	BELONG_TO_PLANE	Appartient au plan	Belong to Plane	平面に属する
+SMESH_msg_fr	BINARY	Opérateur logique	Binary	バイナリー
+SMESH_msg_fr	COL_SHAPE_HEADER	SousObjet	SubShape	SubShape
+SMESH_msg_fr	CREATE_SUBMESH	Créer un sous-maillage	Create sub-mesh	サブメッシュを作成
+SMESH_msg_fr	DEFAULT_2D	Motif_2d	Pattern_2d	Pattern_2d
+SMESH_msg_fr	DEFAULT_3D	Motif_3d	Pattern_3d	Pattern_3d
+SMESH_msg_fr	DIM_0D	0D	0D	0D
+SMESH_msg_fr	DIM_1D	1D	1D	1D
+SMESH_msg_fr	DIM_2D	2D	2D	2D
+SMESH_msg_fr	DIM_3D	3D	3D	3D
+SMESH_msg_fr	DISTRIBUTION_NB_ENT	TODO	Number of entities	エンティティの数
+SMESH_msg_fr	EDIT_LIB_TLT	Librairie des filtres de sélection	Selection filter library	フィルターライブラリの選択
+SMESH_msg_fr	EDIT_MESH_SUBMESH	Editer un maillage/sous-maillage	Edit mesh/sub-mesh	メッシュ/サブメッシュを編集
+SMESH_msg_fr	EVAL_DLG	Evaluer le maillage	Evaluate mesh	メッシュを評価
+SMESH_msg_fr	EXCLUDE_GROUPS	Exclure les groupes	Exclude Groups	グループを除外
+SMESH_msg_fr	EXTRUSION_1D	Extrusion des éléments 1D	Extrusion of 1D elements	1D要素の押し出し
+SMESH_msg_fr	EXTRUSION_2D	Extrusion des éléments 2D	Extrusion of 2D elements	2D要素の押し出し
+SMESH_msg_fr	EXTRUSION_ALONG_LINE	Extrusion suivant une ligne	Extrusion along a line	線に沿った押し出し
+SMESH_msg_fr	EXTRUSION_ALONG_PATH	Extrusion suivant un chemin	Extrusion along a path	パスに沿った押し出し
+SMESH_msg_fr	FACE_ID_NOT_SELECTED	Aucune face de maillage n'est sélectionnée.\nIndiquez-la et essayez de nouveau	Mesh face is not selected\nPlease specify it and try again	メッシュフェースが選択されていません。\nもう一度指定してやり直してください
+SMESH_msg_fr	FREE_BORDERS	Bords libres	Free borders	自由境界
+SMESH_msg_fr	FREE_EDGES	Arêtes libres	Free edges	フリーエッジ
+SMESH_msg_fr	FREE_FACES	Faces libres	Free faces	フリーフェース
+SMESH_msg_fr	FREE_NODE	Nœud libre (pas de connectivité)	Free node (no connectivity)	フリーノード (接続なし)
+SMESH_msg_fr	FREE_NODES	Nœuds isolés	Free nodes	フリーノード
+SMESH_msg_fr	GROUPS_3	Faces	Faces	フェース
+SMESH_msg_fr	GROUPS_5	Eléments 0D	0D elements	0D要素
+SMESH_msg_fr	Groups	Groupes 2D	Mesh or groups	メッシュ又はグループ
+SMESH_msg_fr	HEXAHEDONRS_LAB	Hexahédrons:	Hexahedrons:	六面体：
+SMESH_msg_fr	HEXAHEDRON	Hexahédron	Hexahedron	六面体
+SMESH_msg_fr	HYPOTHESIS	Hypothèse	Hypothesis	前提条件
+SMESH_msg_fr	MED_FILES_FILTER	Fichiers MED	MED files	MEDファイル
+SMESH_msg_fr	MED_VERSION	Version MED	MED version	MEDバージョン
+SMESH_msg_fr	MED_VX_FILES_FILTER	Fichiers MED %1	MED %1 files	MED %1 ファイル
+SMESH_msg_fr	MEN_EDIT	Edition	Edit	編集(&E)
+SMESH_msg_fr	MEN_EDIT_GEOMGROUP_AS_GROUP	Editer un groupe en tant qu'autonome	Edit Group as Standalone	スタンドアロンでグループの編集
+SMESH_msg_fr	MEN_EDIT_GROUP	Editer un groupe	Edit Group	グループを編集
+SMESH_msg_fr	MEN_EDIT_HYPO	Editer une hypothèse	Edit Hypothesis	前提条件を編集
+SMESH_msg_fr	MEN_EDIT_MESHSUBMESH	Editer un maillage/sous-maillage	Edit Mesh/Sub-mesh	メッシュ/サブメッシュを編集
+SMESH_msg_fr	MEN_ELEM0D	Elément 0D	0D Element	0D要素
+SMESH_msg_fr	MEN_ELEMS0D	Eléments 0D 	0D Elements	0D要素
+SMESH_msg_fr	MEN_EVALUATE	Evaluer	Evaluate	評価
+SMESH_msg_fr	MEN_EXPORT	Exporter	Export	エクスポート
+SMESH_msg_fr	MEN_EXPORT_CGNS	Exporter au format CGNS	Export to CGNS File	CGNS形式でエクスポート
+SMESH_msg_fr	MEN_EXPORT_DAT	Exporter au format DAT	Export to DAT File	DAT形式でエクスポート
+SMESH_msg_fr	MEN_EXPORT_MED	Exporter au format MED	Export to MED File	MED形式でエクスポート
+SMESH_msg_fr	MEN_EXPORT_SAUV	Exporter au format SAUV (ASCII)	Export to SAUV file	SAUV (ASCII) 形式でエクスポート
+SMESH_msg_fr	MEN_EXPORT_STL	Exporter au format STL	Export to STL File	STL形式でエクスポート
+SMESH_msg_fr	MEN_EXPORT_UNV	Exporter au format UNV	Export to UNV File	UNV形式でエクスポート
+SMESH_msg_fr	MEN_EXTRUSION	Extrusion	Extrusion	押し出し
+SMESH_msg_fr	MEN_EXTRUSION_ALONG	Extrusion suivant un chemin	Extrusion Along a Path	パスに沿って押し出し
+SMESH_msg_fr	MEN_FACES	Faces	Faces	フェース
+SMESH_msg_fr	MEN_FACE_CTRL	Contrôles des faces	Face Controls	フェースコントロール
+SMESH_msg_fr	MEN_FACE_ORIENTATION	Orientation des faces	Orientation of Faces	フェースの向き
+SMESH_msg_fr	MEN_FILE	Fichier	File	ファイル(&F)
+SMESH_msg_fr	MEN_FILE_INFO	Information du fichier MED	MED File Information	MEDファイルの情報
+SMESH_msg_fr	MEN_FIND_ELEM	Trouver un élément par un point	Find Element by Point	ポイントで要素を見つける
+SMESH_msg_fr	MEN_FREE_BORDER	Frontières libres	Free Borders	自由境界
+SMESH_msg_fr	MEN_FREE_EDGE	Arêtes libres	Free Edges	フリーエッジ
+SMESH_msg_fr	MEN_FREE_FACES	Faces libres	Free Faces	フリーフェース
+SMESH_msg_fr	MEN_FREE_NODE	Nœuds libres	Free Nodes	フリーノード
+SMESH_msg_fr	MEN_GLOBAL_HYPO	Hypothèse globale	Global Hypothesis	グローバル前提条件
+SMESH_msg_fr	MEN_HIDE	Cacher	Hide	非表示
+SMESH_msg_fr	MEN_MED	Fichier MED	MED file	MEDファイル
+SMESH_msg_fr	MEN_MESH_ORDER	Changer la priorité des sous-maillages	Change submesh priority	サブメッシュの優先順位を変更
+SMESH_msg_fr	MEN_MESH_THROU_POINT	Déplacer un nœud	Move Node	ノードを移動
+SMESH_msg_fr	MEN_MOVE	Déplacer un nœud	Move Node	ノードを移動
+SMESH_msg_fr	MEN_NODE_CTRL	Contrôles des nœuds	Node Controls	ノードコントロール
+SMESH_msg_fr	MEN_NUM_ELEMENTS	Montrer les nÂ° des éléments	Display Elements #	要素番号表示
+SMESH_msg_fr	MEN_NUM_NODES	Montrer les nÂ° des nœuds	Display Nodes #	節点番号表示
+SMESH_msg_fr	MEN_ORIENT	Orientation	Orientation	方向
+SMESH_msg_fr	MEN_OVER_CONSTRAINED_FACE	Faces sur-contraintes	Over-constrained faces	制約が多すぎるフェース
+SMESH_msg_fr	MEN_OVER_CONSTRAINED_VOLUME	Volumes sur-contraints	Over-constrained volumes	制約が多すぎるボリューム
+SMESH_msg_fr	MEN_QUADRATIC_TETRAHEDRON	Tetraèdre quadratique	Quadratic Tetrahedron	二次四面体
+SMESH_msg_fr	MEN_QUADRATIC_TRIANGLE	Triangle quadratique	Quadratic Triangle	二次三角形
+SMESH_msg_fr	MEN_REVOLUTION	Révolution	Revolution	公転
+SMESH_msg_fr	MEN_SAUV	Fichier SAUV (ASCII)	SAUV file	SAUVファイル
+SMESH_msg_fr	MEN_SAVE_DISTRIBUTION	Exporter la distribution...	Export ...	エクスポート...
+SMESH_msg_fr	MEN_SEL_FILTER_LIB	Librairie des filtres de sélection	Selection Filters Library	ライブラリーのフィルター選択
+SMESH_msg_fr	MEN_SEW	Couture	Sewing	縫い合わせ
+SMESH_msg_fr	MEN_SKEW	Inclinaison d'angle	Skew	スキュー
+SMESH_msg_fr	MEN_SPLIT_TO_TETRA	Explosion en tétraèdres	Split into Tetrahedra	四面体の分割
+SMESH_msg_fr	MEN_SYM	Symétrie	Symmetry	対称
+SMESH_msg_fr	MEN_TOOLS	Outils	Tools	ツール(&T)
+SMESH_msg_fr	MEN_TRANS	Translation	Translation	変形
+SMESH_msg_fr	MEN_UNION	Union des triangles	Union of Triangles	三角形の結合
+SMESH_msg_fr	MEN_UNION2	Union de deux triangles	Union of Two Triangles	2 つの三角形の結合
+SMESH_msg_fr	MEN_UNV	Fichier UNV	UNV File	UNVファイル
+SMESH_msg_fr	MEN_UN_GROUP	Union des groupes	Union Groups	グループを結合
+SMESH_msg_fr	MEN_UPDATE	Mettre à jour	Update	更新
+SMESH_msg_fr	MEN_VIEW	Affichage	View	表示(&V)
+SMESH_msg_fr	MEN_WIRE	Contours	Wireframe	ワイヤーフレーム
+SMESH_msg_fr	MESHES_SUBMESHES_GROUPS	Maillages, sous-maillages et groupes	Meshes, sub-meshes and groups	メッシュ、サブメッシュ、グループ
+SMESH_msg_fr	MESH_INFO	Infiormations de maillage	Mesh Information	メッシュ情報
+SMESH_msg_fr	MESH_OR_SUBMESH	Maillage ou sous-maillage	Mesh or SubMesh	メッシュまたはサブメッシュ
+SMESH_msg_fr	NEW	Nouveau...	New...	新規作成...
+SMESH_msg_fr	NO	Non	No	いいえ
+SMESH_msg_fr	NONE	<None>	<None>	<None>
+SMESH_msg_fr	NOT	Non	Not	いいえ
+SMESH_msg_fr	OBJECT_SUBMESH	Sous-maillage	Sub-mesh	サブメッシュ
+SMESH_msg_fr	ORIGIN	Origine	Origin	原点
+SMESH_msg_fr	POLYHEDRON	Polyhédron	Polyhedron	多面体
+SMESH_msg_fr	POLYHEDRONS_LAB	Polyhédrons:	Polyhedrons:	多面体：
+SMESH_msg_fr	PREF_AUTO_GROUPS	Créer les groupes automatiquement pour l'export MED	Automatically create groups for MED export	MEDエクスポート時に自動的にグループ作成
+SMESH_msg_fr	PREF_AUTO_UPDATE	Mettre à jour automatiquement	Automatic update	自動的に更新
+SMESH_msg_fr	PREF_BACKFACE	Face arrière	Back surface color	背面の色
+SMESH_msg_fr	PREF_COLOR_0D	Eléments 0D	0D elements	０D要素
+SMESH_msg_fr	SMESH_BUT_ADD	A&jouter	A&dd	追加(&d)
+SMESH_msg_fr	SMESH_BUT_APPLY	A&ppliquer	&Apply	適用(&A)
+SMESH_msg_fr	SMESH_BUT_APPLY_AND_CLOSE	App&liquer et fermer	A&pply and Close	適用して閉じる(&p)
+SMESH_msg_fr	SMESH_BUT_CANCEL	A&nnuler	&Cancel	キャンセル(&C)
+SMESH_msg_fr	SMESH_BUT_CLOSE	&Fermer	&Close	閉じる(&C)
+SMESH_msg_fr	SMESH_BUT_CREATE	&Créer	Create	作成
+SMESH_msg_fr	SMESH_BUT_DELETE	Eff&acer	Delete	削除
+SMESH_msg_fr	SMESH_BUT_HELP	Ai&de	&Help	ヘルプ(&H)
+SMESH_msg_fr	SMESH_BUT_NEW	Nou&veau	New	新規作成
+SMESH_msg_fr	SMESH_BUT_NO	&Non	&No	いいえ(&N)
+SMESH_msg_fr	SMESH_BUT_OK	&Ok	&Ok	Ok(&O)
+SMESH_msg_fr	SMESH_BUT_OVERWRITE	Réécr&ire	Over&write	書換え(&w)
+SMESH_msg_fr	SMESH_BUT_REMOVE	S&upprimer	&Remove	削除(&R)
+SMESH_msg_fr	SMESH_CLIPPING_FROM	De <---	From <---	From <---
+SMESH_msg_fr	SMESH_CLIPPING_INTO	---> En	---> Into	---> Into
+SMESH_msg_fr	SMESH_CLIPPING_TITLE	Changer le plan de coupe	Change Clipping	クリッピングを変更
+SMESH_msg_fr	SMESH_CONTINUE_MESH_VISUALIZATION	La système semble manquer de mémoire pour visualiser le maillage,\nce qui peut faire planter l'application. Voulez-vous continuer la visualisation ?	It seems that there is not enough memory to show the mesh\nso that the application may crash. Do you wish to continue visualization?	メッシュ表示にはメモリ不足でアプリケーションがクラッシュした様です。\n表示を継続しますか？
+SMESH_msg_fr	SMESH_COORDINATES	Coordonnées	Coordinates	座標系
+SMESH_msg_fr	SMESH_COPY_ELEMENTS	Copier les éléments	Copy Elements	要素のコピー
+SMESH_msg_fr	SMESH_COPY_GROUPS	Copier les groupes	Copy groups	グループのコピー
+SMESH_msg_fr	SMESH_COPY_MESH_TITLE	Copier le maillage	Copy Mesh	メッシュのコピー
+SMESH_msg_fr	SMESH_CORNER_NODES	Nœuds angulaires:	Corner Nodes:	角の節点:
+SMESH_msg_fr	SMESH_CREATE_ALGORITHMS	Créer les algorithmes	Create algorithms	アルゴリズムを作成
+SMESH_msg_fr	SMESH_CREATE_COPY	Créer une copie	Create a copy	コピーを作成
+SMESH_msg_fr	SMESH_CREATE_GEO_GROUP	Créer les groupes liés à la géométrie	Create Groups from Geometry	ジオメトリに関連するグループを作成
+SMESH_msg_fr	SMESH_CREATE_GROUP_FROM_GEOM	Créer des groupes à partir de la géométrie	Create Groups from Geometry	ジオメトリのグループを作成
+SMESH_msg_fr	SMESH_CREATE_GROUP_TITLE	Créer un groupe	Create Group	グループを作成
+SMESH_msg_fr	SMESH_CREATE_HYPOTHESES	Créer une hypothèse	Create hypotheses	前提条件を作成
+SMESH_msg_fr	SMESH_CREATE_MESH	Créer un nouveau maillage	Create a new mesh	新しいメッシュを作成
+SMESH_msg_fr	SMESH_CREATE_POLYHEDRAL_VOLUME_TITLE	Créer un volume polyèdrique	Create polyhedral volume	多面体のボリュームを作成
+SMESH_msg_fr	SMESH_DRS_1	Le fichier MED contient pas de maillage avec ce nom	MED file contains no mesh with the given name	与えられた名前のメッシュがMEDファイルには含まれません
+SMESH_msg_fr	SMESH_DZ	dZ	dZ	dZ
+SMESH_msg_fr	SMESH_FACE	Face	Face	フェース
+SMESH_msg_fr	SMESH_FONT_BOLD	Gras	Bold	Bold
+SMESH_msg_fr	SMESH_FONT_COURIER	Courrier	Courier	Courier
+SMESH_msg_fr	SMESH_FONT_ITALIC	Italique	Italic	Italic
+SMESH_msg_fr	SMESH_FONT_SCALARBAR	Police	Font	Font
+SMESH_msg_fr	SMESH_FONT_TIMES	Times	Times	Times
+SMESH_msg_fr	SMESH_Y	Y	Y	Y
+SMESH_msg_fr	SMESH_Y_SCALARBAR	Y :	Y:	Y:
+SMESH_msg_fr	STB_CREATE_SUBMESH	Créer un sous-maillage	Create Sub-mesh	サブメッシュを作成
+SMESH_msg_fr	STB_DISP_ENT	Visualiser une entité	Display entity	エンティティの表示
+SMESH_msg_fr	STB_EDIT_GEOMGROUP_AS_GROUP	Editer un groupe en tant qu'autonome	Edit Group as Standalone	スタンドアロンでグループを編集
+SMESH_msg_fr	STB_EDIT_GROUP	Editer un groupe	Edit Group	グループを編集
+SMESH_msg_fr	STB_EDIT_HYPO	Editer une hypothèse	Edit Hypothesis	前提条件を編集
+SMESH_msg_fr	STB_EDIT_MESHSUBMESH	Editer un maillage/sous-maillage	Edit Mesh/Sub-mesh	メッシュ/サブメッシュを編集
+SMESH_msg_fr	STB_ELEM0D	Elément 0D	0D Element	０D要素
+SMESH_msg_fr	STB_ELEMS0D	Eléments 0D	0D Elements	０D要素
+SMESH_msg_fr	STB_EVALUATE	Evaluer	Evaluate	評価
+SMESH_msg_fr	STB_EXPORT_CGNS	Exporter au format CGNS	Export to CGNS file	CGNS形式でエクスポート
+SMESH_msg_fr	STB_EXPORT_DAT	Exporter au format DAT	Export to DAT file	DAT形式でエクスポート
+SMESH_msg_fr	STB_EXPORT_MED	Exporter au format MED	Export to MED file	MED形式でエクスポート
+SMESH_msg_fr	STB_EXPORT_SAUV	Exporter au format SAUV (ASCII)	Export to SAUV file	SAUV(ASCII) 形式でエクスポート
+SMESH_msg_fr	STB_EXPORT_STL	Exporter au format STL	Export to STL file	STL形式でエクスポート
+SMESH_msg_fr	STB_EXPORT_UNV	Exporter au format UNV	Export to UNV file	UNV形式でエクスポート
+SMESH_msg_fr	STB_EXTRUSION	Extrusion	Extrusion	押出し
+SMESH_msg_fr	STB_EXTRUSION_ALONG	Extrusion suivant un chemin	Extrusion along a path	パスに沿って押し出し
+SMESH_msg_fr	STB_FACES	Faces	Faces	フェース
+SMESH_msg_fr	STB_FACE_ORIENTATION	Orientation des faces	Orientation of faces	フェースの向き
+SMESH_msg_fr	STB_FIND_ELEM	Trouver un élément par un point	Find Element by Point	ポイントで要素を検索
+SMESH_msg_fr	STB_FREE_BORDER	Frontières libres	Free Borders	自由境界
+SMESH_msg_fr	STB_FREE_EDGE	Arêtes libres	Free Edges	フリーエッジ
+SMESH_msg_fr	STB_FREE_FACES	Faces libres	Free Faces	フリーフェース
+SMESH_msg_fr	STB_FREE_NODE	Nœuds libres	Free Nodes	フリーノード
+SMESH_msg_fr	STB_GLOBAL_HYPO	Hypothèse globale	Global Hypothesis	グローバル前提条件
+SMESH_msg_fr	STB_HIDE	Cacher	Hide	非表示
+SMESH_msg_fr	STB_MED	Importer un fichier MED	Import MED file	MEDファイルをインポート
+SMESH_msg_fr	TOP_DISP_ENT	Visualiser une entité	Display entity	エンティティの表示
+SMESH_msg_fr	TOP_EDIT_GEOMGROUP_AS_GROUP	Editer un groupe en tant qu'autonome	Edit Group as Standalone	スタンドアロンでグループの編集
+SMESH_msg_fr	TOP_EDIT_GROUP	Editer un groupe	Edit Group	グループを編集
+SMESH_msg_fr	TOP_EDIT_HYPO	Editer l'hypothèse	Edit Hypothesis	前提条件を編集
+SMESH_msg_fr	TOP_EDIT_MESHSUBMESH	Editer un maillage/sous-maillage	Edit Mesh/Sub-mesh	メッシュ/サブメッシュを編集
+SMESH_msg_fr	TOP_ELEM0D	Elément 0D	0D Element	０D要素
+SMESH_msg_fr	TOP_ELEMS0D	Eléments 0D	0D Elements	０D要素
+SMESH_msg_fr	TOP_EVALUATE	Evaluer	Evaluate	評価
+SMESH_msg_fr	TOP_EXPORT_DAT	Exporter au format DAT	Export to DAT file	DAT形式でエクスポート
+SMESH_msg_fr	TOP_EXPORT_MED	Exporter au format MED	Export to MED file	MED形式でエクスポート
+SMESH_msg_fr	TOP_EXPORT_SAUV	Exporter au format SAUV (ASCII)	Export to SAUV file	SAUV(ASCII) 形式でエクスポート
+SMESH_msg_fr	TOP_EXPORT_STL	Exporter au format STL	Export to STL file	STL形式でエクスポート
+SMESH_msg_fr	TOP_EXPORT_UNV	Exporter au format UNV	Export to UNV file	UNV形式でエクスポート
+SMESH_msg_fr	TOP_EXTRUSION	Extrusion	Extrusion	押出し
+SMESH_msg_fr	TOP_EXTRUSION_ALONG	Extrusion suivant un chemin	Extrusion along a path	パスに沿って押し出し
+SMESH_msg_fr	TOP_FACES	Faces	Faces	フェース
+SMESH_msg_fr	TOP_FACE_ORIENTATION	Orientation des faces	Orientation of faces	フェースの向き
+SMESH_msg_fr	TOP_FIND_ELEM	Trouver un élément par un point	Find Element by Point	ポイントで要素を検索
+SMESH_msg_fr	TOP_FREE_BORDER	Frontières libres	Free Borders	自由境界
+SMESH_msg_fr	TOP_FREE_EDGE	Arêtes libres	Free Edges	フリーエッジ
+SMESH_msg_fr	TOP_FREE_FACES	Faces libres	Free Faces	フリーフェース
+SMESH_msg_fr	TOP_FREE_NODE	Nœuds libres	Free Nodes	フリーノード
+SMESH_msg_fr	TOP_GLOBAL_HYPO	Hypothèse globale	Global Hypothesis	グローバル前提条件
+SMESH_msg_fr	TOP_MED	Importer un fichier MED	Import MED file	MEDファイルをインポート
+SMESH_msg_fr	TOP_MESH_ORDER	Changer la priorité des sous-maillages	Change submesh priority	サブメッシュの優先順位を変更
+SMESH_msg_fr	TOP_ORIENT	Orientation	Orientation	向き
+SMESH_msg_fr	TOP_OVER_CONSTRAINED_FACE	Faces sur-contraintes	Over-constrained faces	過拘束のフェース
+SMESH_msg_fr	TOP_OVER_CONSTRAINED_VOLUME	Volumes sur-contraints	Over-constrained volumes	過拘束のボリューム
+SMESH_msg_fr	TOP_REMOVE_ORPHAN_NODES	Supprimer les nœuds ophelins	Remove orphan nodes	孤立ノードを削除
+SMESH_msg_fr	TOP_REVOLUTION	Révolution	Revolution	公転
+SMESH_msg_fr	TOP_SAUV	Importer un fichier SAUV (ASCII)	Import SAUV file	SAUV(ASCII) ファイルをインポート
+SMESH_msg_fr	TOP_SEL_FILTER_LIB	Librairie des filtres de sélection	Selection filters library	ライブラリーフィルター選択
+SMESH_msg_fr	TOP_SEW	Couture	Sewing	縫い合わせ
+SMESH_msg_fr	TOP_SKEW	Inclinaison d'angle	Skew	スキュー
+STD_msg_fr	ABOUT_INFO	Application SUIT Std	SUIT Std application	標準アプリケーションの適合
+STD_msg_fr	ALL_FILES	Tous les fichiers (*.*)	All Files (*.*)	すべてのファイル (*.*)
+STD_msg_fr	BUT_APPLY	A&ppliquer	&Apply	適用(&A)
+STD_msg_fr	BUT_CANCEL	&Annuler	&Cancel	キャンセル(&C)
+STD_msg_fr	BUT_CLOSE	&Fermer	&Close	閉じる(&C)
+STD_msg_fr	BUT_HELP	A&ide	&Help	ヘルプ(&H)
+STD_msg_fr	BUT_NO	N&on	&No	いいえ(&N)
+STD_msg_fr	BUT_OK	O&k	&Ok	Ok(&O)
+STD_msg_fr	BUT_YES	O&ui	&Yes	はい(&Y)
+STD_msg_fr	CLOSE_QUESTION	Voulez-vous sauvegarder l'étude avant de la fermer?	Do you want to save study before closing?	閉じる前にスタディを保存しますか？
+STD_msg_fr	CLOSE_STUDY	Fermer l'étude actuelle	Close active study	現在のスタディを閉じる
+STD_msg_fr	DESK_DEFAULTTITLE	Qt Framework d'Applications	Qt Application Desktop	Qtアプリケーション デスクトップ
+STD_msg_fr	DLG_LOAD_STUDY_CAPTION	Ouvrir une étude	Load Study	スタディを読み込む
+STD_msg_fr	ERR_APP_NOAPP	Pas d'application	No application	アプリケーションがありません
+STD_msg_fr	ERR_DESK_NOAPP	Pas d'application enregistrée	No applications registered	登録されたアプリケーションがありません
+STD_msg_fr	ERR_DOC_DIRWITHNAMEEXIST_SAVE	Impossible de sauvegarder le fichier %1.\nUn répertoire avec ce nom existe déjà sur le disque. Essayez d'utiliser un autre nom	Can not save file %1.\nDirectory with this name exist on disc. Try to use another name	ファイル %1 を保存できません。\nこの名前のディレクトリが既にディスクに存在します。別の名前を使用してください。
+STD_msg_fr	ERR_DOC_PERMISSIONDENIED_SAVE	Impossible de sauvegarder le fichier %1. Autorisaton refusée.	Can not save file %1. Permission denied	ファイル %1 を保存できません。権限がありません。
+STD_msg_fr	ERR_DOC_UNKNOWNTYPE_OPEN	Vous essayez d'ouvrir un document de type inconnu\n( %1 )	You are trying to open a document of an unknown type\n( %1 )	不明な種類の文書 ( %1 ) を開こうとしています。
+STD_msg_fr	ERR_DOC_UNKNOWNTYPE_SAVE	Vous essayez de sauvegarder le document sous un type inconnu\n( %1 )	You are trying to save this document under an unknown type\n( %1 )	不明な種類の文書 ( %1 ) として保存しようとしています。
+STD_msg_fr	FILTER_FILES	Fichiers %1 (%2)	%1 Files (%2)	%1 ファイル (%2) 
+STD_msg_fr	INF_DESK_DOCALREADYOPEN	Impossible de sauvegarder le document sous le nom d'un document déjà ouvert.\nIndiquez un autre nom pour le document que vous voulez sauvegarder.\n( %1 )	A document cannot be saved under a name of a document already opened.\nPlease, type another name for the document you want to save.\n( %1 )	既に開いている文書と同じ名前で保存できません。\n保存するには別の名前を指定してください。\n( %1 )
+STD_msg_fr	INF_DESK_DOC_CREATE	Créer un nouveau document	Create a new document	新しいドキュメントを作成
+STD_msg_fr	INF_DESK_EXIT	&Quitter	Exit	終了
+STD_msg_fr	INF_DESK_TOOLBAR_STANDARD	Standard	Standard	標準
+STD_msg_fr	INF_DOCUMENT_MODIFIED	Le document "%1" a été modifié.\nVoulez-vous sauvegarder les changements?	Document "%1" has been modified.\nDo you want to save changes?	ドキュメント"%1"が変更されました。\n変更を保存しますか？
+STD_msg_fr	INF_DOC_MODIFIED	Le document a été modifié.\nVoulez-vous sauvegarder les modifications?	Document has been modified.\nDo you want to save changes?	ドキュメントが変更されています。\n変更を保存しますか。？
+STD_msg_fr	INF_DOC_SAVED	L'étude %1 est sauvegardée	Study %1 saved	スタディ %1 を保存
+STD_msg_fr	INF_DOC_SAVING	Sauvegarde de l'étude en cours	Saving study 	スタディを保存
+STD_msg_fr	INF_DOC_SAVING_FAILS	Impossible de sauvegarder le fichier "%1".\nIl peut y avoir un problème de droit ou l'espace disque restant est insuffisant.\nEssayez d'utiliser un autre nom de fichier.	Can't save file "%1".\nPossible reason is permission denied or disc full.\nTry to use another file name.	ファイル"%1"を保存できません。\nディスクの権限が無いか、または残りのディスク領域が十分ではありません。\n別のファイル名を使用してください。
+STD_msg_fr	INF_READY	Prêt	Ready	準備
+STD_msg_fr	MEN_DESK_EDIT_CUT	Co&uper	Cu&t	カット(&t)
+STD_msg_fr	MEN_DESK_EDIT_PASTE	Co&ller	&Paste	貼り付け(&P)
+STD_msg_fr	MEN_DESK_FILE	Fic&hier	&File	ファイル(&F)
+STD_msg_fr	MEN_DESK_FILE_CLOSE	Fer&mer	&Close	閉じる(&C)
+STD_msg_fr	MEN_DESK_FILE_EXIT	&Quitter	E&xit	終了(&x)
+STD_msg_fr	MEN_DESK_FILE_LOAD	Connec&ter...	Conn&ect...	接続...(&e)
+STD_msg_fr	MEN_DESK_FILE_NEW	&Nouveau	&New	新規作成(&N)
+STD_msg_fr	MEN_DESK_FILE_OPEN	&Ouvrir...	&Open...	開く...(&O)
+STD_msg_fr	MEN_DESK_FILE_PRINT	&Imprimer	&Print	印刷(&P)
+STD_msg_fr	MEN_DESK_FILE_REOPEN	&Réouvrir	Reopen	再開(&R)
+STD_msg_fr	MEN_DESK_FILE_SAVE	&Enregistrer	&Save	保存(&S)
+STD_msg_fr	MEN_DESK_FILE_SAVEAS	Enre&gistrer sous...	Save &As...	別名で保存...(&A)
+STD_msg_fr	MEN_DESK_HELP	A&ide	&Help	ヘルプ(&H)
+STD_msg_fr	MEN_DESK_HELP_ABOUT	&A propos de...	&About...	バージョン情報...(&A)
+STD_msg_fr	MEN_DESK_HELP_SEARCH	&Recherche...	&Search...	サーチ...(&S)
+STD_msg_fr	MEN_DESK_VIEW	&Affichage	&View	表示(&V)
+STD_msg_fr	MEN_DESK_VIEW_DOCKWINDOWS	Fenêtres	W&indows	Windows(&i)
+STD_msg_fr	MEN_DESK_VIEW_STATUSBAR	&Barre de status	&Status Bar	ステータス バー(&S)
+STD_msg_fr	MEN_DESK_WINDOW	&Fenêtre	&Window	ウィンドウ(&W)
+STD_msg_fr	MEN_DESK_WINDOW_HTILE	Mosaïque horizontale	Tile &Horizontally	水平方向に並べて表示
+STD_msg_fr	MEN_DESK_WINDOW_TILE	Mosaïque	&Tile	並べて表示
+STD_msg_fr	MEN_DESK_WINDOW_VSPLIT	Séparation verticale	Split &Vertically	垂直分割
+STD_msg_fr	MEN_DESK_WINDOW_VTILE	Mosaïque verticale	Tile &Vertically	垂直方向に並べて表示
+STD_msg_fr	MEN_DOCK_WINDOWS	Fenêtres et Barres d'outils	Windows and Toolbars	Window およびツールバー
+STD_msg_fr	MEN_STUDIES_CHOICE	Choisir une étude existante	Choose Existent Study.	既存のスタディを選択
+STD_msg_fr	MSG_CANT_SAVE	Impossible de sauvegarder le fichier "%1".	Can't save file "%1".	ファイル"%1"を保存できませんでした
+STD_msg_fr	MSG_FILE_EXISTS	Le fichier "%1" existe déjà.\nVoulez-vous l'écraser ?	File "%1" already exists.\nDo you want to overwrite it?	ファイル"%1"は既に存在します。\n上書きしますか？
+STD_msg_fr	PRP_DESK_EDIT_COPY	Copier la sélection dans le presse-papiers	Copy the selection to the Clipboard	選択範囲をクリップボードにコピー
+STD_msg_fr	PRP_DESK_EDIT_CUT	Couper la sélection et la placer dans la presse-papier	Cuts the selection and puts it to the Clipboard	選択範囲を切り取って、クリップボードにコピー
+STD_msg_fr	PRP_DESK_EDIT_PASTE	Insérer le contenu du presse-papiers au point d'insertion	Inserts the Clipboard content at the insertion point	クリップボードの内容を挿入
+STD_msg_fr	PRP_DESK_FILE_CLOSE	Ferme le document actuel	Closes the active document	現在のドキュメントを閉じる
+STD_msg_fr	PRP_DESK_FILE_EXIT	Quitte l'application	Exits the application	アプリケーションを終了
+STD_msg_fr	PRP_DESK_FILE_LOAD	Charge un document	Loads a document	ドキュメントを読み込み
+STD_msg_fr	PRP_DESK_FILE_NEW	Crée un nouveau document	Creates a new document	新しいドキュメントを作成
+STD_msg_fr	PRP_DESK_FILE_OPEN	Ouvre un document existant	Opens an existing document	既存のドキュメントを開く
+STD_msg_fr	PRP_DESK_FILE_PRINT	Imprime le document actuel	Prints the active document	現在のドキュメントを印刷
+STD_msg_fr	PRP_DESK_FILE_REOPEN	Réouvrir le document actuel à partir d'un fichier	Reload the current document from the file	現在のドキュメントを再読込み
+STD_msg_fr	PRP_DESK_FILE_SAVE	Sauvegarder le document actuel	Saves the active document	現在のドキュメントを保存
+STD_msg_fr	PRP_DESK_FILE_SAVEAS	Sauvegarder le document actuel sous un nouveau nom	Saves the active document with a new name	現在のドキュメントを新しい名前で保存
+STD_msg_fr	PRP_DESK_HELP_ABOUT	Montre la boîte de dialogue 'A propos'	Shows 'About' dialog	About'ダイアログ ボックスの表示
+STD_msg_fr	PRP_DESK_HELP_CONTENTS	Afficher le sommaire de la référence documentaire	Shows the whole help contents	ヘルプコンテンツの全表示
+STD_msg_fr	PRP_DESK_HELP_SEARCH	Chercher de l'information sur le sujet	Searches help for a topic	ヘルプのトピック検索
+STD_msg_fr	PRP_DESK_NEWWINDOW	Créer une nouvelle fenêtre	Create new Window	新しいウィンドウを作成
+STD_msg_fr	PRP_DESK_VIEW_STATUSBAR	Activer ou désactiver la barre de status	Toggles status bar view on/off	ステータスバーの有効/無効
+STD_msg_fr	PRP_DESK_VIEW_STDTOOLBAR	Activer ou désactiver la barre standard	Toggles standard toolbar on/off	標準ツールバーの有効/無効
+STD_msg_fr	PRP_DESK_WINDOW_ACTIVATE	Activer la fenêtre	Activates this window	このウィンドウをアクティブ化
+STD_msg_fr	PRP_DESK_WINDOW_CASCADE	Ranger les fenêtres en cascade	Arranges the windows as overlapping tiles	ウィンドウを重ねて整理
+STD_msg_fr	PRP_DESK_WINDOW_HSPLIT	Diviser la fenêtre actuelle en deux parties horizontales	Splits the active window on two horizontal parts	現在のウィンドウを 2つに水平分割
+STD_msg_fr	PRP_DESK_WINDOW_HTILE	Ranger les fenêtres en mosaïque horizontale	Arranges the windows as nonoverlapping horizontal tiles	ウィンドウを左右に並べて表示
+STD_msg_fr	PRP_DESK_WINDOW_TILE	Ranger les fenêtres en mosaïque	Arranges the windows as nonoverlapping tiles	ウィンドウを並べて表示
+STD_msg_fr	PRP_DESK_WINDOW_VSPLIT	Diviser la fenêtre actuelle en deux parties verticales	Splits the active window on two vertical parts	現在のウィンドウを２つに上下分割
+STD_msg_fr	PRP_DESK_WINDOW_VTILE	Ranger les fenêtres en mosaïque verticale	Arranges the windows as nonoverlapping vertical tiles	ウィンドウを上下に並べて表示
+STD_msg_fr	QUE_DESK_EXIT	Voulez-vous vraiment quitter ?	Are you sure you want to quit?	本当に終了しますか？
+STD_msg_fr	QUE_DOC_ALREADYOPEN	Le document %1 est déjà ouvert.\nVoulez-vous le réouvrir?	The document %1 is already open.\nDo you want to reload it ?	ドキュメント %1 は既に開いています。\n再読込みしますか？
+STD_msg_fr	REOPEN_QUESTION	Voulez-vous vraiment réouvrir l'étude?\nToutes les modifications introduites après le dernier enregistrement seront perdues.	Do you really want to re-open study?\nAll the changes made since last saving will be lost.	スタディを再開しますか。\n最後に保存してからのすべての変更は失われます。
+STD_msg_fr	REOPEN_STUDY	Réouvrir l'étude	Reopen study	スタディを再開
+STD_msg_fr	TIT_FILE_SAVEAS	Enregistrer sous	Save As	別名で保存
+STD_msg_fr	TOT_DESK_FILE_EXIT	Quitter l'application	Exit from application	アプリケーションを終了
+STD_msg_fr	TOT_DESK_FILE_NEW	Créer un nouveau document	New document	新しいドキュメントを作成
+STD_msg_fr	TOT_DESK_FILE_PRINT	Imprimer un document	Print document	ドキュメントを印刷
+STD_msg_fr	TOT_DESK_FILE_SAVE	Enregistrer le document	Save document	ドキュメントを保存
+STD_msg_fr	TOT_DESK_FILE_SAVEAS	Enregistrer le document sous...	Save document as...	ドキュメントを別名で保存...
+STD_msg_fr	TOT_DESK_HELP_ABOUT	A propos...	About...	About...
+STD_msg_fr	TOT_DESK_NEWWINDOW	Créer une nouvelle fenêtre	Create new Window	新しいウィンドウを作成
+STD_msg_fr	TOT_DOCK_WINDOWS	Montrer / cacher les fenêtres ancrables et les barres d'outils	Show / hide dockable windows and toolbars	ドッキング可能なウィンドウとツールバーを表示/非表示
+SUITApp_msg_fr	APP_OK	Ok	Ok	Ok
+SUIT_msg_fr	MEN_DESK_WINDOW	&Fenêtre	&Window	ウィンドウ(&W)
+SVTK_msg_fr	DSC_SVTK_GRADUATED_AXES	Axes gradués	Graduated axes	目盛付軸
+SVTK_msg_fr	LBL_DZ	DZ :	DZ :	DZ :
+SVTK_msg_fr	MNU_SVTK_GRADUATED_AXES	Axes gradués	Graduated axes	目盛付軸
+SalomeApp_msg_fr	ACTIVATE_MODULE_OP_LOAD	&Charger...	&Load...	読込み(&L)
+SalomeApp_msg_fr	ACTIVATE_MODULE_OP_SCRIPT	Charger un &script...	Load &Script...	スクリプト読込み(&S)
+SalomeApp_msg_fr	ALL_FILES_FILTER	Tous les fichiers (*.*)	All files (*.*)	すべてのファイル (*.*)
+SalomeApp_msg_fr	APPCLOSE_CANCEL	&Annuler	&Cancel	キャンセル(&C)
+SalomeApp_msg_fr	APPCLOSE_CAPTION	Fermer l'étude actuelle	Close active study	現在のスタディを閉じる
+SalomeApp_msg_fr	APPCLOSE_CLOSE	&Fermer sans sauvegarder	&Close w/o saving	保存せずに閉じる(&C)
+SalomeApp_msg_fr	APPCLOSE_DESCRIPTION	Voulez-vous fermer ou décharger l'étude avant de la fermer ?	Do you want to close or unload study before closing?	閉じる、または閉じる前にスタディをアンロードしますか？
+SalomeApp_msg_fr	APPCLOSE_SAVE	&Sauvegarder && Fermer	&Save && Close	保存して閉じる(&S)
+SalomeApp_msg_fr	APPCLOSE_UNLOAD	&Déconnecter	&Unload	アンロード(&D)
+SalomeApp_msg_fr	BUT_APPLY_AND_CLOSE	A&ppliquer et Fermer	A&pply and Close	適用して閉じる(&p)
+SalomeApp_msg_fr	BUT_HELP	&Aide	&Help	ヘルプ(&H)
+SalomeApp_msg_fr	BUT_LOAD	&Charger	&Load	読み込み(&L)
+SalomeApp_msg_fr	BUT_NEW	&Nouvelle	&New	新規作成(&N)
+SalomeApp_msg_fr	BUT_OPEN	&Ouvrir	&Open	開く(&O)
+SalomeApp_msg_fr	BUT_REMOVE	&Supprimer	&Remove	削除(&R)
+SalomeApp_msg_fr	BUT_UPDATE_STUDY	&Mettre l'étude à jour	&Update Study	スタディ更新(&M)
+SalomeApp_msg_fr	CLOSE_CAPTION	Fermer le Registre	Close NoteBook	NoteBookを閉じる
+SalomeApp_msg_fr	CLOSE_DESCRIPTION	Voulez-vous sauvegarder les changements faits au Registre ?	Do you want to save changes you made to NoteBook?	NoteBookの変更を保存しますか？
+SalomeApp_msg_fr	CLOSE_LOCKED_STUDY	Fermer l'étude verrouillée?	Close locked study?	ロックしたスタディを閉じますか？
+SalomeApp_msg_fr	ERR_INCOMPATIBLE_TYPE	Le type numérique de la variable "%1" n'est pas compatible	Variable with name "%1" has incompatible numeric type	変数"%1"の数値型は互換性がありません
+SalomeApp_msg_fr	ERR_UPDATE_STUDY_FAILED	Impossible de mettre l'étude à jour !	Failed to update study!	スタディの更新に失敗しました！
+SalomeApp_msg_fr	INCORRECT_DATA	Au moins une variable a été définie incorrectement.\nEditez ses paramètres ou retirez la de la liste.	At least one variable has been defined incorrectly.\nPlease edit its parameters or remove it from table.	少なくとも、１つの変数の定義が正しくありません。\nそのパラメーターを編集するか、または削除してください。
+SalomeApp_msg_fr	MEN_DELETE_INVALID_REFERENCE	Supprimer la référence invalide	Delete Invalid Reference	無効な参照を削除します
+SalomeApp_msg_fr	MEN_DESK_ADD_VARS_TO_NOTEBOOK	Ajouter les variables au Registre	Add vars to NoteBook	変数をNoteBookに追加します
+SalomeApp_msg_fr	MEN_DESK_CATALOG_GENERATOR	&Genérateur de Catalogue	Catalog &Generator	カタログジェネレータ(&G)
+SalomeApp_msg_fr	MEN_DESK_FILE_DUMP_STUDY	&Générer le script de l'étude...	&Dump Study...	スタディをダンプする...(&D)
+SalomeApp_msg_fr	MEN_DESK_FILE_LOAD_SCRIPT	Exécuter un scrip&t...	Load Scrip&t...	スクリプトを読込み...(&t)
+SalomeApp_msg_fr	MEN_DESK_FILE_NOTEBOOK	Re&gistre...	Noteboo&k...	Notebook...(&k)
+SalomeApp_msg_fr	MEN_DESK_FILE_SAVE_GUI_STATE	Sauvegarder l'état d'IHM	Save GUI State	GUIの状態を保存
+SalomeApp_msg_fr	MEN_DESK_MRU	Dernières études ouvertes	Most Recently Used	最近のスタディ
+SalomeApp_msg_fr	MEN_DESK_PLUGINS	Extensions	Plugins	プラグイン
+SalomeApp_msg_fr	MEN_DESK_PROPERTIES	Pro&priétés...	Pro&perties...	プロパティ...(&p)
+SalomeApp_msg_fr	MEN_DESK_REGISTRY_DISPLAY	Affichage du registre CORBA	Registry &Display	表示を登録(&D)
+SalomeApp_msg_fr	MEN_DESK_TOOLS	&Outils	&Tools	ツール(&T)
+SalomeApp_msg_fr	MEN_OPENWITH	Activer module %1 	Activate %1 Module	モジュール %1 を有効
+SalomeApp_msg_fr	MULTI_FILE_DUMP	Dump multi-fichiers	Multi file dump	複数ファイルをダンプする
+SalomeApp_msg_fr	PREF_OBJ_BROWSER_SETTINGS	Paramètres	Settings	設定
+SalomeApp_msg_fr	PREF_PYDUMP_MULTI_FILE	Dump Python multi-fichiers	Multi file python dump	複数ファイルをPythonでダンプする
+SalomeApp_msg_fr	PREF_PYDUMP_PUBLISH	Publier dans l'étude dans un scrypt en python	Publish in study in python dump	Pythonダンプでスタディを公開する
+SalomeApp_msg_fr	PREF_PYDUMP_SAVE_GUI	Enregistrer l'état de l'IHM dans un script Python	Save GUI state in python dump	PythonダンプでGUIの状態を保存
+SalomeApp_msg_fr	PREF_STORE_VISUAL_STATE	Sauvegarder/restaurer le dernier ètat d'IHM	Store/restore last GUI state	最近のGUIの状態を保存/復元
+SalomeApp_msg_fr	PREF_TAB_OBJBROWSER	Arbre d'étude	Object browser	オブジェクトブラウザー
+SalomeApp_msg_fr	PRP_DESK_ADD_VARS_TO_NOTEBOOK	Ajouter les variables de l'étude au registre	Add variables of the study to the notebook	スタディの変数をnotebookに追加
+SalomeApp_msg_fr	PRP_DESK_CATALOG_GENERATOR	Génére un catalogue XML de l'interface du composant	Generates XML catalog of a component's interface	コンポーネントインターフェイスのXMLカタログを生成
+SalomeApp_msg_fr	PRP_DESK_FILE_DUMP_STUDY	Génère le script python de l'étude	Dumps study to the python script	Pythonスクリプトにスタディをダンプする
+SalomeApp_msg_fr	PRP_DESK_FILE_LOAD_SCRIPT	Exécute un script Python à partir d'un fichier	Loads python script from file	ファイルからPythonスクリプトを読込み
+SalomeApp_msg_fr	PRP_DESK_FILE_NOTEBOOK	Ouvrir le Registre	Open Notebook	Notebookを開く
+SalomeApp_msg_fr	PRP_DESK_FILE_SAVE_GUI_STATE	Sauvegarder l'état actuel des vues 3D, des objets affichés, etc.	Saves current state of viewers, displayed objects, etc.	ビューや表示オブジェクトなど、現在の状態を保存
+SalomeApp_msg_fr	PRP_DESK_PROPERTIES	Editer les propriétés de l'étude	Edits study properties	スタディのプロパティを編集
+SalomeApp_msg_fr	PRP_DESK_REGISTRY_DISPLAY	Visualiser le contenu du registre du serveur CORBA	Displays content of the Registry CORBA server	CORBAサーバーの登録内容を表示
+SalomeApp_msg_fr	PRP_MODE_FROM_COPYFROM	copier de	copy from	…からコピー
+SalomeApp_msg_fr	PRP_MODE_FROM_SCRATCH	du début	from scratch	ゼロから
+SalomeApp_msg_fr	PRP_NO	Non	No	いいえ
+SalomeApp_msg_fr	PRP_NOT_MODIFIED	Non modifiée	Not modified	変更無
+SalomeApp_msg_fr	PUBLISH_IN_STUDY	Publier dans l'étude	Publish in study	スタディ公開
+SalomeApp_msg_fr	PYTHON_CONSOLE	Console Python 	Python Console	Pythonコンソール
+SalomeApp_msg_fr	PYTHON_FILES_FILTER	Fichiers PYTHON (*.py)	PYTHON Files (*.py)	PYTHONファイル(*.py)
+SalomeApp_msg_fr	QUE_DOC_ALREADYEXIST	Le document %1 existe déjà dans le gestionnaire d'études.\nVoulez-vous le recharger ?	The document %1 already exists in study manager.\nDo you want to reload it ?	ドキュメント %1 は、既にスタディのマネージャーに存在します。\n再読み込みしますか？
+SalomeApp_msg_fr	REFENTRY_COLUMN	Entrée de réf.	Ref.Entry	REFエントリ
+SalomeApp_msg_fr	REMOVE_VARIABLE_IS_USED	La variable "%1" est utilisée dans l'étude.\nVoulez-vous vraiment la supprimer?	Variable with name "%1" is used in the study.\nDo you really want to remove it?	変数"%1"は、スタディに使用されています。\n本当にそれを削除しますか？
+SalomeApp_msg_fr	RENAME_VARIABLE_IS_USED	La variable "%1" est utilisée dans l'étude.\nVoulez-vous vraiment la renommer?	Variable with name "%1" is used in the study.\nDo you really want to rename it?	変数"%1"は、スタディに使用されています。\n本当にその名前を変更しますか？
+ToolsGUI_msg_fr	TAB_HISTORY	Historique	History	履歴
+ToolsGUI_msg_fr	TAB_RUNNING	En cours	Running	Running
+ToolsGUI_msg_fr	TOOLS_BUT_CLOSE	&Fermer	&Close	閉じる(&C)
+ToolsGUI_msg_fr	TOOLS_BUT_OK	&Ok	&Ok	Ok(&O)
+VISU_msg_fr	ACTIVE_BAR_GRP	Activer la barre	Active bar	バーをアクティブに
+VISU_msg_fr	ADD_COLUMN_BTN	Ajouter une Colonne	Add Column	列を追加
+VISU_msg_fr	ADD_ROW_BTN	Ajouter une rangée	Add Row	行を追加
+VISU_msg_fr	ADJUST_CELLS_BTN	Ajuster les Cellules	Adjust Cells	セルを調整
+VISU_msg_fr	ALLOW_EDIT_CHECK	Permettre l'édition	Enable editing	編集可
+VISU_msg_fr	ALPHA_TEXTURE	Texture de la Chaîne Alpha (16x16) :	Alpha Channel Texture (16x16) : 	アルファ チャンネル テクスチャー (16 x 16) :
+VISU_msg_fr	AUTO_APPLY_CHK	Applique Automatiquement 	Auto Apply	自動適用
+VISU_msg_fr	AUTO_CHECK_LBL	Attribuer automatiquement	Auto assign	自動割り当て
+VISU_msg_fr	AVAILABLE_MEMORY	Libre:	Free:	開放
+VISU_msg_fr	BASE_PLANE_POS	Position du plan de base	Base plane position	基本平面の位置
+VISU_msg_fr	BOLD	Gras	Bold	Bold
+VISU_msg_fr	BOXTITLE	Filtre par intervalle de valeurs scalaire	Filter by scalar range	スカラー範囲でフィルター
+VISU_msg_fr	BTN_IMPORT	Importer...	Import...	インポート...
+VISU_msg_fr	BTN_NEW	Nouveau	New	新規作成
+VISU_msg_fr	BUILD_ALL	Construire tous	Build all	すべてをビルド
+VISU_msg_fr	BUILD_AT_ONCE	Construire simultanément	Build at once	同時にビルド
+VISU_msg_fr	BUILD_ENTITIES	Construire les entités	Build entities	エンティティをビルド
+VISU_msg_fr	BUILD_FIELDS	Construire les champs	Build fields	フィールドをビルド
+VISU_msg_fr	BUILD_GROUPS	Construire les groupes	Build groups	グループをビルド
+VISU_msg_fr	BUILD_MINMAX	Construire min/max	Build min/max	最小/最大をビルド
+VISU_msg_fr	BUT_NEW	Nouveau	New	新規作成
+VISU_msg_fr	BUT_NO	Non	No	いいえ
+VISU_msg_fr	BYPLANE_TITLE	Plan principal	Main plane	主平面
+VISU_msg_fr	CHK_ACTIVATE_PLANES	Désactiver les plans	Deactivate planes	平面を無効
+VISU_msg_fr	CHK_AUTO_APPLY	Appliquer Automatiquement	Auto apply	自動的に適用
+VISU_msg_fr	CHK_SHOW_PLANES	Prévisualiser les plans	Show planes preview	平面プレビュー
+VISU_msg_fr	CIRCLE_MARKER_LBL	Cercle	Circle	円
+VISU_msg_fr	CLEAR_BTN	Nettoyer	Clear	消去
+VISU_msg_fr	CONDITION	Où est la valeur scalaire:	Where scalar value is:	スカラー値のある場所：
+VISU_msg_fr	COURIER	Courrier	Courier	Courier
+VISU_msg_fr	DAHSDOTDOT_LINE_LBL	TiretPointPoint	DashDotDot	DashDotDot
+VISU_msg_fr	DASHDOT_LINE_LBL	TiretPoint	DashDot	DashDot
+VISU_msg_fr	DASH_LINE_LBL	Tiret	Dash	Dash
+VISU_msg_fr	DEFINE_ISOSURFACES	Définition des Surfaces Isométriques	Iso Surfaces Definition	Isoサーフェスの定義
+VISU_msg_fr	DEFORMED_SHAPE_AND_SCALAR_MAP_TAB	Déformation et Carte Scalaire	Deformed Shape and Scalar Map	変形とスカラーマップ
+VISU_msg_fr	DELAY_BETWEEN_STEPS	Délai de Pas [ sec ]:	Step Delay [ sec ]:	ステップ間隔[ sec ]:
+VISU_msg_fr	DIAMOND_MARKER_LBL	Diamant	Diamond	ダイヤ
+VISU_msg_fr	DIMENSIONS	Dimensions (% de la taille du widget)	Dimensions (in % of the size of widget)	寸法（ウィジェットサイズの %）
+VISU_msg_fr	MEN_CUBE_AXES	Axes Gradués	Graduated Axes	目盛付軸
+VISU_msg_fr	MEN_CURVE_PROPS	Paramètres...	Properties...	設定...
+VISU_msg_fr	NEW_BTN	Nouveau...	New...	新規...
+VISU_msg_fr	WRN_EMPTY_RESULTING_PRS	Impossible d'utiliser les plans de découpe indiqués à cause des limitations VTK.\nIndiquez une présentation non vide.	Impossible to use given clipping planes because of VTK restrictions.\nPlease, provide non-empty resulting presentation.	VTK の制限のため示されているクリップ平面を使用できません。 \n空ではないプレセンテーションを指定してください。
+VISU_msg_fr	WRN_EXTRA_MEMORY_REQUIRED	Le cache demande plus de mémoire pour construire la présentation (%1 Mb).\nVoulez-vous l'agrandir?	Cache need more memory to build the presentation (%1 Mb).\nDo you want to enlarge the cache?	このプレゼンテーションを構築するにはより多くのメモリが必要です。 (%1 Mb)\nキャッシュを拡大しますか？
+VISU_msg_fr	WRN_VISU	Avertissement Post-Pro	Post-Pro Warning	Post-Pro警告
+VISU_msg_fr	XCROSS_MARKER_LBL	Croix Diagonale	Diagonal cross	Diagonal cross
+VISU_msg_fr	[ -PI, +PI ]	[ -PI, +PI ]	[ -PI, +PI ]	[ -PI, +PI ]
+VISU_msg_fr	[ 0, +PI ]	[ 0, +PI ]	[ 0, +PI ]	[0, +PI]
+VTKViewer_msg_fr	BROWSE	Naviguer...	Browse...	移動...
+VTKViewer_msg_fr	DSC_ANTICLOCKWISE_VIEW	Tourner la vue à gauche	Rotate view counterclockwise	表示を反時計回りに回転
+VTKViewer_msg_fr	DSC_BACK_VIEW	Vue de derrière	Back View	後側のビュー
+VTKViewer_msg_fr	DSC_BOTTOM_VIEW	Vue de dessous	Bottom View	下からのビュー
+VTKViewer_msg_fr	DSC_CLOCKWISE_VIEW	Tourner la vue à droite	Rotate View Clockwise	表示を時計回りに回転
+VTKViewer_msg_fr	DSC_DUMP_VIEW	Sauvegarde la scène en cours dans un fichier image	Saves the active view in the image file	現在のシーンをイメージファイルで保存
+VTKViewer_msg_fr	DSC_FITALL	Redimensionner la scène pour montrer tous les objets	Fit all objects inside the view frame	すべてのオブジェクトをビューフレーム内に表示
+VTKViewer_msg_fr	DSC_FITRECT	Redimensionner la scène à la zone choisie par l'encadré	Fit area within the view frame	選択領域をビューフレーム内に表示
+VTKViewer_msg_fr	DSC_FRONT_VIEW	Vue de face	Front View	正面のビュー
+VTKViewer_msg_fr	DSC_GLOBALPAN_VIEW	Sélection d'un nouveau centre de vue	Selection of a new center of the view	ビューの新しい中心の選択
+VTKViewer_msg_fr	DSC_PAN_VIEW	Déplacer la vue	Panning the view	ビューを移動
+VTKViewer_msg_fr	DSC_RESET_VIEW	Restaurer le Point de Vue 	Reset View Point	ビューポイントをリセット
+VTKViewer_msg_fr	DSC_SHOW_TRIHEDRON	Montrer/Cacher le trièdre dans la vue actuelle	Show/Hide trihedron in the current view	現在のビューの三面体を表示/非表示
+VTKViewer_msg_fr	DSC_TOP_VIEW	Vue de dessus	Top View	上
+VTKViewer_msg_fr	ERR_DOC_CANT_SAVE_FILE	Impossible de sauvegarder le fichier	Cannot save file	ファイルを保存できませんでした
+VTKViewer_msg_fr	INF_APP_DUMP_VIEW	Enregistrer la vue	Dump view	ビューを保存
+VTKViewer_msg_fr	LOAD_TEXTURE_TLT	Charger une texture	Load Texture	テクスチャをロード
+VTKViewer_msg_fr	MEN_CHANGE_BACKGROUD	Changer l'arrière-plan...	Change Background...	背景を変更する...
+VTKViewer_msg_fr	MEN_DUMP_VIEW	Enregistrer la vue...	Dump View...	ビューを保存...
+VTKViewer_msg_fr	MEN_SHOW_TOOLBAR	Afficher la barre d'outils	Show Toolbar	ツールバーを表示
+VTKViewer_msg_fr	MNU_ANTICLOCKWISE_VIEW	Tourner la vue à gauche	Rotate counterclockwise	反時計回りに回転
+VTKViewer_msg_fr	MNU_BACK_VIEW	Arrière	Back	後
+VTKViewer_msg_fr	MNU_BOTTOM_VIEW	Dessous	Bottom	下
+VTKViewer_msg_fr	MNU_CLOCKWISE_VIEW	Tourner la vue à droite	Rotate clockwise	時計回りに回転
+VTKViewer_msg_fr	MNU_DUMP_VIEW	Enregistrer la vue...	Dump view...	ビューを保存...
+VTKViewer_msg_fr	MNU_FITALL	Ajuster tout	Fit All	全体表示
+VTKViewer_msg_fr	MNU_FITRECT	Ajuster à la zone	Fit Area	選択範囲を表示
+VTKViewer_msg_fr	MNU_FRONT_VIEW	Avant	Front	前
+VTKViewer_msg_fr	MNU_GLOBALPAN_VIEW	Déplacement global	Global Panning	全体移動
+VTKViewer_msg_fr	MNU_PAN_VIEW	Déplacement	Panning	移動...
+VTKViewer_msg_fr	MNU_RESET_VIEW	Restaurer le point de vue	Reset	リセット
+VTKViewer_msg_fr	MNU_SHOW_TRIHEDRON	Montrer/Cacher le trièdre	Show/Hide trihedron	三面体を表示/非表示
+VTKViewer_msg_fr	MNU_TOP_VIEW	Dessus	Top	トップ
+VTKViewer_msg_fr	SET_MARKER_TLT	Définir le symbole du point	Set Point Marker	ポイントマーカーの定義
+VTKViewer_msg_fr	TYPE	Type:	Type:	タイプ:
+VTKViewer_msg_fr	VTK_VIEW_TITLE	Scène VTK:%M - visualiseur:%V	VTK scene:%M - viewer:%V	VTK scene:%M - viewer:%V
+ViewerTools_msg_fr	BOLD	Gras	Bold	太字
+ViewerTools_msg_fr	CAPTION	Axes gradués	Graduated axes	目盛付軸
+YACS_msg_fr	PREF_TAB_NODE	Noeuds	Nodes	ノード
+

@@ -1,0 +1,1 @@
+./to_japanese/to_japanese/bin/translate_sm.rb

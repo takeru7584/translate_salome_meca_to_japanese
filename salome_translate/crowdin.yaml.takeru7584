@@ -1,0 +1,17 @@
+project_identifier: salome
+api_key: b990ec81fc4eb1b0ebce248f06a45ed2                          #can be found in your project settings page
+base_path: .
+
+files:
+  -
+    source: '/source/**/*.ts'
+    translation: '/%two_letters_code%/**/%file_name%_%two_letters_code%.ts'
+    languages_mapping:
+      two_letters_code:
+        'ja': 'jp'
+  -
+    source: '/source/**/*.ts'
+    translation: '/%locale%/**/%file_name%_%two_letters_code%.ts'
+    languages_mapping:
+      locale:
+        'es-ES': 'es'

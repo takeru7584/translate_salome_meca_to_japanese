@@ -1,0 +1,2 @@
+#!/bin/bash
+chmsee ~/chm/ruby.chm &

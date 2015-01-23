@@ -1,0 +1,405 @@
+#!/usr/bin/ruby1.9.1
+# -*- coding:utf-8 -*-
+#
+# Salome-Meca 2012.1 日本語化スクリプト v0.03a 用
+# ライブラリファイル
+# 
+require "rexml/document"
+
+# スクリプト用ライブラリモジュールの定義
+module TranslateSMLIB
+	# dicファイルパスの定義
+	DEFAULT_DIC_FILE_PATH = "#{File.dirname(__FILE__)}/../dic/summary_translate_word.dic"
+
+	# 言語の種類の定義
+	LANGUAGES = [ 
+		:ar,	#アラビア語
+		:bg,	#ブルガリア語
+		:zh,	#中国語
+		:zh_CN,	#中国語簡体
+		:zh_TW,	#中国語繁体
+		:ca,	#カタロニア語
+		:hr,	#クロアチア語
+		:cs,	#チェコ語
+		:da,	#デンマーク語
+		:en,	#英語
+		:tl,	#フィリピノ語
+		:fi,	#フィンランド語
+		:fr,	#フランス語
+		:de,	#ドイツ語
+		:el,	#ギリシャ語
+		:iw,	#ヘブライ語
+		:hi,	#ヒンディー語
+		:id,	#インドネシア語
+		:it,	#イタリア語
+		:ja,	#日本語
+		:ko,	#韓国語
+		:lv,	#ラトビア語
+		:lt,	#リトアニア語
+		:no,	#ノルウェー語
+		:pl,	#ポーランド語
+		:pt_PT,	#ポルトガル語
+		:ro,	#ルーマニア語
+		:ru,	#ロシア語
+		:es,	#スペイン語
+		:sr,	#セルビア語
+		:sk,	#スロバキア語
+		:sl,	#スロベニア語
+		:sv,	#スウェーデン語
+		:uk,	#ウクライナ語
+		:vi,	#ベトナム語
+	]
+
+	module_function
+	##########################################
+	# summarize_recurseively( coDicSummaries, sFilePath )
+	#					coDicSummaries		class coDicSummaries オブジェクト
+	#					sFilePath					dicファイルパス
+	#
+	##########################################
+	def summarize_recursively(coDicSummaries=TranslateSummaries.new(), sFilePath=nil)
+		sFilePath = Dir.getwd() if sFilePath == nil
+		return coDicSummaries unless File.exist?(sFilePath)
+		if FileTest.directory?(sFilePath) == false then
+			return register_dic_from_dat(coDicSummaries, sFilePath)
+		end
+#STDERR.puts sFilePath
+		aFileChildren = Dir.entries(sFilePath)
+		for sFileChild in aFileChildren
+			next if sFileChild =~ /^\./
+			sChildFilePath = File.expand_path("#{sFilePath}/#{sFileChild}")
+			coDicSummaries = summarize_recursively(coDicSummaries, sChildFilePath)
+		end
+		return coDicSummaries
+	end
+
+	def register_dic_from_dat(coDicSummaries=TranslateSummaries.new(), sCheckFilePath)
+		return coDicSummaries unless File.exist?(sCheckFilePath)
+		return coDicSummaries unless FileTest.file?(sCheckFilePath)
+		sFileDir, sTSFileName = File.split(sCheckFilePath)
+		return coDicSummaries unless sTSFileName =~ /(.+?_msg_fr).ts$/
+				sTargetBaseName=$1.to_s
+		sFilePath = sCheckFilePath.gsub(/\.ts$/,".dat")
+		return coDicSummaries unless File.exist?(sFilePath)
+		return coDicSummaries unless FileTest.file?(sFilePath)
+STDERR.puts sFilePath
+		coDicLists = TranslateDicLists.new()
+		coDicLists.create_dic_lists(sTargetBaseName, coDicSummaries)
+#puts coDicLists.type
+		IO.foreach(sFilePath) do |sLine|
+			sLine.chomp!
+#puts sLine
+			aFactor = sLine.split(/\t/)
+			coKeywordItem = TranslateKeyword.new(aFactor)
+			coDicLists.install(coKeywordItem)
+		end
+		coDicSummaries.install(coDicLists)
+		return coDicSummaries
+	end
+
+	def output_dic_summary(coDicSummaries=TranslateSummaries.new(), oIO=STDOUT)
+		for sFileBaseName in coDicSummaries.keys.sort
+			coDicLists = coDicSummaries[sFileBaseName]
+			for sKeyword in coDicLists.keys.sort
+				coKeywordItem = coDicLists[sKeyword]
+				aLine = []
+				aLine << sFileBaseName
+				aLine << sKeyword
+				aLine << coKeywordItem.fr
+				aLine << coKeywordItem.en
+				aLine << coKeywordItem.ja
+				sLine = aLine.join("\t")
+				oIO.puts sLine
+			end
+		end
+	end
+
+	def input_dic_file(sFilePath=DEFAULT_DIC_FILE_PATH, bForceFlag=false)
+		coSummaries = TranslateSummaries.new()
+		IO.foreach(sFilePath) do |sLine|
+			sLine.chomp!
+			sLine.chomp!("\\n")
+			#sLine.strip!
+			aDicLine = sLine.split(/\t/)
+			#aDicLine.last
+			coSummaries.install_all_components(aDicLine, bForceFlag)
+		end
+		
+		return coSummaries
+	end
+
+	def input_dic_file_to_cokeywords(sFilePath=DEFAULT_DIC_FILE_PATH, bForceFlag=false)
+		coKeywords = TranslateDicLists.new()
+		IO.foreach(sFilePath) do |sLine|
+			sLine.chomp!
+			aDicLine = sLine.split(/\t/)
+			aDicLine.shift
+			coKeywordItem = TranslateKeyword.new(aDicLine, coKeywords)
+		end
+
+		return coKeywords
+	end
+
+	def translate_from_summaries(sFilePath, coSummaries, sFromLang="fr", sToLang="ja")
+		STDERR.puts "#{sFilePath}:"
+#STDERR.puts "Check1"
+		return false if sFromLang == sToLang
+#STDERR.puts "Check2"
+		return false unless coSummaries
+#STDERR.puts "Check3"
+
+		sOutputFilePath = sFilePath.gsub("_#{sFromLang}.ts", "_#{sToLang}.ts")
+#STDERR.puts "Check4(#{sOutputFilePath})"
+		return false if sOutputFilePath == sFilePath
+		sSummariesKey = File.basename(sFilePath.gsub(/\.ts$/, ""))
+		coDicLists = coSummaries[sSummariesKey]
+#STDERR.puts "Check5(#{sSummariesKey})"
+#STDERR.puts "Check5(#{coDicLists})"
+		return false unless coDicLists
+		# 入力XMLファイルを読み込んでREXML::Documentを生成
+#STDERR.puts "Check6(#{coDicLists})"
+		doc = nil
+		File.open(sFilePath) {|xmlfile|
+				doc = REXML::Document.new(xmlfile)
+		}
+		nTotalCount = traverse_count_translate_tag(doc.root)
+		nCount = traverse_translation_from_codiclists(doc.root, coDicLists, nTotalCount, 0, sToLang) 
+		#		STDERR.puts doc
+		STDERR.puts
+		fOutputXmlFile = File.new(sOutputFilePath, "w")
+		#			doc.write(fOutputXmlFile, -1, true)
+			doc.write(fOutputXmlFile)
+		fOutputXmlFile.close
+		return true
+	end
+
+	def traverse_translation_from_codiclists(coParent, coDicLists, nTotalCount, nCount=0, sToLang="ja")
+		for coChild in coParent.elements
+			nCount = traverse_translation_from_codiclists(coChild, coDicLists, nTotalCount, nCount, sToLang)
+			next unless coChild.name.to_s =~ /^translation$/
+			sKeyword = coParent.elements["source"].text.to_s
+			nCount += 1
+			coKeyword = coDicLists[sKeyword]
+			next unless coKeyword
+			sToString = sKeyword.to_s
+			case sToLang
+			when "fr"
+				sToString = coKeyword.fr unless (coKeyword.fr == nil) || (coKeyword.fr == "")
+
+			when "en"
+				sToString = coKeyword.en unless (coKeyword.en == nil) || (coKeyword.en == "")
+
+			when "ja"
+				sToString = coKeyword.ja unless (coKeyword.ja == nil) || (coKeyword.ja == "")
+			else
+			end
+			STDERR.puts "#{sKeyword}=>#{sToString}(#{nCount}/#{nTotalCount}):"
+
+
+			coChild.text = sToString
+			STDERR.puts coChild.text
+		end
+#STDERR.puts hDatabase
+		return nCount
+	end
+
+	def traverse_count_translate_tag(coParent, count=0)
+		for coChild in coParent.elements
+			count = traverse_count_translate_tag(coChild, count)
+			next unless coChild.name.to_s =~ /^translation$/
+			count += 1
+		end
+		return count
+	end
+
+	def qm_to_ts_exec(sQMFilePath)
+		return false unless sQMFilePath =~ /_msg_(.+?)\.qm$/
+		return false unless File.exist?(sQMFilePath)
+		sTSFilePath = sQMFilePath.gsub(/\.qm$/, ".ts")
+		cmd = "lconvert -if qm -of ts -o #{sTSFilePath} -verbose #{sQMFilePath}"
+		STDERR.puts cmd
+		bRet = system(cmd)
+		return sTSFilePath
+	end
+
+	def ts_to_qm_exec(sTSFilePath)
+		return false unless sTSFilePath =~ /_msg_(.+?)\.ts$/
+		return false unless File.exist?(sTSFilePath)
+		sQMFilePath = sTSFilePath.gsub(/\.ts$/, ".qm")
+		cmd = "lconvert -if ts -of qm -o #{sQMFilePath} -verbose #{sTSFilePath}"
+		STDERR.puts cmd
+		bRet = system(cmd)
+		return sQMFilePath
+	end
+
+	def qm_to_qm_exec(sQMFilePath, coSummaries, sToLang="ja")
+		return false unless sQMFilePath =~ /_msg_(.+?)\.qm$/
+		sFromLang = $1.to_s
+		return false unless File.exist?(sQMFilePath)
+		sTSFilePath = sQMFilePath.gsub(/\.qm$/, ".ts")
+		sFromLangStr = "_msg_#{sFromLang}"
+		sToLangStr = "_msg_#{sToLang}"
+		sOutputQMFilePath = sQMFilePath.gsub(sFromLangStr, sToLangStr)
+		sOutputTSFilePath = sTSFilePath.gsub(sFromLangStr, sToLangStr)
+
+		cmd = "lconvert -if qm -of ts -o #{sTSFilePath} -verbose #{sQMFilePath}"
+		STDERR.puts cmd
+		bRet = system(cmd)
+
+		return false unless bRet
+
+		STDERR.puts "#{sTSFilePath}: #{sFromLang} >> #{sToLang}"
+		bRet = translate_from_summaries(sTSFilePath, coSummaries, sFromLang, sToLang)
+		STDERR.puts bRet
+
+		return false unless bRet
+
+		cmd = "lconvert -if ts -of qm -o #{sOutputQMFilePath} -verbose #{sOutputTSFilePath}"
+		STDERR.puts cmd
+		bRet = system(cmd)
+
+		return false unless bRet
+
+	end
+
+	def traverse_qm_to_qm(sParentFilePath, coSummaries, sToLang="ja")
+		return false unless File.exist?(sParentFilePath)
+		return qm_to_qm_exec(sParentFilePath, coSummaries, sToLang) unless File.stat(sParentFilePath).directory?
+		aChildrenFactors = Dir.entries(sParentFilePath)
+		for sChildFactor in aChildrenFactors
+			next if sChildFactor =~ /\.{1,2}$/
+			aChildFilePath = []
+			aChildFilePath << sParentFilePath
+			aChildFilePath << sChildFactor
+			sChildFilePath = aChildFilePath.join("/")
+			traverse_qm_to_qm(sChildFilePath,coSummaries, sToLang)
+		end
+		return true
+		
+	end
+end
+
+#####################################
+#    class TranslateKeyword
+#          キーワードの各国語格納クラス
+#
+#####################################
+class TranslateKeyword
+	attr_accessor :keyword			# キーワード
+	attr_accessor :fr						# フランス語
+	attr_accessor :en						# 英語
+	attr_accessor :ja						# 日本語
+	attr_accessor :raw					# 生データ
+	attr_accessor :option_text	# ショートカットキー
+
+	###################################
+	#		new(aFactor, coParentDicLists)
+	#			aFactor	[ Keyword, フランス語, 英語, 日本語 ]
+	#			coParentDicLists	TranslateDicLists Class オブジェクト
+	#
+	###################################
+	def initialize(aFactor=["","","",""],coParentDicLists=TranslateDicLists.new())
+		@keyword = aFactor[0].to_s.gsub(/\\n\n/,"\n")
+		@fr = aFactor[1].to_s.gsub(/\\n\n/,"\n")
+		@en = aFactor[2].to_s.gsub(/\\n\n/,"\n")
+		@ja = aFactor[3].to_s.gsub(/\\n\n/,"\n")
+		@raw = Array.new(aFactor)
+		coParentDicLists.install(self)
+		@parent_dic_lists = coParentDicLists
+		@option_text = ""
+	end
+	
+	def parent()
+		return @parent_dic_lists
+	end
+
+	def print(oIO=STDOUT)
+		oIO.puts "		keyword     : #{@keyword}"
+		oIO.puts "		fr          : #{@fr}"
+		oIO.puts "		en          : #{@en}"
+		oIO.puts "		ja          : #{@ja}"
+		oIO.puts "		option_text : #{@option_text}"
+	end
+end
+
+class TranslateDicLists < Hash
+	def create_dic_lists(sListsFileBaseName="", coParentSummaries=TranslateSummaries.new())
+		@file_basename = sListsFileBaseName
+		coParentSummaries.install(self)
+		@parent_summaries = coParentSummaries
+		return self
+	end
+
+	def file_basename()
+		return @file_basename
+	end
+
+	def parent()
+		return @parent_summaries
+	end
+
+	def install(coKeywordItem, bForceFlag=false)
+		self[coKeywordItem.keyword]=coKeywordItem if (self[coKeywordItem.keyword] == nil) || (bForceFlag == true)
+	end
+
+	def print(oIO=STDOUT)
+		for sKeyword in self.keys
+			oIO.puts "	file_basename : #{@file_basename}"
+			self[sKeyword].print(oIO)
+			oIO.puts
+		end
+	end
+end
+
+class TranslateSummaries < Hash
+	def install(coDicLists, bForceFlag=false)
+		self[coDicLists.file_basename]=coDicLists if (self[coDicLists.file_basename] == nil) || (bForceFlag == true)
+	end
+
+# exclusion: aDicLine = [sListFileBaseName, sKeyword, sStr_fr, sStr_en, sStr_ja]
+	def install_all_components(aDicLine, bForceFlag=false)
+		return false if aDicLine.size < 5
+		sListFileBaseName = aDicLine[0]
+		aDicLine.shift
+		coDicLists = self[sListFileBaseName]
+
+		if coDicLists == nil then
+			coKeywordItem = TranslateKeyword.new(aDicLine)
+			coDicLists = coKeywordItem.parent
+			coDicLists.create_dic_lists(sListFileBaseName, self)
+			coDicLists.install(coKeywordItem, bForceFlag)
+			self.install(coDicLists, bForceFlag)
+		else
+			coKeywordItem = TranslateKeyword.new(aDicLine, coDicLists)
+		end
+		return true
+	end
+
+	def print(oIO=STDOUT)
+		for sListFileBaseName in self.keys
+			self[sListFileBaseName].print(oIO)
+			oIO.puts
+		end
+
+	end
+
+end
+
+
+if $0 == __FILE__ then
+	sFilePath = TranslateSMLIB::DEFAULT_DIC_FILE_PATH
+	coSummaries = TranslateSMLIB.input_dic_file(sFilePath)
+	coKeywords = TranslateSMLIB.input_dic_file_to_cokeywords(sFilePath)
+#coSummaries.print(STDERR)
+	for sFilePath in ARGV
+#		next unless sFilePath =~ /_msg_\w\w.ts$/
+		next unless sFilePath =~ /_msg_\w\w.qm$/
+#		TranslateSMLIB.translate_from_summaries(sFilePath, coSummaries, "fr", "ja")
+		STDERR.puts "#{sFilePath}:"
+		bRet = TranslateSMLIB.qm_to_qm_exec(sFilePath, coSummaries, "ja")
+		STDERR.puts bRet
+		STDERR.puts
+		
+	end
+end
+
