@@ -14,9 +14,9 @@ require "date"
 require "pp"
 
 module TranslateSMsbinLIB
-	OLD_VERSION = "from_crowdin_2014.2"
-	OLD_VERSION_2 = "2014.1"
-	NEW_VERSION = "2014.2"
+	OLD_VERSION = "from_crowdin_2015.1"
+	OLD_VERSION_2 = "2014.2"
+	NEW_VERSION = "2015.1"
 	DIC_FILE_PATH="#{File.dirname(File.expand_path(__FILE__))}/to_japanese_#{OLD_VERSION}/to_japanese/dic/org/summary_translate_word.dic"
 	OLD_DIC_FILE_PATH_2="#{File.dirname(File.expand_path(__FILE__))}/to_japanese_#{OLD_VERSION_2}/to_japanese/dic/org/summary_translate_word.dic"
 	OLD_DIC_FILE_PATH="#{File.dirname(File.expand_path(__FILE__))}/to_japanese_#{OLD_VERSION}/to_japanese/dic/org/summary_translate_word.dic"

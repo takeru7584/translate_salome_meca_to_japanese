@@ -1,0 +1,1 @@
+../../../test_translate_sm.rb

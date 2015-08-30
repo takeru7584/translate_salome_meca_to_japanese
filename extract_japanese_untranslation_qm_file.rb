@@ -8,7 +8,7 @@ module ExtractJapaneseUntranslationQmFile
 	LANGUAGE_EN="en"
 	LANGUAGE_JA="ja"
 
-	DEFAULT_COPY_TO_PATH = "~/salome_work/translate_to_japanese_2014.2/"
+	DEFAULT_COPY_TO_PATH = "/home/takeru/salome_work/translate_to_japanese_2015.1/"
 
 	module_function
 	def usage()
