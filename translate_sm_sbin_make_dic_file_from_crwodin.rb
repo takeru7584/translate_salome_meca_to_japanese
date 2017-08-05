@@ -4,7 +4,7 @@
 require "#{File.dirname(File.expand_path(__FILE__))}/translate_sm_sbin_lib"
 require "pp"
 
-SALOME_OUTPUT_VERSION="2015.1"
+SALOME_OUTPUT_VERSION="2015.2"
 SALOME_DIC_FILE_PATH="/home/takeru/bin/to_japanese_#{SALOME_OUTPUT_VERSION}/to_japanese/dic/org/summary_translate_word_from_crowdin_#{SALOME_OUTPUT_VERSION}.dic"
 
 
